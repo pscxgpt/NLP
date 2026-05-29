@@ -66,12 +66,15 @@ class CFG:
     epochs = 50
     patience = 10
     lr = 2e-5
+    lr_backbone = 5e-6       # Differential learning rate for backbone
+    lr_head = 3e-5           # Differential learning rate for classifier head
+    freeze_layers = 6        # Freeze embeddings + first 6 layers of RoBERTa
     weight_decay = 0.01
     warmup_ratio = 0.1
 
     # Multi-sample dropout
     num_dropouts = 5
-    dropout_p = 0.1
+    dropout_p = 0.3          # Regularization: 0.3 dropout
 
     # Device
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -120,8 +123,8 @@ def preprocess_text(text):
 # =============================================================================
 def load_and_prepare_data():
     """
-    Load primary training data and augment with ICD description-pairs.
-    Returns augmented DataFrame with 'Literal', 'Code', and 'y_category' columns.
+    Load primary training data, split 80/20 into train/validation sets,
+    and augment ONLY the train split with ICD description-procedure pairs.
     """
     print("=" * 70)
     print("DATA ENGINEERING & PREPARATION")
@@ -139,8 +142,32 @@ def load_and_prepare_data():
     # Generate y_category from Code
     df_train["y_category"] = df_train["Code"].astype(str).str[0].str.upper()
 
+    # Filter to valid categories only
+    valid_cats = set(CATEGORIES)
+    df_train = df_train[df_train["y_category"].isin(valid_cats)].copy()
+
+    # Preprocess text
+    print("\n[2] Applying text preprocessing to primary data ...")
+    df_train["Literal"] = df_train["Literal"].apply(preprocess_text)
+    df_train = df_train[df_train["Literal"].str.len() > 0].reset_index(drop=True)
+
+    # Encode labels
+    df_train["label"] = df_train["y_category"].map(LABEL2ID)
+    df_train = df_train.dropna(subset=["label"]).reset_index(drop=True)
+    df_train["label"] = df_train["label"].astype(int)
+
+    # Perform stratified 80/20 split on primary clinical literals first
+    print("\n[3] Performing stratified 80/20 train/validation split on primary data ...")
+    train_df, val_df = train_test_split(
+        df_train, test_size=0.2, random_state=CFG.seed,
+        stratify=df_train["label"]
+    )
+    train_df = train_df.reset_index(drop=True)
+    val_df = val_df.reset_index(drop=True)
+    print(f"    Train (primary): {len(train_df)}  |  Validation (primary): {len(val_df)}")
+
     # 2. Load ICD description-procedure pairs for augmentation
-    print("\n[2] Loading icd_d_p_pairs.csv for augmentation ...")
+    print("\n[4] Loading icd_d_p_pairs.csv for augmentation ...")
     df_icd = pd.read_csv(CFG.icd_pairs_file)
     print(f"    ICD pairs loaded: {len(df_icd)}")
     print(f"    Columns: {df_icd.columns.tolist()}")
@@ -149,39 +176,33 @@ def load_and_prepare_data():
     df_aug = df_icd[["Code", "Description"]].copy()
     df_aug.rename(columns={"Description": "Literal"}, inplace=True)
     df_aug["y_category"] = df_aug["Code"].astype(str).str[0].str.upper()
-
-    # 3. Filter to valid categories only
-    valid_cats = set(CATEGORIES)
-    df_train = df_train[df_train["y_category"].isin(valid_cats)].copy()
     df_aug = df_aug[df_aug["y_category"].isin(valid_cats)].copy()
 
-    print(f"\n    Primary after filtering: {len(df_train)}")
-    print(f"    Augmentation after filtering: {len(df_aug)}")
-
-    # 4. Combine datasets
-    df_combined = pd.concat([df_train, df_aug], ignore_index=True)
-
-    # 5. Apply text preprocessing
-    print("\n[3] Applying text preprocessing ...")
-    df_combined["Literal"] = df_combined["Literal"].apply(preprocess_text)
-
-    # Drop rows with empty Literal
-    df_combined = df_combined[df_combined["Literal"].str.len() > 0].reset_index(drop=True)
+    # Preprocess text
+    print("    Applying text preprocessing to augmentation data ...")
+    df_aug["Literal"] = df_aug["Literal"].apply(preprocess_text)
+    df_aug = df_aug[df_aug["Literal"].str.len() > 0].reset_index(drop=True)
 
     # Encode labels
-    df_combined["label"] = df_combined["y_category"].map(LABEL2ID)
+    df_aug["label"] = df_aug["y_category"].map(LABEL2ID)
+    df_aug = df_aug.dropna(subset=["label"]).reset_index(drop=True)
+    df_aug["label"] = df_aug["label"].astype(int)
 
-    # Drop any rows that couldn't be mapped
-    df_combined = df_combined.dropna(subset=["label"]).reset_index(drop=True)
-    df_combined["label"] = df_combined["label"].astype(int)
+    print(f"    Augmentation samples: {len(df_aug)}")
 
-    print(f"\n    Total combined samples: {len(df_combined)}")
-    print(f"\n    Category distribution:")
-    cat_counts = df_combined["y_category"].value_counts().sort_index()
+    # Concatenate augmentation data ONLY to the training split
+    print("\n[5] Augmenting the train split ...")
+    train_df = pd.concat([train_df, df_aug], ignore_index=True)
+
+    print(f"    Final train size (primary + augmented): {len(train_df)}")
+    print(f"    Final validation size (clean primary only): {len(val_df)}")
+
+    print(f"\n    Train category distribution:")
+    cat_counts = train_df["y_category"].value_counts().sort_index()
     for cat, count in cat_counts.items():
         print(f"      {cat}: {count:>7d}")
 
-    return df_combined
+    return train_df, val_df
 
 
 def compute_weights(labels):
@@ -200,19 +221,6 @@ def compute_weights(labels):
         full_weights[cls] = w
 
     return torch.tensor(full_weights, dtype=torch.float32)
-
-
-def split_data(df):
-    """Perform stratified 80/20 train/validation split."""
-    print("\n[4] Performing stratified 80/20 train/validation split ...")
-    train_df, val_df = train_test_split(
-        df, test_size=0.2, random_state=CFG.seed,
-        stratify=df["label"]
-    )
-    train_df = train_df.reset_index(drop=True)
-    val_df = val_df.reset_index(drop=True)
-    print(f"    Train: {len(train_df)}  |  Validation: {len(val_df)}")
-    return train_df, val_df
 
 
 # =============================================================================
@@ -304,6 +312,16 @@ class ICD10Classifier(nn.Module):
         self.backbone = AutoModel.from_pretrained(
             CFG.backbone, config=config
         )
+        
+        # Freeze bottom layers of backbone to speed up backward pass and prevent overfitting
+        if hasattr(CFG, "freeze_layers") and CFG.freeze_layers > 0:
+            print(f"    Freezing embeddings and bottom {CFG.freeze_layers} backbone layers...")
+            for param in self.backbone.embeddings.parameters():
+                param.requires_grad = False
+            for i in range(CFG.freeze_layers):
+                for param in self.backbone.encoder.layer[i].parameters():
+                    param.requires_grad = False
+
         self.attention_pool = AttentionPooling(CFG.hidden_size)
 
         # Multi-sample dropout layers
@@ -555,8 +573,7 @@ def main():
     # =========================================================================
     # Step 1: Data Loading & Preparation
     # =========================================================================
-    df = load_and_prepare_data()
-    train_df, val_df = split_data(df)
+    train_df, val_df = load_and_prepare_data()
 
     # Compute class weights
     print("\n[5] Computing balanced class weights ...")
@@ -617,12 +634,14 @@ def main():
     # =========================================================================
     print("\n[9] Setting up optimizer, scheduler, loss ...")
 
-    # AdamW with differential learning rates
-    optimizer = torch.optim.AdamW(
-        model.parameters(),
-        lr=CFG.lr,
-        weight_decay=CFG.weight_decay,
-    )
+    # AdamW with differential learning rates, excluding frozen parameters
+    backbone_params = [p for p in model.backbone.parameters() if p.requires_grad]
+    head_params = [p for p in list(model.attention_pool.parameters()) + list(model.classifier.parameters()) if p.requires_grad]
+    
+    optimizer = torch.optim.AdamW([
+        {"params": backbone_params, "lr": CFG.lr_backbone},
+        {"params": head_params, "lr": CFG.lr_head}
+    ], weight_decay=CFG.weight_decay)
 
     # Cosine schedule with warmup
     total_steps = len(train_loader) * CFG.epochs
@@ -634,15 +653,15 @@ def main():
         num_training_steps=total_steps,
     )
 
-    # Weighted CrossEntropyLoss
-    criterion = nn.CrossEntropyLoss(weight=class_weights)
+    # Weighted CrossEntropyLoss with Label Smoothing
+    criterion = nn.CrossEntropyLoss(weight=class_weights, label_smoothing=0.1)
 
     # AMP scaler
     scaler = GradScaler(device="cuda") if CFG.use_amp else None
 
-    print(f"    Optimizer: AdamW (LR={CFG.lr}, WD={CFG.weight_decay})")
+    print(f"    Optimizer: AdamW (Backbone LR={CFG.lr_backbone}, Head LR={CFG.lr_head}, WD={CFG.weight_decay})")
     print(f"    Scheduler: Cosine with warmup ({warmup_steps} warmup / {total_steps} total steps)")
-    print(f"    Loss: CrossEntropyLoss with balanced class weights")
+    print(f"    Loss: CrossEntropyLoss with balanced class weights & label smoothing (0.1)")
 
     # =========================================================================
     # Step 5: Training Loop
