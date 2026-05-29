@@ -38,7 +38,7 @@ graph TD
         C --> E["Fine-Tuned Layers 6-11"]
     end
     E --> F[Attention Pooling Layer]
-    F --> G[Multi-Sample Dropout 5x, p=0.3]
+    F --> G[Multi-Sample Dropout 5x, p=0.15]
     G --> H[Classifier Head Linear 768->36]
     H --> I[Balanced CrossEntropy Loss]
 ```
@@ -50,7 +50,7 @@ graph TD
 * **Why CLS/Mean is sub-optimal**: Standard CLS pooling relies on a single sequence-start token (`<s>`), which is trained during Masked Language Modeling to summarize general context but can fail to capture localized features in short literals. Mean pooling treats all tokens equally, giving the same weight to filler words (prepositions, articles) as to diagnostic words.
 * **How it works**: Attention pooling passes the RoBERTa hidden states through a small linear projection network, learning to output a relevance score for each subword. Padding tokens are masked with negative infinity (`-inf`), and scores are softmaxed to weight the final summation. This forces the model to focus its attention on core clinical terms (like *"dilatada"* or *"bronquial"*) while ignoring surrounding text.
 
-### C. Multi-Sample Dropout (5x, `p = 0.3`)
+### C. Multi-Sample Dropout (5x, `p = 0.15`)
 * **Why**: Overfitting is a primary concern with small medical datasets.
 * **How it works**: Instead of using a single dropout layer, the pooled representation is cloned and passed through 5 parallel dropout paths. Each path uses a different random mask. The model averages the 5 sets of classifier logits. During training, this acts as a robust ensemble regularizer, accelerating convergence and preventing the classifier head from co-adapting to specific words in the training set.
 
@@ -62,8 +62,8 @@ To enable stable convergence and prevent overfitting, the pipeline incorporates 
 
 * **Encoder Layer Freezing**: Embeddings and the bottom 6 layers of the RoBERTa encoder are frozen. Only the top 6 transformer layers, the attention pooling weights, and the classification head are trained. This significantly reduces the trainable parameter count (from 126M down to ~43.7M) and prevents the base layers from losing general clinical features.
 * **Differential Learning Rates**: 
-  - Backbone parameters are fine-tuned at a very conservative rate: **$5 \times 10^{-6}$**.
-  - The pooling and classification heads (which are initialized from scratch) are trained at a higher rate: **$3 \times 10^{-5}$**.
-* **Balanced Class Weights**: Class weights are calculated inversely proportional to class frequencies. This prevents the loss calculation from being dominated by major categories (like class `0`), ensuring the model remains highly sensitive to minority diagnoses.
-* **Label Smoothing (0.1)**: Distributes 10% of the target probability uniformly across all incorrect classes. This prevents the model from generating overconfident, saturated logit predictions and encourages it to maintain soft boundaries, which improves generalization.
+  - Backbone parameters are fine-tuned at a rate of: **$1.5 \times 10^{-5}$**.
+  - The pooling and classification heads (which are initialized from scratch) are trained at a higher rate: **$5 \times 10^{-5}$**.
+* **Balanced Class Weights**: Class weights are calculated inversely proportional to class frequencies and clipped to a range of **`[0.2, 5.0]`**. This prevents extreme class imbalances from producing gradient spikes that destabilize training.
+* **Label Smoothing (0.05)**: Distributes 5% of the target probability uniformly across all incorrect classes. This prevents the model from generating overconfident, saturated logit predictions and encourages it to maintain soft boundaries, which improves generalization.
 * **Gradient Accumulation**: To maintain a large **128 effective batch size** (as required to stabilize optimization on highly imbalanced targets) on consumer-grade GPUs, we use a physical GPU batch size of 16 and accumulate gradients over 8 steps.

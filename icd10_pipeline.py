@@ -66,15 +66,16 @@ class CFG:
     epochs = 50
     patience = 10
     lr = 2e-5
-    lr_backbone = 5e-6       # Differential learning rate for backbone
-    lr_head = 3e-5           # Differential learning rate for classifier head
+    lr_backbone = 1.5e-5     # Increased learning rate for backbone fine-tuning
+    lr_head = 5e-5           # Increased learning rate for head training
     freeze_layers = 6        # Freeze embeddings + first 6 layers of RoBERTa
+    max_aug_samples_per_class = 300  # Cap augmentation to prevent domain shift/overwhelm
     weight_decay = 0.01
     warmup_ratio = 0.1
 
     # Multi-sample dropout
     num_dropouts = 5
-    dropout_p = 0.3          # Regularization: 0.3 dropout
+    dropout_p = 0.15          # Balanced regularization: 0.15 dropout
 
     # Device
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -188,7 +189,14 @@ def load_and_prepare_data():
     df_aug = df_aug.dropna(subset=["label"]).reset_index(drop=True)
     df_aug["label"] = df_aug["label"].astype(int)
 
-    print(f"    Augmentation samples: {len(df_aug)}")
+    # Sample from augmentation data to limit training set size and class imbalance
+    print(f"    Sampling at most {CFG.max_aug_samples_per_class} augmentation samples per class...")
+    df_aug = pd.concat([
+        grp.sample(n=min(len(grp), CFG.max_aug_samples_per_class), random_state=CFG.seed)
+        for name, grp in df_aug.groupby("y_category")
+    ], ignore_index=True)
+
+    print(f"    Augmentation samples after sampling: {len(df_aug)}")
 
     # Concatenate augmentation data ONLY to the training split
     print("\n[5] Augmenting the train split ...")
@@ -219,6 +227,9 @@ def compute_weights(labels):
     full_weights = np.ones(CFG.num_classes, dtype=np.float32)
     for cls, w in zip(existing_classes, weights):
         full_weights[cls] = w
+
+    # Clip weights to a reasonable range [0.2, 5.0] to prevent gradient explosion/destabilization
+    full_weights = np.clip(full_weights, 0.2, 5.0)
 
     return torch.tensor(full_weights, dtype=torch.float32)
 
@@ -654,14 +665,14 @@ def main():
     )
 
     # Weighted CrossEntropyLoss with Label Smoothing
-    criterion = nn.CrossEntropyLoss(weight=class_weights, label_smoothing=0.1)
+    criterion = nn.CrossEntropyLoss(weight=class_weights, label_smoothing=0.05)
 
     # AMP scaler
     scaler = GradScaler(device="cuda") if CFG.use_amp else None
 
     print(f"    Optimizer: AdamW (Backbone LR={CFG.lr_backbone}, Head LR={CFG.lr_head}, WD={CFG.weight_decay})")
     print(f"    Scheduler: Cosine with warmup ({warmup_steps} warmup / {total_steps} total steps)")
-    print(f"    Loss: CrossEntropyLoss with balanced class weights & label smoothing (0.1)")
+    print(f"    Loss: CrossEntropyLoss with balanced class weights & label smoothing (0.05)")
 
     # =========================================================================
     # Step 5: Training Loop
