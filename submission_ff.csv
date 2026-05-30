@@ -1,0 +1,6668 @@
+id,Literal,y_category
+1,AMNIODRENAJE,1
+2,Hiperparatiroidismo primario,E
+3,MIGRANYA parto,O
+4,VHC,B
+5,Absceso mama izq,N
+6,miomas parto,D
+7,cos estrany,V
+8,TCE,S
+9,osteogénesis imperfecta,Q
+10,Soplo sistólico,R
+11,Amniorrexis,O
+12,Tía materna + Ca mama,Z
+13,laceraciones paraclitoriana,O
+14,anti-D,O
+15,J45.30,J
+16,epoc reagudizado,4
+17,Exprematura,V
+18,asma parto,O
+19,Alergia a Acaros,Z
+20,alergia marisco,Z
+21,Atrofia corticosubcortical,G
+22,Trombopenia,D
+23,HPB,6
+24,Historia de RT,Z
+25,Incontinencia urinaria de esfuerzo,R
+26,ia,I
+27,Hiperprolactinoma,2
+28,COLESTASIS part,O
+29,BSGC pélvica,0
+30,carcinoma ductal infiltrante de mama izquierda,C
+31,biopsia hepática,0
+32,asma,4
+33,Artritis reumatoide part,M
+34,Nutrición por SNG,3
+35,bandolera,O
+36,SG: 40+,Z
+37,Invaginación intestinal,K
+38,Bronquiolitis VRS positiva,J
+39,Conización parto,6
+40,Circular cuello,O
+41,Assistència per a reconstrucció de la mama consecutiva a mastectomia,8
+42,LC 13 mm,0
+43,hipotiroidisimo,E
+44,Doppler renal,B
+45,biopsia esofágica,4
+46,traqueostomía,V
+47,fimbriectomía bilateral,0
+48,Problemas de conducta,R
+49,Mastectomia der,0
+50,nodulo tiroides,E
+51,Gastritis crónic,K
+52,Utero Miomatoso parto,D
+53,cbp,V
+54,33+5 semanas,Z
+55,ginecomastia,N
+56,cesarea anterior,O
+57,colestasis parto,K
+58,Portadora de cateter doble J,Z
+59,anemia ferropénica,2
+60,AIT historia,Z
+61,Atonia uterina posparto,O
+62,MC/BA,O
+63,Síndrome malformativo,Q
+64,accdiente con motocicleta,E
+65,Bronquiectasias,J
+66,soplo funcional,R
+67,ht,I
+68,hepatitis,B
+69,SARS-COV2: negativos,Z
+70,Antibioterápia,3
+71,transaminitis,R
+72,hta qx,I
+73,Disfonía cronica,R
+74,APÉNDICITIS AGUDA,K
+75,adenomas,8
+76,amenaza de parto pretérmino,O
+77,Muerte fetal anteparto,6
+78,Condilomas parto,O
+79,Insuf venosa,I
+80,DG insulinizada,O
+81,reflujo gastroesofágico,K
+82,enterococcus faecalis,B
+83,ansioso parto,O
+84,BiRDHH,I
+85,Gamaglobulina Anti D,3
+86,nst no tranquilizador,O
+87,SUTURA DESGARRO VAGINAL,O
+88,Hemorroides grado III-IV,K
+89,HEMICOLECTOMÍA DERECHA AMPLIADA,0
+90,OBITO FETAL,O
+91,ruptura prematura de membranas,O
+92,Síndrome hemolítico urémico,2
+93,Linfadenectomia PARAAÓRTICA,0
+94,GSRh: O positiu,Z
+95,NEOPLASIA VESICAL INFILTRANTE,C
+96,gestación cronologicamente prolongada,O
+97,anexectomia bilateral,6
+98,hemicolectomía derecha laparoscópica,0
+99,Anemia PARTO,D
+100,retraso del neurodesarrollo,F
+101,"Grupo sanguíneo: O, rh: POSITIVO",Z
+102,Mioma subseroso parto,D
+103,Hiperparatiroidismo parto,E
+104,Hipertiroidismo,E
+105,pielonefritis crónica,N
+106,drenaje pleural,3
+107,bronquitis aguda Rhinovirus,J
+108,tirosinemia,E
+109,Meningioma,8
+110,Alergia a ciprofloxacino,Z
+111,oxígenoterapia,9
+112,cérvix corto,N
+113,K43.2,K
+114,ESTENOSIS Union pieloureteral,N
+115,alzheimer,G
+116,Amenaza de parto pretérmino,O
+117,disfagía,7
+118,ALERGIA A ESPARADRAPO,Z
+119,Anemia,D
+120,fístula perianal,K
+121,Hipotirodisimo PARTO,O
+122,Carcinoma Mama derecha,C
+123,HPV,B
+124,artropatia,M
+125,Rubeola : NEGATIVA,Z
+126,Alergia a penicilina,Z
+127,hipotiroidismo PARTO,O
+128,Alergia buscapina,Z
+129,Déficit de vit D,E
+130,compl trasplante,E
+131,mtx ósea,1
+132,ALERGIAS: NOLOTIL,Z
+133,TC Toracica-abdominal,B
+134,epilepsia petit mal,G
+135,hemoperitoneo traumatico,9
+136,lumbalgia,M
+137,ATM,M
+138,disminución de movimientos fetales,O
+139,Deshidratació,2
+140,viriasis respiratoria de vias altas,J
+141,trastorno bipolar part,O
+142,Gingivoestomatitis herpética,L
+143,Ca mama bilateral,C
+144,TC cervical,B
+145,Lumbociatalgias,M
+146,Colon Irritable part,K
+147,Analgèsia,3
+148,DOBLE SALPINGUECTOMÍA,0
+149,biopsia esofag,4
+150,Historia trastorno mental,Z
+151,rtuv,0
+152,Fluidoterapia,9
+153,retinopatía diabética 2,E
+154,Colelitiasis,K
+155,bocio parto,E
+156,acortamiento del periodo expulsivo,O
+157,extración material,9
+158,Hiperémesis gravídica,O
+159,RESECCIÓN TRANSURETRAL DE TUMOR VESICAL,0
+160,artrosis de rodilla,M
+161,Deshidratación hipernatrémica,E
+162,Migrañas part,O
+163,antobiotico,3
+164,tumorectomía mamaria derecha,0
+165,cesáreas anteriores,O
+166,desgarro de 1r grado,O
+167,Trombofília,3
+168,NECROSIS AVASCULAR CADERA DERECHA,M
+169,RECEPTORES DE ESTROGENOS: NEGATIVOS,Z
+170,TAC abdominopélvico,B
+171,hipolipemiante,3
+172,Grupo: A +,Z
+173,retraso pondoestatural,R
+174,a POSITIVO,Z
+175,Gilles de la Tourette,G
+176,Hipercolesterolemia parto,E
+177,ferroterapia endovenosa,3
+178,39+,Z
+179,IAo,4
+180,Hematoma cesarea posparto,O
+181,presentación podálica gemelo,O
+182,Trastorno cognitivo,F
+183,Incontinencia urinaria,R
+184,Obesitad parto,O
+185,Miopía parto,H
+186,Quiste anexial,N
+187,MIOMA UTERINO SUBMUCOSO,D
+188,VHB part,O
+189,desagarro vaginal,O
+190,Asma part,O
+191,mastectomía izquierda,0
+192,Gemelar bicorial-biamniótica,O
+193,cervix corto anteparto,6
+194,: A positiva,Z
+195,RPBF,O
+196,BAS,4
+197,Obesidad morbida part,O
+198,CA,8
+199,Invaginación,K
+200,Insuficiencia respiratoria cronica,5
+201,sindrome de apnea del sueño,G
+202,visión borrosa,H
+203,angio tac toracico,B
+204,Lumbalgia mecanica,M
+205,Grupo : A positivo,Z
+206,laparoscópia,5
+207,cesáreas,O
+208,998.6,N
+209,Anexectomía izquierda laparoscopia,0
+210,POLIMIOMATOSO,8
+211,. GsRh: O positivo,Z
+212,B positivo,Z
+213,cura herdia,9
+214,CPAP,Z
+215,punción folicular,0
+216,muerte fetal intrauterina,O
+217,Dolor maluc dret,M
+218,Grupo A Rh Negativo,Z
+219,REVISION DE CANAL DEL PARTO,O
+220,IMC 32,Z
+221,Hiperuricemia,7
+222,Rn 2,V
+223,absceso vaginal,N
+224,ITU parto,O
+225,quistes simples renales,N
+226,pretérmino,O
+227,gammaglobulina antiD,6
+228,osteoporosis,M
+229,Holter,4
+230,Ingrés social,V
+231,enfermedad celíaca,K
+232,Vive en residencia,Z
+233,Tumorectomía Mama izq,0
+234,TERATOMA OVARIO DERECHO,D
+235,anémia posparto,O
+236,trastorno lumbar,M
+237,Insonmio,3
+238,trombocitosis parto,D
+239,519.19,B
+240,monocorial-biamniótico,O
+241,derivaciónventrículo-peritoneal,Z
+242,Salpinguectomia bilateral,0
+243,fibrobroncoscopia,3
+244,eritematosas,L
+245,autolisis benzodiacepinas,F
+246,náuseas,R
+247,PEG,0
+248,Omentectomia,0
+249,Artropatía,M
+250,Hallux valgus izquierdo 2,0
+251,lumbociatica,M
+252,Artralgias,M
+253,Hèrnia paraesofàgica,K
+254,Anexectomía bilateral laparoscopia,0
+255,Púrpura De Schönlein Henoch,I
+256,madden IZQUIERDA,0
+257,Dermatitis atópica part,L
+258,Miocardiopatia hipertrofica,I
+259,Desgarro I,0
+260,Historia de Violencia de género,Z
+261,fisura anal,K
+262,embolización arterias uterinas,0
+263,nutrición enteral sng,3
+264,ANEXECTOMIA DERECHA,0
+265,síndrome subacromial,M
+266,talassemia minor,D
+267,PNA 2t,N
+268,Biopsia selectiva de ganglio centinela,4
+269,Acidosis metabólica,E
+270,alergia polen de olivo,Z
+271,angioma,8
+272,esterilidad primaria,N
+273,utero doble parto,O
+274,cuerpo extraño esofago,9
+275,Carcinoma Urotelial,8
+276,GS: A. Rh +,Z
+277,TC toraco,B
+278,Doppler renal,B
+279,pneumotórax bilateral,5
+280,diabético,E
+281,hipotiroidisme part,O
+282,ALERGIA AL YODO,Z
+283,talasemia minor,2
+284,Intolerancia a la lactosa,E
+285,parto precipitado,O
+286,Adhesiolisis,5
+287,válvula aórtica bicúspide,Q
+288,Bocio parto,E
+289,Sinusitis crónica,J
+290,ECOcardiograma nen,B
+291,Institucionalizado,Z
+292,Enantyum,3
+293,ecografía escrotal,B
+294,mioma subserosos,D
+295,Fibrinógeno,3
+296,colpocele,N
+297,Artritis Psoriásica,M
+298,0 positiu,Z
+299,embolización arterias uterinas,0
+300,obesidad part,Z
+301,Alérgica a ibuprofeno,Z
+302,Alergia a soja,Z
+303,abdominalgia,R
+304,Endoscopia digestiva alta.,5
+305,Parto estacionado,O
+306,Alérgica a penicilinas,Z
+307,acidois metabolica,E
+308,652.81,O
+309,RX Abdomen,B
+310,Hernia discal parto,O
+311,TGD,E
+312,Hiperplasia benigna de próstata,N
+313,npt,V
+314,MIomas,8
+315,Broncodisplasia pulmonar congenita,Q
+316,Neoplasia de cólon ascendente,C
+317,TC tòrax,B
+318,Sobrepeso,E
+319,41+2 semanas,Z
+320,miopia magna,H
+321,pólipo,8
+322,placenta previa oclusiva total,O
+323,historia TBC,Z
+324,RxTX,B
+325,MACROSOMIA FETAL,O
+326,LEGRADO ENDOMETRIAL,0
+327,E.faecalis,B
+328,ansiedad parto,F
+329,tabaco parto,F
+330,pustulosis,L
+331,Hermana ca. mama,Z
+332,triple by-pass,Z
+333,antibioticoterápia,3
+334,PÓLIPOS ENDOMETRIALES,0
+335,expansor mama derecha,0
+336,Migraña parto,O
+337,Hipertensión irc,4
+338,parotidectomia total,0
+339,laringotraqueobronquitis,J
+340,desgarro parauretral,O
+341,Ooforectomía bilateral,Z
+342,LUPUS,L
+343,Faringoamigdalitis aguda,J
+344,decanulación traqueostomia,V
+345,absceo vagina,N
+346,Ecografia obst,B
+347,Haemophilus influenzae,B
+348,alergia al látex,Z
+349,vancomicina,3
+350,Vive en la calle,Z
+351,GS: AB-.,Z
+352,Z65.8,Z
+353,prótesis mamaria,Z
+354,legrado uterino evacuador,1
+355,Eco abdominal,8
+356,ANEXECTOMÍA BILATERAL PROFILÁCTICA,Z
+357,:O positivo,Z
+358,Retraso de crecimiento intrauterino,O
+359,escoliosis parto,O
+360,Infección tracte urinari,N
+361,extracción manual Placenta,1
+362,hcl,0
+363,itu rn,P
+364,hemorragia posparto,O
+365,pérdida de peso,R
+366,IRVS,N
+367,Obesitat parto,6
+368,hiperglucemia dm,2
+369,gea rotavirus,0
+370,gemelar bicorial biamniótico,O
+371,Útero miomatoso parto,D
+372,coagulación laser feto,O
+373,mioma submucos,D
+374,polipectomia ciego,0
+375,Trasplante hepático,Z
+376,Neoplàsia maligna ovari,C
+377,Cirrosi hepàtica,5
+378,"Grupo sanguíneo: 0, Rh. positivo",Z
+379,hidratación,3
+380,nalgas 2,6
+381,biopsia de médula ósea,4
+382,Histerectomía total laparoscópica,0
+383,CATETERISMO URETERAL DERECHO,0
+384,sd constitucional,R
+385,SAMS,O
+386,caida en deporte,Y
+387,GSRh: A postivo,Z
+388,fumadora 2t,O
+389,Preclampsia Leve,O
+390,Apendicitis aguda amb peritonitis,K
+391,Historia de Adenocarcinoma de prostata,Z
+392,Bacteriemia por E. Coli,B
+393,EICH crónico,5
+394,pemfigoide,L
+395,distócico,O
+396,ECOGRAFÍA DE CUELLO,B
+397,ANTIBIOTERAPIA,3
+398,GsRh: O positivo,Z
+399,Còlic,3
+400,Misoprostol,3
+401,ECO Abdominal,B
+402,domicilio,Y
+403,J44.1,J
+404,Ecografia d'aparell urinari (renal-bufeta-pròstata,B
+405,Síndrome metabólico,E
+406,seroma,9
+407,duodenitis,K
+408,CIN I parto,O
+409,RECEPTORES DE ESTROGENOS: negativos,Z
+410,Neoplasia mucinosa apendicular,8
+411,Rasgo talasémico part,D
+412,Furosemida,3
+413,recien nacido muerto,Z
+414,ecocardiograma,B
+415,Colon irritable,K
+416,CARCINOMA SEROSO PAPILAR,8
+417,hipoxemia rn,P
+418,Prostatectomía radical,0
+419,PUNCIÓN DURAL posparto,O
+420,venofer,3
+421,Angio-RMN cerebral,B
+422,Incompetencia cervical anteparto,6
+423,histerectomia total,6
+424,42,Z
+425,adiposidad abdominal,R
+426,Hashimoto parto,O
+427,IT severa,I
+428,amenaza de parto prematuro,O
+429,fimosis,L
+430,im,3
+431,41 +,O
+432,quirúrgic,3
+433,METATARSALGIA izq,N
+434,Escoliosis part,O
+435,enterococo faecium,B
+436,SIADH,2
+437,fractura,8
+438,Hernia crural izquierda,5
+439,MELENAS,D
+440,HIPERPLASIA ENDOMETRIAL BENIGNA,N
+441,Azoospermia,N
+442,Neuralgia del trigemino,G
+443,GASTRITIS EOSINOFÍLICA,K
+444,adencarcinoma endometrioide,8
+445,apendicectomia laparoscópica,0
+446,VARICECTOMIA,Z
+447,Síndrome depresivo reactivo,F
+448,ileitis,5
+449,colelitiasis parto,K
+450,Fuma parto,O
+451,H66.012,H
+452,podalica,O
+453,ansiedad y depresión,F
+454,POLIPO endometrial,0
+455,cesària anterior,O
+456,Historia de intento autolítico,Z
+457,0 Negativo,Z
+458,absceso retrofaríngeo,4
+459,Legrado puerperal,1
+460,tin,2
+461,displasia ectodérmica,Q
+462,Trombofilia parto,D
+463,Discapacidad intelectual moderada,F
+464,Alergia al polen,Z
+465,Rasgo talasémico part,D
+466,RX de tórax,B
+467,Grupo sanguíneo: O RH +,Z
+468,ASMA part,J
+469,Bloqueo de rama izquierda,I
+470,HIPOTIROIDISMO part,O
+471,fumadora part,O
+472,ABORTO DIFERIDO,6
+473,o99112,O
+474,doble anexectomia lap,6
+475,FA,I
+476,Esofagitis eosinofilica,5
+477,Von Willebrand part,D
+478,desnutricio,E
+479,:41.1,O
+480,Neo de mama izqda,C
+481,quimioterapia,Z
+482,EX-fumado,Z
+483,ilpp pie izquierdo,0
+484,asma parto,O
+485,DPF,O
+486,nefrostomia derecha,0
+487,PARTO PRECIPITADO,O
+488,PROCIDENCIA DE MANO,O
+489,Talla baja,R
+490,GS : A negativo,Z
+491,Alergia a pescado,Z
+492,Hipertensión Insuficiencia cardíaca Insuficiencia renal crónica,I
+493,Linfadenectomía axilar derecha,0
+494,v5042,Z
+495,Klebsiella,B
+496,Espondilolistesis,M
+497,hta irc 3,I
+498,neoplasia hipofaringe,C
+499,VPH parto,B
+500,Cordocentesis,0
+501,ALERGIAS Sulfamidas,Z
+502,Asma parto,J
+503,GSRh O + (,Z
+504,candidiasis vaginal 2t,O
+505,ascitis maligna,R
+506,LEIOMIOMA SUBMUCOSO,D
+507,pancreatectomia,Z
+508,RMN DE COLUMNA,B
+509,Ecodoppler renal,B
+510,Enfermedad de Alzheimer,G
+511,Cuerpo extraño esofágico,0
+512,Bronquitis aguda VRS,J
+513,GSRh A positivo,Z
+514,SG:40,Z
+515,TAC de Abdomen,B
+516,sangrado tras RRSS,O
+517,Malalta renal crònica,N
+518,NEOPLASIA MALIGNA DE MAMA DERECHA,C
+519,depresión parto,F
+520,Portador de traqueostomía,Z
+521,ha TBC,Z
+522,Hipertensión Insuficiencia cardíca,I
+523,gestación ectópica izquierda,O
+524,IMC 44,V
+525,historia iam,Z
+526,útero arcuato parto,O
+527,Disminucion de movimientos fetales,O
+528,talasemia minor part,O
+529,41+1 SEMANAS,Z
+530,casa,Y
+531,INTRATECAL,3
+532,Ecografia tòrax,B
+533,hernia hiato parto,K
+534,trombosis vena renal,N
+535,dexametasona,3
+536,varices uterinas,I
+537,ESPÁTULAS,Z
+538,estimulación oxitocinica,3
+539,feto grande,O
+540,Estreñimiento,K
+541,pàrto,V
+542,Taquimiocardiopatia,I
+543,distocia 2,6
+544,gastritis parto,O
+545,hepatomegàlia,5
+546,Endometrioma ovárico izquierdo,N
+547,intolerancia hidratos de carbono parto,O
+548,talasemia minor parto,D
+549,Dolor abdominal en flanco derecho,R
+550,Inmunoglobulina,3
+551,Hiperplasia endometrial con atipias,N
+552,Proctitis ulcerosa.,K
+553,Histerectomía,6
+554,vómitos,R
+555,ESPATULAS,1
+556,Pánico,R
+557,Anexectomia bilateral,6
+558,SONDA VESICAL,0
+559,Anemia crónico,D
+560,infección vaginal,N
+561,covid historia,Z
+562,Tromboembolismo pulmonar,I
+563,Radiogradía de tórax,B
+564,Hipoglucemia rn,P
+565,Laparoscopia exploradora,5
+566,Esplenectomia,Z
+567,Miocardiopatía dilatada,I
+568,fmo,J
+569,Fusion vertebral,7
+570,MIocardiopatía dilatada isquémica,I
+571,POLIPECTOMÍA endometrial HISTEROSCÓPICA,0
+572,DEFICIT DE ACIDO FOLICO,E
+573,drenaje torácico izquierdo,0
+574,Biopsia de arteria temporal,0
+575,distocia de hombro,6
+576,bicorial biamniotica,O
+577,Hidrocortisona,3
+578,lèrgica a Penicil,Z
+579,PEG parto,O
+580,radiografia de torax,B
+581,ateromatosis calcificada aortoilíaca,I
+582,ADENOCARCINOMA ENDOCERVICAL,8
+583,Adenocarcinoma endometrioide,C
+584,AAS,Z
+585,Radiografia toràcica,B
+586,asma extrinseca,J
+587,déficit vit.D,E
+588,Infección qx,9
+589,obesidad part,Z
+590,ABSCESO VAGINAL,N
+591,vhc parto,B
+592,sd .constitucional,F
+593,profilatica ovario,V
+594,HTA part,O
+595,HISTERECTOMIA,0
+596,catéter arterial,0
+597,Vértigo de Meniere,H
+598,diarreica,R
+599,Carcinome de endometrio,C
+600,DTT od,0
+601,esterilidad,N
+602,frenectomia lingual,4
+603,HIPOPOTASEMIA,E
+604,40 semanas rn,Z
+605,anemia neoplasia,2
+606,Diverticulosis,K
+607,Aplasia post-quimioterapia,2
+608,tumorectomía mama derecha,0
+609,Eco ABD,8
+610,Ex fumador,Z
+611,Necrobiosis lipoidica,B
+612,"Hermana, cáncer de mama",Z
+613,Amenaza de parto inmaduro,O
+614,ne SNG,3
+615,fisura anal,K
+616,tit,Z
+617,acidosis respiratòria,5
+618,Cesària ant anteparto,6
+619,B00.2,B
+620,HIPOTIROIDISMO,E
+621,polimialgia reumatica,M
+622,tumorectomia mama DERECHA,0
+623,DTT bilateral,0
+624,celiaca parto,K
+625,cirugía bariátrica part,Z
+626,esofagitis cronica,K
+627,hipoglucèmia,R
+628,hidratación,3
+629,OBESIDAD,E
+630,Ecografías obs,B
+631,Intolerancia a la Lactosa parto,E
+632,Hepatitis B Crónica,B
+633,ECO obs,B
+634,LINFADENECTOMIA Paraaortica,0
+635,caida d,Y
+636,Ex-prematuro,V
+637,salpinguectomía bilateral,0
+638,Enfermedad de Graves,E
+639,VENTOSA,O
+640,ERC 3,N
+641,crisis convulsiva,G
+642,albúmina iv,3
+643,Hidrocefalia,Q
+644,HEMATURIA,R
+645,Vitiligen,2
+646,Carcinoma intraductal mama derecha,C
+647,prurito part,O
+648,ILE) por Trisomía 21,O
+649,Pielonefritis aguda por E. Coli,B
+650,IMC: 47,Z
+651,STUI,R
+652,Prostatectomía,Z
+653,Historia de radio,Z
+654,Trombocitopenia part,D
+655,Grupo sanguíneo: A Rh +,Z
+656,rPBF,O
+657,Miopia part,H
+658,quemadura 2 cuello,T
+659,Perineoplastia,7
+660,"GS: B , Rh:+",Z
+661,Sdme ansioso,F
+662,GS. O+,Z
+663,T85.730A,K
+664,Madden der,0
+665,edema escrotal,R
+666,Hernia hiatal,K
+667,anti D,O
+668,covid historia,Z
+669,Ex-hábito enólico,F
+670,Hepatitis B,B
+671,Gastritis cronica,K
+672,hta irc terminal,N
+673,anti D,O
+674,fórceps,7
+675,VE,I
+676,Metrorragia del segundo trimestr,N
+677,EXPANSOR mama DERECHA,0
+678,NEOPLASIA MALIGNA DE PROSTATA,C
+679,Talasemia minor parto,D
+680,divertículo uretral,N
+681,QUISTECTOMIA DERECHA VÍA LAPAROSCÓPICA,0
+682,STC bilateral,Z
+683,Migranya hemiplègica,G
+684,Amigdalitis aguda,4
+685,derivada de Residencia,Z
+686,mastectomia ahorradora de piel,8
+687,Estreñimiento crónico,K
+688,leucopenia,D
+689,o72.1,O
+690,Vive solo,Z
+691,Ca. epidermoide de laringe,C
+692,heparina,3
+693,SAHS,G
+694,isquemia crónica grado IV,I
+695,SALPINGITIS,N
+696,Síndrome del túnel carpiano,G
+697,TUMORECTOMÍA mama izq,0
+698,CA MAMA IZQUIERDA,C
+699,disqueratosis congénita,7
+700,gemelos anteparto,6
+701,leiomiomas,8
+702,Rectorragia,K
+703,Derrame pleural,J
+704,carcinoma lobulillar infiltrante,8
+705,historia polipo colon,V
+706,pródromos de parto,O
+707,esofagitis,K
+708,IMC:41,Z
+709,Apendicectomía,4
+710,j9600,J
+711,Alérgica a Nolotil,Z
+712,Desgarro II,0
+713,Biopsia endometrio,0
+714,Hematoma de pared abdominal postquirúrgico,9
+715,adenocarcinoma endometrioide,8
+716,Historia Carcinoma tiroides,Z
+717,Linfadenectomía aórtica,4
+718,Transtorno depresivo,F
+719,Disuria,R
+720,endometritis puerperal,O
+721,b Negativo,Z
+722,zika parto,O
+723,POlIPO ENDOMETRIAL,N
+724,fibromialgia part,O
+725,Seroteràpia,3
+726,PROTESIS TOTAL DE RODILLA IZQUIERDA cementado,Z
+727,itu E. Coli,B
+728,graves,E
+729,parotidectomia superficial,2
+730,ESTENOSIS DE URETRA,N
+731,carcinoma lobulillar,8
+732,biopsia selectiva ganglio centinela,4
+733,HISTERECTOMIA TOTAL SIMPLE,0
+734,podàlica,O
+735,vuelta de cordón,O
+736,HISTERECTOMÍA,0
+737,Herpes Zoster,B
+738,Hipertensió irc,4
+739,Protesis mamarias,Z
+740,HTA iRC 5 icc,I
+741,Trastorno adaptativo mixto ansioso-depresivo,F
+742,agenesia renal,Q
+743,Fractura acuñamiento vertebral D7,S
+744,CARCINOMA COLOIDE,8
+745,Microprolactinoma,8
+746,Sigmoidectomía,0
+747,Historia de qt,Z
+748,HISTERECTOMIA abdominal,0
+749,RVU congenito,O
+750,blee,Z
+751,linfadenectomia,4
+752,Hipotiroidisimo parto,O
+753,Cos estrany faringe,B
+754,esteatosis hepática parto,O
+755,discectomía L5-S1,0
+756,itu,5
+757,Gastritis crónica,K
+758,Apendicectomia laparoscòpica,0
+759,Ansiedad Generalizada part,O
+760,Arrítmia paroxística,I
+761,Alergia a la penicilina,Z
+762,Cierre de ductus percutáneo con amplatzer al año de vida,V
+763,Multiparidad,6
+764,neoplasia de mama ucs,1
+765,EVENTRACION,9
+766,Gestación bicorial / biamniótica,O
+767,IRC agudizada,5
+768,Dolor neuropático,G
+769,aplasia,D
+770,Malaltia pulmonar obstructiva crònica,J
+771,Anemia enfermedad renal,D
+772,laringits moderada,3
+773,cuidado de traqueostomía,9
+774,Prostatismo,N
+775,obesitat part,Z
+776,cesareas previas,O
+777,IMC 34,Z
+778,Hipoparatiroidismo parto,O
+779,ADENOCARCINOMA IN SITU,8
+780,Ecografia vies urinàries,B
+781,hta icc irc,I
+782,ile por trisomía 21,O
+783,claudicacion familiar,7
+784,Lumbociática crónica,M
+785,Obesidad Mórbida parto,E
+786,infección de vías urinarias,N
+787,COLECCIÓN INTRABDOMINAL,0
+788,da lap,0
+789,rinovirus,B
+790,CONIZACIÓN CERVICAL,0
+791,Desnutrición,E
+792,cARCINOMA MAMA IZQUIERDA,C
+793,FISTULA URINARIA,N
+794,carcinoma ductal infiltrante de mama derecha,C
+795,FACO + LIO od,0
+796,talasemia minor,2
+797,multigravida añosa,6
+798,34+6 semanas,Z
+799,neoplasia mama bilateral,C
+800,Alergia a los huevos,Z
+801,41 sg,Z
+802,anexectomía izquierda LAP,6
+803,Hiperreactividad bronquial,J
+804,obesidad parto,Z
+805,Histerectomia vaginal,0
+806,Ex- Fumadora,Z
+807,historia AITs,Z
+808,Anèmia ferropènica,2
+809,NEOPLASIA DE MAMA BILATERAL,C
+810,E88.09,E
+811,Obesidad mórbida parto,E
+812,hosp`,Y
+813,Drenajes pleurales,3
+814,desgarro g.II,O
+815,celulitis postseptal,L
+816,ca endometrioide,C
+817,Historia de ADENOCARCINOMA DE PRÓSTATA,Z
+818,gestación tubárica derecha,O
+819,Fibrilacion auricular permanente,I
+820,Dolor epigástrico,R
+821,ENDOMETRITIS PUERPERAL,N
+822,gastritis parto,O
+823,Traqueostomizado,V
+824,APENDICITS AGUDA,K
+825,Bronquitis aguda Infección por Rhinovirus,J
+826,cuerpo extraño en CAE,T
+827,"0 , Rh: Positivo",Z
+828,Síndrome intestino corto,K
+829,desaturación,J
+830,Levetiracetam,3
+831,Esterilidad,N
+832,Infarto talámico,I
+833,Agudesa visual,H
+834,Diverticulosis. Colónica,K
+835,Bronquitis,J
+836,R60.1,R
+837,Deteriroro cognitivo,F
+838,Anamia puerperal,O
+839,CANCER DE MAMA bilateral,C
+840,Grupo y Rh: A +,Z
+841,Reflux gastroesofàgic,K
+842,Exprematuro,V
+843,protesis mama derecha,Z
+844,ERGE,K
+845,DESGARRO II GRADO,O
+846,Esplenomegalia,D
+847,Hipermenorrea,N
+848,romboencefalitis,3
+849,Mioma parto,D
+850,"Disfàgia, fase oral",R
+851,NBZ,3
+852,PUNCIÓN DURAL posparto,O
+853,decaiment,R
+854,Asma greu,J
+855,anemia microcítica hipocroma,D
+856,úter miomatós,D
+857,37+6 semanas,Z
+858,Fistula traqueoesofágica,5
+859,Ateromatosis aortoilíaca,I
+860,insuficiencia valvular aortica,I
+861,Historia de adenocarcinoma de próstata,Z
+862,HIPOTIROIDISMO 3T,O
+863,cifosis,M
+864,empeoramiento de la función renal,N
+865,Corioamnionitis parto,O
+866,Anemia aguda,D
+867,Miomatosis,D
+868,Migraña crónica,G
+869,38+3 semanas,Z
+870,Varices esofàgiques,I
+871,Linfadenectomia axilar,4
+872,c772,C
+873,Esquizofrenia Paranoide crónica,F
+874,Mastalgia,N
+875,cá endocérvix,1
+876,ANTIBIOTICO,3
+877,anticoagulacion,Z
+878,Electromiograma,8
+879,Anemización,D
+880,Podálica,O
+881,ANEXECTOMÍA BILATERAL LAPAROSCÓPICA,0
+882,Nalgas puras,O
+883,febre,R
+884,Mioma intramural parto,D
+885,dolor ciatico,7
+886,utero bicorne part,O
+887,Aborto diferido,6
+888,Asma parto,J
+889,HIPOGLUCEMIA rn,P
+890,Diarrea,R
+891,TC-Toracoabdominal,B
+892,abceso mama,N
+893,SARM,B
+894,Dermatitis atopica parto,L
+895,Inestabilidad de la marcha,R
+896,expansor mamario,8
+897,Lumbalgias,M
+898,Pancreatitis cronica,K
+899,hemoperitoneo,5
+900,Linfocele,7
+901,Infarto isquémico,I
+902,Fibrilación auricular persistente,I
+903,Hipotiroidisme,E
+904,Hepatits aguda,K
+905,Diabetis mellitus secundària,E
+906,coxartrosis SECUNDARIA,M
+907,K83.09,K
+908,sondaje,0
+909,drenaje abceso amigdala,4
+910,cardiopatía hipertensiva irc,4
+911,Artropatía psoriásica,M
+912,Desgarro vaginal,0
+913,Fisura palatina,7
+914,intolerancia lactosa parto,K
+915,Mastitis puerperal,O
+916,anti-.D,O
+917,absecso postquirurgico,9
+918,Rinitis crónica,J
+919,nutrición enteral por sonda nasogástrica,3
+920,Artritis Reumatoide parto,M
+921,ciprofloxacino,3
+922,Ecografía 1t,B
+923,supradescoagulación,Z
+924,quiste ovario derecho,N
+925,FIBROADENOMA mama izq,D
+926,color : teñido,O
+927,Biopsia renal dreta,0
+928,prolactinoma,8
+929,Neumonía,J
+930,Desgarro grado 2,0
+931,caida casual en su domicilio,Y
+932,ARSA,4
+933,ANEMIA pp,O
+934,alergia frutos secos,Z
+935,endoscopia digestiva alta,0
+936,Cordón umbilical largo parto,O
+937,Síndrome de Noonan,Q
+938,Trastorno límite de la personalidad,F
+939,Protesi maluc,6
+940,J20.5,J
+941,CISTECTOMÍA RADICAL ABIERTA,0
+942,Colecistitis aguda colelitiasis,K
+943,neumonia covid,J
+944,Nefropatía IgA,N
+945,medicamento,3
+946,RMN cerebro,B
+947,Fuma parto,O
+948,Mioma subseroso part,D
+949,64891,O
+950,otitis media serosa,3
+951,Alergia a PLV,Z
+952,broncodilatadora,3
+953,Implantes peritoneales,C
+954,ansiedad parto,F
+955,TIROIDECTOMÍA TOTAL,Z
+956,Hirsutismo facial,Q
+957,desgaroo de II grado,O
+958,HIPERTENSIÓN ARTERIAL,I
+959,Anemia macrocítica,D
+960,Radiografía de pelvis,B
+961,corticoideo,9
+962,Telemetria,B
+963,Retirada de barra de Nuss,0
+964,GsRh: O +.,Z
+965,colecistitis aguda litiásica,5
+966,protesis parcial cadera izquierda,Z
+967,hta irc 4,I
+968,HERNIA DISCAL L4-L5 DERECHA,M
+969,GS materno: A-,Z
+970,taquicardia parto,O
+971,Radiografía de craneo,B
+972,canalización de vía periférica,0
+973,ECO,8
+974,HELLP,O
+975,Macroglobulinemia de Waldestron,D
+976,Prematuridad 1750,P
+977,HIPERTIROIDISMO,E
+978,bulimia nerviosa,F
+979,hipotiroidismo parto,E
+980,rao postparto,O
+981,Hipertensión IRC,I
+982,Obesitat morbida parto,O
+983,Alergica a: codeína,Z
+984,Otitis Media Seromucosa,H
+985,inmunoglobulina,3
+986,Enfermedad de Graves - Basedow,E
+987,paracentesis,5
+988,QUISTECTOMIA ovario IZQUIERDA LAPAROSCOPICA,0
+989,Quiste tirogloso,2
+990,sacroileítis,M
+991,Monocorial biamniotico,O
+992,dtt,O
+993,hirsutismo,6
+994,Linfadenectomia,4
+995,desgarro vaginal grado I,O
+996,trombofilia,D
+997,contusión pulmonar,S
+998,Insuficiencia renal crónica,N
+999,hemorrágia post parto,O
+1000,Extraccion manual de placenta,1
+1001,catéter tunelizado vena yugular izquierda,0
+1002,salpinguectomía,6
+1003,siringomielia,G
+1004,LEGRADO,1
+1005,invaginación intestinal,K
+1006,Tabaco,F
+1007,nerviosismo,F
+1008,analgésico,3
+1009,Hipertensión Insuficiencia cardíca,I
+1010,Gammapatia monoclonal,D
+1011,ageusia,R
+1012,CARCINOMA LOBULAR IN SITU DE MAMA IZQUIERDA,C
+1013,historia IAM,I
+1014,CARÈNCIA DE VITAMINA D,E
+1015,Ex- fumadora,Z
+1016,deportivo,E
+1017,legrado obstetrico,1
+1018,tabaco parto,F
+1019,Historia de hipertiroidismo,Z
+1020,DISCECTOMÍA L4-L5,0
+1021,GSRh O positivo,Z
+1022,Ooforectomia derecha,Z
+1023,hipotiroidisme anteparto,6
+1024,portador Pseudomonas,Z
+1025,uropatía obstructiva,N
+1026,Gota,3
+1027,Alergia a contrastes yodados,Z
+1028,Dacriocistorinostomia izq,0
+1029,eventracion,5
+1030,Fractura 4 partes húmero proximal derecho,S
+1031,Esofagogastroscopia,0
+1032,dolor perineal posparto,O
+1033,Tuberculosis secuelas,V
+1034,Liomioma uterí subserós,D
+1035,ALERGICA A DOXICICLINA,Z
+1036,crisis comicial,G
+1037,PTR IZQDA,Z
+1038,ABORTADORA HABITUAL,Z
+1039,Pneumonia,J
+1040,Alergia a piperacilina,Z
+1041,Rinitis alérgica polen,J
+1042,Macrocefalia,Q
+1043,Trastorno dístimico,F
+1044,Quiste cortical,N
+1045,Legrado obstetrico,1
+1046,Amoxiclina,3
+1047,Celiaquia parto,K
+1048,hematies,9
+1049,Ansiedad Generalizada part,O
+1050,FRACTURA SUBCAPITAL FEMUR IZQUIERDO,S
+1051,Anemia ferropenica,D
+1052,alergia a AINEs,Z
+1053,Migrañas parto,O
+1054,Vitíligo part,O
+1055,úlceras sacras grado II,L
+1056,cardiopatia isquémica crónica,I
+1057,Desgarro 1 grado,0
+1058,BAG hepática,0
+1059,hiperparatiroidismo secundario,E
+1060,carcinoma lobulillar infiltrante,8
+1061,anexectomía bilateral,6
+1062,HERNIA DE HIATO,K
+1063,Antibioterapia intravenosa,3
+1064,CAÍDA,T
+1065,síndrome constitucional,R
+1066,Cataratas,H
+1067,rinitis alérgica parto,O
+1068,obesidad parto,Z
+1069,hta IRC icc,I
+1070,Hipotiroidismo secundario a Tiroidectomia,E
+1071,Migraña con aura,G
+1072,neoplasia de mama esquerre,C
+1073,síndrome febril,R
+1074,itu anteparto,6
+1075,MIOMA utero,D
+1076,DGA part,O
+1077,V13.59,Z
+1078,Anexectomia Bilateral Laparoscopia,0
+1079,nefrostomia izquierda,0
+1080,GS: 0+,Z
+1081,Meralgia parestesica,G
+1082,amikacina,3
+1083,ARTRITIS REUMATOIDE,M
+1084,ILE por T21,O
+1085,Pell atòpica,O
+1086,Ecoli,B
+1087,Nefroureterectomía izquierda,Z
+1088,Hipermetropía,H
+1089,v1279,Z
+1090,cervicobraquialgia,M
+1091,Desgarro IIIC,0
+1092,broncoespasmo,J
+1093,Fumadora puerperio,O
+1094,30+4 semanas,Z
+1095,microhematuria,N
+1096,celiaca parto,K
+1097,Cesárea anterior,O
+1098,endometriosis del tabique rectovaginal,N
+1099,Fractura de radio distal izquierdo,S
+1100,síndrome antifosfolípido parto,O
+1101,LINFADENECTOMIA PÉLVICA,0
+1102,DM tipus 1,2
+1103,: 0 POSITIVO,Z
+1104,CORDÓN CORTO parto,O
+1105,ILE) por trisomía 21,Z
+1106,Condiloma,8
+1107,: O positivo,Z
+1108,Biopsia pulmonar cerrada,0
+1109,pseudomona,B
+1110,Miopia magna parto,H
+1111,leucoencefalopatía isquémica crónica,I
+1112,urticaria,R
+1113,Asma part,O
+1114,Sigmoidectomía,0
+1115,Infección de orina,N
+1116,Utero bicorne,Q
+1117,cistectomía radical lap,0
+1118,desgarro IIIa,O
+1119,primigravida anteparto,6
+1120,Osteoartropatía degenerativa,M
+1121,h fractura,V
+1122,aborto diferido,O
+1123,omentectomía,0
+1124,Obesidad mórbida part,E
+1125,pna posparto,6
+1126,Anemia 2,D
+1127,bronquiectasias,4
+1128,derrame articular rodilla,M
+1129,Exéresis piel cuero cabelludo,0
+1130,craneotomía y extirpacion,8
+1131,PODALICA,R
+1132,quiste dermoide ovario izquierdpo,N
+1133,bocio,E
+1134,Anexectomía bilateral,0
+1135,Hiperemesis gravídica,O
+1136,c775,C
+1137,n mama,1
+1138,tumorectomía mama izquierda,0
+1139,anemia mixta,D
+1140,prótesis mecánica mitral,Z
+1141,Antibioticoterápia,3
+1142,obesidad,E
+1143,0017,O
+1144,SEPTOPLASTIA,0
+1145,41semanas,Z
+1146,intolerancia a la lactosa part,O
+1147,seroalbúmina,3
+1148,Hiperparatiroidismo secundario,E
+1149,": 0 , Rh: Positivo",Z
+1150,desgarro I,O
+1151,Cirrosis biliar primaria,K
+1152,Duplicitat renal,N
+1153,Broncodilatadores,3
+1154,ANTIINFLAMATORIO,3
+1155,INFECCIÓN DE HERIDA QUIRÚRGICA,T
+1156,VULVECTOMÍA SIMPLE,0
+1157,Colitis Ulcerosa part,K
+1158,FRACTURA TRIMALEOLAR DE TOBILLO IZQUIERDO,S
+1159,H RNPT,V
+1160,cefalea,R
+1161,Hipotiroidismo part,O
+1162,Historia de Quimitoerapia,Z
+1163,Útero polimiomatoso,D
+1164,hemorroides internas,K
+1165,enol esporadico,F
+1166,dehiscencia ferida ext,9
+1167,BRUE,R
+1168,Hematíes,9
+1169,Prolapso total,N
+1170,endometritis,N
+1171,Desgarro de II,O
+1172,anafilaxia,R
+1173,déficit de vitamina D,E
+1174,38.5 semanas,Z
+1175,derrame pleural maligno,J
+1176,Abuela materna cáncer de mama,Z
+1177,ceserea,1
+1178,Hipotiroidismo secundario a tiroidectomía,E
+1179,Retraso cognitivo,F
+1180,RE positivo,V
+1181,versión cefàlica externa,O
+1182,hipotiroidismo PARTO,O
+1183,ECO abdominal,8
+1184,hemofilia B parto,D
+1185,Trasplante renal,Z
+1186,TEGD,B
+1187,beta talassemia parto,D
+1188,Fx subtrocanterea femur izquierdo,S
+1189,atrofia renal,N
+1190,hipotiroidismo subclínico,E
+1191,Polimialgia reumática,M
+1192,acenocumarol,V
+1193,A postitivo,Z
+1194,Miopía,H
+1195,Absceso mamario izquierdo,N
+1196,eco obs,8
+1197,Rx clavícula izq,B
+1198,NEFRECTOMÍA RADICAL LAPAROSCÓPICA DERECHA,0
+1199,Diabetes gestacional part,O
+1200,HTDA,Z
+1201,Cistadenoma mucinoso,8
+1202,alfa talasemia parto,O
+1203,enfermedad renal crónica,N
+1204,recambio de Expansor mama,8
+1205,Tc abdominal,B
+1206,Rubéola: no inmune,O
+1207,part,6
+1208,Amenza de parto prematuro,O
+1209,Vía venosa periférica,0
+1210,LINFADENECTOMIA PARAAORTICA,0
+1211,G40.001,G
+1212,Diebetes,E
+1213,hipotirodismo part,O
+1214,SG: 38+3,Z
+1215,SÍNDROME ANSIOSO-DEPRESIVO,F
+1216,Rinitis Alergica parto,J
+1217,compresión esofágica,5
+1218,INSUFICIENCIA RENAL CRONICA,N
+1219,Neoplasia oclusiva de ángulo esplénico,C
+1220,Ex enolismo,F
+1221,linfadenectomia AXILAR,4
+1222,Grupo sanguíneo:A positivo,Z
+1223,mtx ganglio abdominal,1
+1224,40 +0 sg,Z
+1225,resección transuretral de próstata,0
+1226,Colpoplastia anterior,0
+1227,Desgarro IIIa,0
+1228,DISFONIA,7
+1229,Dolor pélvico,N
+1230,historia Parto pretérmino,O
+1231,retención placentaria,O
+1232,insuficiencia cardíaca de predominio izquierdo,I
+1233,Cuerpo extraño CAE,9
+1234,quemadura 3 muslo derecho,0
+1235,Demencia tipo Alzheimer,G
+1236,Biopsia esofagica,4
+1237,hepatitis B part,O
+1238,Obesidad (,E
+1239,asma parto,O
+1240,SAHoS,3
+1241,CCHH,3
+1242,Cavernoma cerebral,D
+1243,divertículo vesical,N
+1244,Neumonia COVID parto,O
+1245,cromopertubación,3
+1246,hipoglicemias,R
+1247,Grupo sanguineo: 0+,Z
+1248,via periferica,3
+1249,intolerancia oral,R
+1250,Bronquiolitis aguda,J
+1251,Anemia aguda hemorrágica,D
+1252,litiasis renal,N
+1253,Litiasis renales,N
+1254,marihuana parto,O
+1255,tinitus,H
+1256,pólipo cervix parto,N
+1257,Cistoscopia,5
+1258,Hidratación,3
+1259,colangioRM,B
+1260,PTR d,Z
+1261,vive sola,Z
+1262,Hematúria macroscòpica,R
+1263,Rinitis alérgica parto,O
+1264,psoriasis,L
+1265,Divertículos,K
+1266,659.41,O
+1267,Gonartrosis derecha,M
+1268,desproporción pélvico-fetal,O
+1269,hipotiroidisme parto,E
+1270,Estimulación oxitocínica,3
+1271,NTP,9
+1272,Hernia umbilical parto,O
+1273,Nudo verdadero de cordón,O
+1274,Cataratas bilateral,H
+1275,hipertransaminasemia,R
+1276,alivio de expulsivo,O
+1277,hiperlaxitud ligamentosa,7
+1278,Fusobacterium necrophorum,B
+1279,Ulcera duodenal,K
+1280,Candida piel,B
+1281,disuria,R
+1282,ITU sonda vesical,T
+1283,Prostatectomia radical,0
+1284,Ectasia piélica congenita,Q
+1285,demencia parkinson,G
+1286,polipo de vesicula biliar,K
+1287,ECOtV,B
+1288,Vive en Residencia,Z
+1289,biopsia del gangli sentinella,4
+1290,Rx torácica,B
+1291,cólico nefrítico,N
+1292,IMC 30,V
+1293,acidosi mixta,E
+1294,extracción de banda gástrica lap,0
+1295,Colecistitis aguda,K
+1296,fractura meseta tibial izquierda,S
+1297,ductus,Q
+1298,pseudomixoma peritoneal,C
+1299,celulitis preseptal,L
+1300,Hepatitis C part,O
+1301,drogas parto,O
+1302,angiopatía amiloide,I
+1303,Rubeola : NEGATIVO,O
+1304,cCHH,3
+1305,v1272,Z
+1306,anticoagulación,Z
+1307,Hipermetropía,H
+1308,Restrenyiment,K
+1309,estenosi esofàgica,5
+1310,Grupo sanguíneo A Rh positivo,Z
+1311,Intolerante a la Lactosa parto,E
+1312,CESÁREA ANTERIOR,O
+1313,fluidoterapia,3
+1314,Ruptura prematura de membranas,O
+1315,O Rh negativo,Z
+1316,Varicel,I
+1317,5845,O
+1318,CATARATA CORTICAL,C
+1319,adenomiosi,6
+1320,hiperplasia benigna de próstata,N
+1321,Restrenyiment crònic,K
+1322,Ecografías,8
+1323,aborto tardio,O
+1324,Fumdora,F
+1325,Bloqueo AV de primer grado,I
+1326,Espondiloartrosis,M
+1327,vía púbilca,N
+1328,hipogammaglobulinemia,D
+1329,ooforectomia derecha,Z
+1330,VULVECTOMÍA PARCIAL,0
+1331,Fractura peroné distal izquierdo,S
+1332,Carcinoma epidermoide de cérvix,C
+1333,déficit de proteína C,D
+1334,TUMORACIÓN,8
+1335,Infección del tracto urinario,N
+1336,Deshidratación hipernatrémica,E
+1337,NST sospechoso,O
+1338,A Rh negativo,Z
+1339,síndrome de Marfan,Q
+1340,quiste cortical renal,N
+1341,Madden Izquierdo,0
+1342,corticoterapia,3
+1343,dilatación aórta ascendente,I
+1344,Hipotension ortostatica,I
+1345,Enfermedad indiferenciada del tejido conectivo,M
+1346,candida vaginal,0
+1347,Cólico nefrítico derecho,N
+1348,Sd ansioso,F
+1349,oxitòcica,3
+1350,88.45,I
+1351,Rinoconjuntivitis alergia,H
+1352,Talasemia minor parto,D
+1353,Colitis ulcerosa part,O
+1354,Barrera idiomàtica total,Z
+1355,Vasculopatía periférica,I
+1356,anti D,O
+1357,ALERGIAS: SERACTIL,Z
+1358,Microlitiasis renal,N
+1359,ca mama bilateral,C
+1360,ANEXECTOMÍA BILATERAL LAP,0
+1361,paratiroidectomía izquierda,0
+1362,lca rodilla derecha,0
+1363,CARCINOMA INVASIVO,8
+1364,Cirugia bariatrica,2
+1365,Polineuropatía dm,G
+1366,legrado obst,1
+1367,Grupo sanguíneo materno: A Positivo,Z
+1368,limfopenia,D
+1369,Alergia a voltaren,Z
+1370,Síndrome de Rett,G
+1371,anexectomía bilateral laparoscópica,6
+1372,biòpsia de gangli,4
+1373,Papiloma mama derecha,D
+1374,marcapasos VVI 1,0
+1375,infeccion herida quirurgica,T
+1376,Transplantada renal,Z
+1377,v1365,Z
+1378,Retinopatia diabetica,E
+1379,Neoplasia de colon historia,V
+1380,Síndrome ansioso-depresico,F
+1381,ABSCESO LABIO MAYOR,N
+1382,adenocarcinoma de ovario,C
+1383,Gammagrafía ósea,9
+1384,Radiografía de cráneo,B
+1385,itu puerperal,O
+1386,pna 3t,B
+1387,GS: A Rh +,Z
+1388,Wolff Parkinson White,G
+1389,HTPulmonar,I
+1390,protesis mamas,Z
+1391,Carcinomatosis,8
+1392,cistitis,5
+1393,27 sem,Z
+1394,pti parto,6
+1395,fibrinógeno,3
+1396,hipotiroidismo 2t,O
+1397,Transfusión de 3 CCHH,3
+1398,ALERGIA AC. ACETILSALICÍLICO,V
+1399,PFC,3
+1400,Manchester,0
+1401,Antibiótico,3
+1402,insuficienciarespiratoria hipercapnica crónica,5
+1403,sutura clítoris,0
+1404,Neo mama h,1
+1405,hipotermia,3
+1406,perforación timpánica,3
+1407,Escherichia coli,B
+1408,Adenocarcinoma de Endometrio,C
+1409,fractura pilón tibial derecho,S
+1410,Déficit Vit D part,O
+1411,consumo crónico de alcohol,F
+1412,Linfadenectomía paraaórtica,4
+1413,Anemia part,D
+1414,sindrome de brugada,G
+1415,eco doppler tsa,B
+1416,itu parto,N
+1417,Rotura prematura de membranas,O
+1418,HISTERECTOMIA TOTAL LAPAROSCÓPICA,0
+1419,no progresión de parto,O
+1420,obesitat parto,O
+1421,Cushing,2
+1422,Sondaje vesical permanente,0
+1423,Dermatitis seborreica,L
+1424,varices esofagicas,I
+1425,CPAP,Z
+1426,Clindamicina,3
+1427,Fibrilación auricular,I
+1428,Fosfomicina,3
+1429,miomas intramurales parto,D
+1430,33+6 semanas,Z
+1431,balon de Bakri,0
+1432,FÍSTULA URETRAL,N
+1433,Hipotiroïdisme,E
+1434,Osteopènia,7
+1435,Apendicectomía,4
+1436,ITU por E.coli,B
+1437,Neuritis òptica,H
+1438,rge parto,O
+1439,absceso mama,N
+1440,sng rn,V
+1441,prostatectomía radical laparoscópica asistida por robot,0
+1442,neumonectomia,V
+1443,anti-D.,O
+1444,hipotiroidismo part,O
+1445,NEOPLASIA DE MAMA IZQUIERDA,C
+1446,Hidrosadenitis supurativa,N
+1447,Salpinguectomía Bilateral,0
+1448,CSI,0
+1449,HIPOFOSFATEMIA,7
+1450,Colonoscopia biopsia,0
+1451,Mioma subseroso parto,D
+1452,aminiocentesis,1
+1453,fre lingual,0
+1454,Varón,Z
+1455,40 SG,Z
+1456,hiponatermia,3
+1457,vasculopatía diabetica 2,E
+1458,trisomía,O
+1459,CPAP,Z
+1460,historia familiar neoplasia colon,Z
+1461,Historia de anastomosis,Z
+1462,dicopatia lumbar,M
+1463,CANCER DE MAMA bilateral,C
+1464,implantes peritoneales,1
+1465,G40.409,G
+1466,LTB 2,0
+1467,Alergia a melocotón,Z
+1468,antibiótico iv,3
+1469,Pielonefritis aguda por E Coli,B
+1470,Staphylococcus lugdunensis,B
+1471,ch enolica,F
+1472,B27.90,B
+1473,hta irc,I
+1474,amilodosis renal,N
+1475,ESTENOSIS AÓRTICA congenit,I
+1476,Arritimia ventricular,I
+1477,Dermatitis eccematosa,L
+1478,TLP,F
+1479,estancamiento pondoestatural,R
+1480,obesidad parto,Z
+1481,hemiparesia izquierda,G
+1482,Enfermedad de Crohn,K
+1483,FIBROMATOSIS DE FASCIA PLANTAR,M
+1484,LEIOMIOMA,8
+1485,Bricker,V
+1486,XARELTO,O
+1487,ALÉRGICA A PENICILINAS,Z
+1488,EPILEPSIA,G
+1489,multigravida,6
+1490,DOLOR EXTREMIDADES,R
+1491,HEMOCROMATOSIS,D
+1492,celiaquía parto,K
+1493,desprendimiento prematuro de placenta,O
+1494,historia TBC,Z
+1495,Prematuridad 1500,P
+1496,degeneración lumbosacra,M
+1497,Urticaria topica,L
+1498,metástasis pulmonares,C
+1499,Escoliosis,M
+1500,Neutropenia autoinmune,D
+1501,Nódulo pulmonar solitario,J
+1502,Colección pared abdominal,K
+1503,IPLV,6
+1504,Grupo sanguíneo: A +,Z
+1505,"0, Rh: Positivo",Z
+1506,Epidermiolisis bullosa,L
+1507,fumadora parto,O
+1508,Desgarro III,O
+1509,GS materno B+,Z
+1510,obesidad parto,Z
+1511,ansioso depresivo,F
+1512,miomas,D
+1513,Cardiopatía isquémico,4
+1514,C67.9,C
+1515,SALPINGUECTOMÍA IZQUIERDA LAPAROSCOPIA,0
+1516,No progresión de parto,O
+1517,Grupo sanguíneo 0 negativo,Z
+1518,HTA ERC 3,I
+1519,Hemangiomas,9
+1520,HISTERECTOMÍA lap,0
+1521,acidosis perinatal,O
+1522,DUPLICIDAD RENAL,N
+1523,WPW parto,O
+1524,Alergia a contrastes yodados,Z
+1525,GRUPO SANGUINEO A,Z
+1526,Infección respiratoria de vías altas,J
+1527,mastectomía derecha,0
+1528,Apendicectomñia laparoscópica,0
+1529,retinopatía diabetica 2,E
+1530,biopsia duodeno,4
+1531,cardiopatia isquèmica,I
+1532,Astigmatismo,H
+1533,Anexectomía derecha,0
+1534,Migraña sin aura parto,G
+1535,o3432,O
+1536,arritmias,I
+1537,omeprazol,3
+1538,apendicectomia incidenta,4
+1539,Reflujo Gastroesofágico,5
+1540,oxitócica,3
+1541,MASTECTOMIA IZDA,0
+1542,IG,3
+1543,amputacion supracondilea derecha,0
+1544,Mioma intramural part,D
+1545,hta irc 6,N
+1546,Fibrilación auricular permanente,I
+1547,Caída,E
+1548,ANTI-D,3
+1549,Extrasistoles ventriculares,I
+1550,Madre Rh negativo,Z
+1551,Taquicardias,I
+1552,AdenoAmigdalectomía,2
+1553,Vejiga Neurogena,5
+1554,DIABETES GESTACIONAL dieta,O
+1555,Secundípara,O
+1556,Exéresis quiste ovárico lap,6
+1557,Hiperparatiroidismo secundario a déficit de vit D,E
+1558,inducció,O
+1559,Anèmia ferropènica,2
+1560,hernia discal lumbar,M
+1561,caída de altura,Y
+1562,Desgarro Iº :,O
+1563,Prevotella bivia,B
+1564,M1 ósea,1
+1565,neo mama izquierda,C
+1566,Situación transversa,O
+1567,migrañas parto,O
+1568,transaminitis,R
+1569,cuerpo extraño esofago,9
+1570,Prótesis total de rodilla izquierda,Z
+1571,Enfermedad de Crohn,K
+1572,Ligadura tubárica bilateral,Z
+1573,mastectomia bilateral,8
+1574,Adenocarcinoma endometrial,C
+1575,Síndrome de piernas inquietas,G
+1576,Eritema nodoso part,L
+1577,"Grupo sanguíneo materno: A, Rh: Positivo",Z
+1578,quiste ovario izq,N
+1579,rehidratación,3
+1580,Ateromatosis calcificada,I
+1581,fecalomas,K
+1582,Convulsiones febriles simples,R
+1583,Trastorno Ansiedad Generalizada,F
+1584,prurigo,L
+1585,laringuectomia,V
+1586,IMC 35,V
+1587,Desbridamiento muslo derecho,0
+1588,amniocentesis,1
+1589,Bronquiectasias,J
+1590,dermatitis atopica parto,L
+1591,PÉRDIDA DE BIENESTAR FETAL,O
+1592,42 semanas,Z
+1593,Miopía,H
+1594,A. reumatoide,M
+1595,Alergia aspirina,Z
+1596,20 semanas,Z
+1597,prótesis cadera,Z
+1598,Anexectomía izquierda,0
+1599,PORTADOR DE ESTREPTOCOCO GRUPO B,Z
+1600,deformidad dentofacial,7
+1601,ECO-ABDOMINAL,B
+1602,Punción folicular,0
+1603,Desgarro perineal de 1º grado,O
+1604,Adenitis mesentérica,K
+1605,Ateromatosis calcificada aortoilíaca,I
+1606,hepaticas,5
+1607,sangrado uterino anómalo,N
+1608,N06.0,N
+1609,HPV parto,B
+1610,adenopatía supraclavicular,R
+1611,anexectomía bilateral lap,6
+1612,engrosamiento endometrial,N
+1613,IAM hsitoria,4
+1614,COLECISTECTOMIA LAPARASCÓPICA,0
+1615,Hashimoto part,E
+1616,amputación supracondilea izquierda,0
+1617,polipo cervix parto,N
+1618,Hipertensión Insuficiencia cardíaca,I
+1619,Tc de Craneo,B
+1620,41 setmanes,Z
+1621,Policitemia vera,D
+1622,Amniorexis,7
+1623,PROLAPSO ÚTERO,O
+1624,Exantema viral,B
+1625,Síndrome emético,R
+1626,linfangioma quístico en apex pulmonar derecho,D
+1627,Aguas TEÑIDAS,E
+1628,ADHESIOLISIS,3
+1629,Neoplasia endometrial,C
+1630,atrofia Vagina,N
+1631,Cesárea rn,P
+1632,40 + 4 SG,Z
+1633,ne sng,3
+1634,Fibromialgia part,O
+1635,Neumonia,J
+1636,Fracaso de Inducción,O
+1637,Problema social grave,Z
+1638,histerectomia,6
+1639,Historia de AIT,Z
+1640,biopsia Colon transverso,0
+1641,desgarro vaginal grado I,O
+1642,Nefroureterectomia derecha,Z
+1643,disúria,6
+1644,ALERGIA AINES,Z
+1645,Epilepsia generalizada,G
+1646,utero septo,Q
+1647,Colelitiasi,K
+1648,Lesión vesical,N
+1649,íleo paralítico postquirurgico,5
+1650,Neoplasia de ovario,1
+1651,Claudicación intermitente,I
+1652,s. antifosfolípido,2
+1653,Hipertiroidismo,E
+1654,EXPAnSOR mama izquierda,0
+1655,GSRh:A positivo,Z
+1656,Transaminitis,R
+1657,Síndrome de intestino corto,K
+1658,G93.2,G
+1659,E16.0,E
+1660,histerectomía vaginal,0
+1661,DIARREA,R
+1662,Útero bicorne parto,O
+1663,Obeso,E
+1664,Pólipo endometrio,N
+1665,Deshidratació rn,P
+1666,V12.52,Z
+1667,SINTROM,E
+1668,retirada cateter DOBLE J IZQ,0
+1669,SÍNDROME DE HIPERESTIMULACIÓN OVÁRICA,N
+1670,diu,5
+1671,gemelar podálica,O
+1672,Charcot Marie-Tooth parto,G
+1673,Ecografía Tv:,B
+1674,fumadora part,O
+1675,Eco obst,B
+1676,ENGROSAMIENTO ENDOMETRIAL,0
+1677,Madden izq,0
+1678,Abdominalgia en gestante,O
+1679,Coxartrosis bilateral,M
+1680,hta,I
+1681,TC abd,B
+1682,peritonectomia,5
+1683,retraso psicomotor,R
+1684,anemia microcitica e hipocromica,D
+1685,válvula de derivación ventriculoperitoneal,Z
+1686,histerectomia abdominal 2,6
+1687,Sarcoidosis,M
+1688,Flutter,I
+1689,Hemodiálisis,Z
+1690,OMS bilateral,O
+1691,Episotomía,3
+1692,0 positivo,Z
+1693,SAOS,G
+1694,diabética gestacional,O
+1695,patada,7
+1696,aneurisma cerebral,I
+1697,hipercolesterolèmia,E
+1698,34,Z
+1699,pródromos,R
+1700,fibroma,8
+1701,neumonia,J
+1702,micosis fungoide,B
+1703,conizacion,0
+1704,transversa,O
+1705,Acúfenos,H
+1706,coledocolitiasi,5
+1707,estenosis Mitral,I
+1708,38sg,Z
+1709,Convulsions febrils complexes,R
+1710,hernioplastia umbilical malla,0
+1711,Bricker,V
+1712,colapso pulmonar,J
+1713,Alergia Yodo.,Z
+1714,H70.001,H
+1715,Historia de ITUs de repetición,Z
+1716,mastectomía radical modificada,8
+1717,Hipernatremia,E
+1718,historia neoplasia renal,Z
+1719,Fumadora 2t,O
+1720,SALPINGUECTOMÍA BILATERAL VIA LAPAROSCOPICA,0
+1721,Hipotiroidismo part,O
+1722,Infección urinaria,N
+1723,gastritis,K
+1724,liquido teñido,O
+1725,37 semanas,Z
+1726,hipotroidismo part,O
+1727,PTI part,O
+1728,24+6 semanas,Z
+1729,gastritis parto,O
+1730,Síndrome de Apert,Q
+1731,pneumònia bacteriana,5
+1732,FRACTURA BASICERVICAL FEMUR IZQUIERDO,S
+1733,Ecocardiograma,B
+1734,Derrame pericardico cronico,I
+1735,Listesis L4-L5.,M
+1736,Adenopatía cervical,D
+1737,bronquiolitis aguda vrs,J
+1738,Fumadora part,O
+1739,Carcinoma ductal infiltrante mtx,8
+1740,GRUP: A +,Z
+1741,qT,Z
+1742,Meningitis secuela,G
+1743,odinofagia,R
+1744,rt,3
+1745,40+1semanas,Z
+1746,Exeresis piel nasal,0
+1747,NEFROPATIA DIABETICA,E
+1748,ANEXECTOMÍA IZQUIERDA POR LAPAROSCOPIA,0
+1749,lavados gástrica,3
+1750,trasplante de córnea,Z
+1751,septoplastia endoscópica,4
+1752,Legrado Aborto,1
+1753,Presbiacúsia,H
+1754,Desgarro I.,0
+1755,hipercolesterolemia part,O
+1756,quemadura 3 mano izquierda,0
+1757,Fallo inducción,O
+1758,Portador DAI,Z
+1759,Desgarro 1,0
+1760,Hipovitaminosis D,E
+1761,Biopsia medula osea,4
+1762,HISTERECTOMÍA TOTAL laparoscopica,0
+1763,Escolisis,7
+1764,mioclonia,G
+1765,retenció urinària,R
+1766,linfadenectomía paraaórtica,4
+1767,Hipotiroidismo getacional,O
+1768,Diverticulosis sigmoidea,K
+1769,fumadora puerperio,6
+1770,Aguas meconiales,O
+1771,Desgarro grad 2,0
+1772,vaccum,1
+1773,NEOPLASIA VESICAL,C
+1774,LINFADENECTOMIA AXILAR IZDA,0
+1775,leucocitosi part,D
+1776,rectorragia,K
+1777,ASMA parto,O
+1778,trapezectomia izq,0
+1779,Hipertension parto,O
+1780,PARTO,O
+1781,antiobioterapia,3
+1782,H. hiato,K
+1783,aborto completo,O
+1784,Enteritis rádica,M
+1785,rao posparto,O
+1786,Osteopenia,M
+1787,Vacuna,3
+1788,Rosácea parto,L
+1789,esclerosis múltiple parto,G
+1790,miopia parto,H
+1791,anèmia 2t,D
+1792,Anemia pp,O
+1793,hashimoto parto,O
+1794,TAC craneofacial,B
+1795,Sd nefrótico,N
+1796,hiperkalemia,E
+1797,Estenosis esofágica,K
+1798,HISTEROSCOPIA QUIRURGICA,0
+1799,INHIBICIÓN DE LA LACTANCIA,O
+1800,LEGRADO OBSTÉTRICO,1
+1801,38+4 semanas,Z
+1802,TRASTORN DEPRESSIU,F
+1803,stent fármacoactivo,Z
+1804,parto 41 semanas rn,P
+1805,GsrH A positivo,Z
+1806,Hallux Valgus pie izquierdo,M
+1807,pieloplastia,5
+1808,ne sng,3
+1809,Alopecia androgénica,L
+1810,hipotiroidismo part,O
+1811,FIV,Z
+1812,Síndrome metabólico parto,O
+1813,Insuficiencia Renal Crónica estadio III,N
+1814,Alergia Tinte,Z
+1815,Desgarro perineal de 1º grado,O
+1816,Rx toraco abdominal,B
+1817,8 sg,Z
+1818,Hipotiroidismo Parto,O
+1819,25 sem,Z
+1820,enteropatía,K
+1821,itu part,O
+1822,feto,6
+1823,deshidratada,E
+1824,27 semnaas,Z
+1825,enfermedad de dos vasos,I
+1826,ESTERILIZACIÓN,Z
+1827,Miopia magna parto,H
+1828,G12.0,G
+1829,Pirazolonas,Z
+1830,SAG positivo,O
+1831,Reposición hidroelectrolítica,3
+1832,tumorectomia mama d,0
+1833,Colitis ulcerosa parto,O
+1834,absceso de glándula de bartholino,N
+1835,Metrorragia III trimestre,O
+1836,Alzheimer,F
+1837,HTA gestacional parto,6
+1838,Biopsia hepática,0
+1839,:A positivo,Z
+1840,ligadura tubárica,V
+1841,punción folicular,0
+1842,les parto,Z
+1843,FORAMINOTOMÍA,0
+1844,Desgarro: II,O
+1845,adrenalina IM,3
+1846,historia linfoma,Z
+1847,Déficit vit B12 part,O
+1848,S. agalactiae,B
+1849,absceso vulvar,N
+1850,itu posparto,N
+1851,Epilepsia focal parto,G
+1852,0 Positivo,Z
+1853,HTA. ERC icc,I
+1854,HTA iRC 5 icc,I
+1855,salpinguectomia geu izq lap,6
+1856,Hipertensión IRC,I
+1857,déficit factor XIII parto,D
+1858,"Fallida respiratòria aguda, amb hipòxia",5
+1859,déficit de Acil-CoA deshidrogenasa de cadena media,E
+1860,asma parto,O
+1861,dehiscencia herida,T
+1862,CONIZACIÓN CERVICAL CON ASA DE DIATERMIA,0
+1863,Megaurèter,1
+1864,rcfi radio izquierdo,0
+1865,Nasofibrolaringoscopia,3
+1866,Una circular,O
+1867,Institucionalizada,Z
+1868,Adenoflegmo,8
+1869,Epicondilitis,M
+1870,penicilina,V
+1871,Cefalea crónica,R
+1872,distócico 2,O
+1873,fluidoterapia,3
+1874,desproporción pelvico cefálica,O
+1875,Miomectomía por laparoscopia,0
+1876,Miocardiopatia,I
+1877,Antibiótico,3
+1878,PTR rodilla derecha,Z
+1879,GC,4
+1880,CMV,B
+1881,MASTECTOMÍA IZQUIERDA,0
+1882,ANEXECTOMÍA DERECHA lap,0
+1883,Grupo y Rh materno: A +,Z
+1884,Abdominalgia inespecifica,R
+1885,paladar fes,Q
+1886,ideas autolíticas,F
+1887,O positivo.,Z
+1888,gastrostomía,Z
+1889,Alergica a sulfamidas,Z
+1890,b positivo,Z
+1891,Obesitat morbida,E
+1892,Ecografia abdomina,B
+1893,fumadora puerperio,6
+1894,adhesiolisis ovari,6
+1895,Policitemia,D
+1896,Vitiligo,6
+1897,mioma anteparto,6
+1898,RPM,O
+1899,CARCINOMA DUCTAL INFILTRANTE DE MAMA DERECHA,C
+1900,vaginitis,N
+1901,foraminotomía,0
+1902,Esteatosis hepatica,K
+1903,HEMORROIDE,K
+1904,Artrosis,M
+1905,Proteus mirabilis,0
+1906,anticoagulante,V
+1907,sangrado postparto,O
+1908,Enol ocasional,F
+1909,Disfàgia orofaríngia,R
+1910,DGA1,O
+1911,Eco doppler eeii,B
+1912,fuamdora 2t,O
+1913,parto gemelos,6
+1914,Litiasis renal izquierda,N
+1915,celiaca parto,K
+1916,Historia de Carcinoma renal,Z
+1917,Acidosis,E
+1918,esófago de Barrett,K
+1919,carcinoma intraductal,8
+1920,K. Pneumoniae,B
+1921,estancamiento pondoestatural,R
+1922,SAG : Positivo,O
+1923,cataratas,H
+1924,Gammagrafía pulmon,C
+1925,Retraso de crecimiento intrauterino,O
+1926,anemia 2,D
+1927,35+2 semanas,Z
+1928,mtx ganglionar cervical,1
+1929,FRACTURAS COSTALES MÚLTIPLES IZQUIERDAS,S
+1930,colestasi,R
+1931,hipotir part,O
+1932,Escleros multiple parto,O
+1933,paraparesia,G
+1934,punción dural,0
+1935,Covid19 negativo,Z
+1936,Síndrome de Apnea-Hipopnea del Sueño grave,G
+1937,NEOPLASIA MALIGNA DE ENDOCERVIX,C
+1938,HISTERECTOMÏA TOTAL,0
+1939,accidente,E
+1940,postquimioterapia,E
+1941,poliquistosis HEPÁTICA,Q
+1942,reflujo gastro-esofágico,5
+1943,Cardiopatia isquèmica crònica,I
+1944,Hipercolesterolemia parto,E
+1945,Ferinject,3
+1946,MASTECTOMIA bilateral,0
+1947,Grupo A +,Z
+1948,bronquitis crónica,J
+1949,Transtorono de ansiedad,F
+1950,Insuficiencia renal crónica,N
+1951,Chagas parto,B
+1952,Adenomectomía retropúbica,6
+1953,Carcinoma Ductal Infiltrante,8
+1954,GS: O Rh positivo,Z
+1955,deficit proteina s part,O
+1956,reposición hidroelectrolítica,3
+1957,ca ovari,1
+1958,Hipotiroidisme part,O
+1959,RECIEN NACIDO,Z
+1960,Mioma,8
+1961,asma part,O
+1962,DIVERTICULITIS AGUDA,5
+1963,Esquizofrenia,F
+1964,hernia inguinal derecha,K
+1965,GS: B positiu,Z
+1966,ICTUS ACM IZQUIERDA,I
+1967,páncreas divisum,Q
+1968,40 + 3,Z
+1969,V50.42,Z
+1970,Epoc aguditzat,4
+1971,exfumadora,Z
+1972,carcinoma coloide,8
+1973,vulvectomia,6
+1974,Carcinoma ovario bilateral,C
+1975,Fibromas,8
+1976,derrame pericárdico,I
+1977,reside sola,Z
+1978,monorrena qx,6
+1979,40 +0 SG,Z
+1980,biopsia renal izq,0
+1981,estenosis de uretra,N
+1982,POLIPOSIS NASOSINUSAL,J
+1983,TVP femoro-poplitea izq,I
+1984,gemelar BI-BI,O
+1985,Historia de paratiroides,Z
+1986,EPILEPSIA PARCIAL,G
+1987,qt historia,Z
+1988,desgarro perineal de segundo grado,O
+1989,feto grande para edad getacional,O
+1990,Diabetes Gestacional,O
+1991,AMENAZA DE PARTO PREMATURO,O
+1992,sangre oculta en heces,R
+1993,18 sem,Z
+1994,fibroleiomioma,8
+1995,kiwi,0
+1996,linfadenectomia pélvia,4
+1997,Histerectomía vaginal,0
+1998,Colitis ulcerosa PARTO,O
+1999,DCR OI,0
+2000,cesáreas anteriores,O
+2001,Grupo sanguíneo materno: A+,Z
+2002,Colestasis gravídica,6
+2003,estafilorrafia,2
+2004,Diabetes insípida,E
+2005,GS O negativo,Z
+2006,varices posparto,O
+2007,Madre RH negativo,Z
+2008,Emfisema,J
+2009,Fibromialgia,M
+2010,EXTRACCIÓN ESSURE,1
+2011,otalgia derecha,3
+2012,trombocitopenia parto,D
+2013,ile,Z
+2014,obesidad puerperal,E
+2015,fibrilación auricular crónica,I
+2016,INSTILACIÓN PERIOPERATORIA DE MMC,3
+2017,40.5 semanas,Z
+2018,Alérgica a penicilina,Z
+2019,Metástasis pulmonar bilateral,C
+2020,salpingitis aguda,N
+2021,Oclusión intestinal,K
+2022,trasplante renal,Z
+2023,neoplasia mamaria bilateral,C
+2024,csi,0
+2025,ferinjet,8
+2026,Intolerància a la lactosa,E
+2027,HISTERECTOMIA total LAPAROSCÓPICA,0
+2028,multigravida anteparto,6
+2029,alergia polen,Z
+2030,antibiticoterapia,3
+2031,Adherencia parto,O
+2032,Canalització via perifèrica,3
+2033,Historia de traumatismo craneoencefalico,Z
+2034,Trastorno adaptativo,F
+2035,distócia,6
+2036,Desnutrici,2
+2037,Hipotiroisimo parto,O
+2038,neoplasia mamaria der,C
+2039,procidencia de cordón,O
+2040,N15.9,N
+2041,rinovirus,B
+2042,Convulsion febril,R
+2043,recién nacido,Z
+2044,TAC cerebral,B
+2045,ECO testicular,B
+2046,NST patológico,O
+2047,HISTERECTOMIA TOTAL lap,0
+2048,VIN III,D
+2049,endometriosis,N
+2050,tumorectomía mamaria derecha,0
+2051,Anorexia nerviosa parto,F
+2052,Intolerancia a la lactosa parto,O
+2053,ECO abdomen,B
+2054,Condromalacia rotuliana bilateral,M
+2055,QT,Z
+2056,obesidad anteparto,6
+2057,fractura cranial,8
+2058,Anexectomia bilateral laparoscópica,0
+2059,Rx abdomen,B
+2060,anemia macrocitica por deficit de folato,D
+2061,colon irritable parto,K
+2062,Mastitis crónica,N
+2063,cerclaje cervical,6
+2064,neoplasia de mama derecha,C
+2065,etilismo,F
+2066,DMAE,H
+2067,Charcot Marie-Tooth parto,G
+2068,weil izquierdo,0
+2069,hTA gestacional anteparto,6
+2070,esplenomegàlia,2
+2071,testes en ascensor,O
+2072,SNG,0
+2073,estenosis carotidea bilateral,I
+2074,torticollis congènita,M
+2075,Salbutamol,3
+2076,diabetes gestacional ANTEPARTO,6
+2077,Ileo paralitico qx,9
+2078,doble anexectomia lap,6
+2079,Hepatitis C crónica,B
+2080,neumonía,J
+2081,TUMORECTOMIA,0
+2082,colelitiasis,K
+2083,COVID: Negativo,Z
+2084,HERNIA UMBILICAL,K
+2085,GEU tubárico,O
+2086,asma 3t,J
+2087,hta irc,I
+2088,Ecografía cervical,B
+2089,carcinoma endometrioide,8
+2090,Colecistitis aguda colelitias,5
+2091,Cosanguinidad,Z
+2092,Fumadora parto,O
+2093,ESTENOSIS esofágica,K
+2094,Colestasis parto,O
+2095,Hipotiroidismo PARTO,O
+2096,Prolapse rectal,K
+2097,ulcus duodenal,K
+2098,Sd ansioso depresivo,F
+2099,rpbf,O
+2100,quiste paraovárico derecho,N
+2101,TPSV,4
+2102,CoV2 historia,Z
+2103,h avc,B
+2104,Cistoadenoma seroso de ovario bilateral,D
+2105,OXITÓCICA,3
+2106,poliposis nasal,J
+2107,BSGC,0
+2108,Faringitis crónica,J
+2109,DESVIACION SEPTAL,O
+2110,desgarro grado 2º,O
+2111,turbinoplastia,6
+2112,VMNI,Z
+2113,40 +6,Z
+2114,Litiasis renal parto,N
+2115,micoplasma,B
+2116,vce,B
+2117,caquexia,R
+2118,FRACASO DE INDUCCION,R
+2119,hpv,B
+2120,O2 domiciliario,Z
+2121,Sangrado pp,O
+2122,Colestasis,K
+2123,ca de endometrio,C
+2124,historia Ca mama,Z
+2125,o negativo,Z
+2126,Dexametasona,9
+2127,Mioma anteparto,6
+2128,TAC toraco,B
+2129,CIN I parto,O
+2130,Parto 41 semanas rn,P
+2131,Ferroterapia,9
+2132,Epicondilitis codo derecho,M
+2133,ASma,J
+2134,Convulsions febrils atípiques,R
+2135,MICROTIA,B
+2136,tep,O
+2137,"Trastorno Esquizoafectivo, tipo bipolar",F
+2138,Alcohol ocasional,F
+2139,cesareas anteriores,O
+2140,Hepatopatia crónica,5
+2141,Microcefàlia,Q
+2142,sifilis parto,O
+2143,epidural,3
+2144,Sobreinfección respiratoria,5
+2145,- D.Mellitus,E
+2146,Aborto tardío,6
+2147,NEOPLASIA MALIGNA DE OVARIO DERECHO,C
+2148,extraccion catarata izquierda,0
+2149,Hipertension,I
+2150,diabetes gestacional rn,P
+2151,v148,Z
+2152,itu e.coli,B
+2153,Linfadenectomía pélvica,4
+2154,Bicitopenia,D
+2155,Asma parto,J
+2156,mioma,2
+2157,urbason,3
+2158,dificultad respiratoria rn,P
+2159,TRASTORNO ANSIOSO DEPRESIVO,F
+2160,antibótica,3
+2161,prednisona,3
+2162,Divertículos duodenal,K
+2163,Dolor y distensión abdominal,R
+2164,hiperplasia benigna de próstata,N
+2165,Hipertiroidismo parto,E
+2166,hematoma en herida quirúrgica,9
+2167,Angor pectoris,4
+2168,plasma,3
+2169,maduracion pulmonar,3
+2170,Staphylococcus epidermidis,B
+2171,EA,I
+2172,anticoagulado,Z
+2173,Crisis comiciales,G
+2174,anexectomía bilateral por laparoscopia,0
+2175,acné conglobata,L
+2176,Escoliosis idiopática,M
+2177,part prematur,O
+2178,hemorroides internas,K
+2179,hiperinsulinismo congénito,E
+2180,Carcinoma Seroso,8
+2181,enterobacter cloacae,B
+2182,BAV completo,I
+2183,podàlica 1,O
+2184,herpangina,B
+2185,neuralgia del trigemino,G
+2186,Nefrolitiasis izquierda,N
+2187,Migraña con aura,G
+2188,eco doppler tsa,B
+2189,laceraciones en labios,0
+2190,Prolapso de cordon,O
+2191,tumorectomía mamam derecha,0
+2192,fumadora part,O
+2193,DRENAJE DE ABSCESO DE MAMA IZQUIERDA,0
+2194,Gardnerella vaginalis,0
+2195,historia paro cardiaco,4
+2196,Febricular part,O
+2197,lavados vesicales,3
+2198,Óbito fetal,6
+2199,Asma part,O
+2200,Alérgica a penicilinas,Z
+2201,vomitos,R
+2202,Ecografia abdominal,B
+2203,VHC+,B
+2204,Fibroadenoma mama derecha,D
+2205,Apnea Obstructiva del sueño,G
+2206,Esofagitis eosinófila,K
+2207,IM ia,I
+2208,Pseudomonas,B
+2209,Grupo A +.,Z
+2210,febre 2,R
+2211,naloxona,3
+2212,adenocarcinoma mucinoso,8
+2213,o30042,O
+2214,Miopia parto,H
+2215,Hipotiroidismo,E
+2216,Mastectomia total izq,0
+2217,linfadenectomia pelvica,4
+2218,adenitis cervical,6
+2219,hernia hiato,K
+2220,41 sem,Z
+2221,Convulsión febril tipica,R
+2222,Padres separados,Z
+2223,migraña parto,O
+2224,Broncoaspiración,5
+2225,Útero bicorne parto,O
+2226,taquicardia parto,O
+2227,Distrofia muscular de Thomsen,M
+2228,Brucelosis historia,Z
+2229,adenocarcinoma endometrial,C
+2230,Escoliosis,M
+2231,QUISTE ANEXIAL IZQUIERDO,N
+2232,Pielonefritis aguda rn,P
+2233,bronquitis rinovirus,J
+2234,parto 41 semanas,O
+2235,ABSCESO DE MAMA DERECHA,N
+2236,retinopatía diabética,E
+2237,foramen oval,Q
+2238,intubación,9
+2239,COLOSTOMÍA,Z
+2240,Traqueostomizada,V
+2241,rao posparto,O
+2242,DISLIPEMIAS,E
+2243,Moraxella catarrhalis,B
+2244,Fumadora 3T,F
+2245,linfocitosis,D
+2246,Deshidratación,E
+2247,Sinusitis maxilar izquierda,J
+2248,Broncoespasmo,J
+2249,Sindorme ansioso depresivo,F
+2250,Síndrome d'Ehlers-Danlos,Q
+2251,Adenoma adrenal derecho,D
+2252,extraccion de restos,O
+2253,Historia de Litiasi renal,Z
+2254,htp,4
+2255,Úlceras gástricas parto,O
+2256,Cifoscoliosis,M
+2257,Anti-d,3
+2258,Staphylococcus hominis,B
+2259,endometriosis parto,6
+2260,fuma,F
+2261,fallo renal agudo,N
+2262,Hemoperitoneo post punción folicular,5
+2263,Ecografía renal,B
+2264,embassament pleural,5
+2265,Anexectomía derecha lap,6
+2266,Ca de Mama Izquierda,C
+2267,síndrome de marfan,Q
+2268,CIN I,N
+2269,válvula mecanica,Z
+2270,Mastectomía bilateral,0
+2271,dolicosigma,K
+2272,HIPERTENSIÓN,I
+2273,ANEXECTOMIA BILATERAL LAPAROSCÓPICA,0
+2274,hipotiroidismo part,O
+2275,depresion parto,F
+2276,resección ileocólica,Z
+2277,celulitis eid,L
+2278,INJERTO CRESTA ILIACA,N
+2279,PNA 3t,N
+2280,Fibrilacion Auricular Paroxistica,I
+2281,ca mama der,C
+2282,Q61.4,Q
+2283,coagulopatia,D
+2284,diabetes insipida,E
+2285,Adenocarcinoma seroso,8
+2286,DOBLE SALPINGUECTOMÍA LAPAROSCÓPICA,0
+2287,Artritis psoriasica,M
+2288,Enfermedad de von Willebrand,D
+2289,CIRROSI HEPÀTICA,K
+2290,Analgésicos,3
+2291,Rosácea parto,L
+2292,biopsia selectiva de gangli sentinella,4
+2293,Obesitat mòrbida,E
+2294,covid negativo,Z
+2295,Aborto tardío,6
+2296,asma alergica,4
+2297,Colocación de malla umbilical,0
+2298,CATÉTERES DOBLE J BILATERALES,0
+2299,Trastorno ansioso-depresivo,F
+2300,ADK pròstata,C
+2301,Rpm,R
+2302,AngioTAC torácico,B
+2303,BSGC,0
+2304,arcinoma ductal infiltrante,8
+2305,Quistectomía Ovario izq laparoscopia,0
+2306,rehidratación,3
+2307,LAM,2
+2308,Insuficiencia renal aguda,N
+2309,Síndrome constitucional,R
+2310,Obesidad mórbida parto,E
+2311,ROTURA MENISCo EXTERNo rodilla izq,M
+2312,Bronquitis aguda VRS positiva,J
+2313,historia muerte neonato,V
+2314,40.2,O
+2315,facoemulsificación derecho,0
+2316,Sangrado post amigdalectomía,4
+2317,PERINEOPLASTIA,8
+2318,quiste folicular ovari,6
+2319,Enfisema pulmonar,J
+2320,implantes dentales,Z
+2321,Retirada de prótesis,V
+2322,Trabeculectomía OD,0
+2323,Recambio de expansor mama izquierda,0
+2324,Historia de AdenoCa de próstata,Z
+2325,Anemia ferropénica anteparto,2
+2326,HPL,5
+2327,Insuficiencia renal crónico estadio III,N
+2328,retención placentaria.,O
+2329,obesidad mórbida part,E
+2330,Grupo 0 NEGATIVO,Z
+2331,Bronconeumonía,J
+2332,ANEMIA PUERPERAL,D
+2333,Radiografíade tórax,B
+2334,NEFROSTOMIA IZQUIERDA,0
+2335,DISLIPÈMIA,E
+2336,Ca de mama uc,1
+2337,hipergammaglobulinemia,D
+2338,baloncesto,Y
+2339,acidosi metabòlica,E
+2340,histeroscopia quirurgia,1
+2341,Grupo materno B positivo,Z
+2342,lèrgia penicil,V
+2343,Marcapasos,V
+2344,buf sistòlic,4
+2345,metrorragia postmenopaúsica,N
+2346,Histeroscopia Quirúrgica,0
+2347,Ecografía vía urinaria,B
+2348,Tabaco parto,F
+2349,Talasemia minor part,O
+2350,Nebulización,3
+2351,síndrome ansioso-depresivo parto,O
+2352,HEPATITIS CRÓNICA VHC,B
+2353,hta irc 6 icc,N
+2354,hernia umbilical,5
+2355,Re positivos,Z
+2356,S. aureus,B
+2357,Alérgico a metamizol,Z
+2358,O2 DOMICILIARIO,3
+2359,Artropatia lumbar,M
+2360,METRORRAGIA,N
+2361,ca mama izq cse,C
+2362,Fibrilación auricular persistente,I
+2363,Artritis Reumatoide parto,M
+2364,proctitis,K
+2365,adenosis mama derecha,N
+2366,iot,E
+2367,Aborto séptico incompleto,O
+2368,Administración de QUimioterapia,9
+2369,Riesgo Social,Z
+2370,anexectomía bilateral vía laparoscópica,6
+2371,fallo de inducción.,O
+2372,38.6 semanas,Z
+2373,Grupo sanguíneo 0 Rh positivo,Z
+2374,deshidratación,E
+2375,Alergías alimentos,Z
+2376,Celiaquía part,K
+2377,fuamdora parto,F
+2378,Deficit de factor VII,D
+2379,Pneumònia,J
+2380,Paraplejia,G
+2381,sangrado post quirurgico,9
+2382,quiste ovario der,N
+2383,Electromiograma,8
+2384,HBA,I
+2385,Trastorno esquizoafectivo bipolar,F
+2386,Pseudoartosis de escafoides derecho,M
+2387,migraña part,O
+2388,Alérgica a Dexketoprofeno,Z
+2389,residencia,E
+2390,Atrofia renal,N
+2391,alergia aas,Z
+2392,Microlitiasis renales,N
+2393,expansor MAMA IZQUIERDA,0
+2394,obesidad parto,Z
+2395,Hipertiroidismo parto,E
+2396,Tía materna cáncer de mama,Z
+2397,CATARATA OI,H
+2398,piometra,6
+2399,39 +0 semanas,Z
+2400,Alergias medicamentosas: Nolotil,Z
+2401,A .: NEGATIVO,Z
+2402,Hipoparatiroidismo parto,O
+2403,Desgarro grado 1,0
+2404,Intolerància osteosíntesi,V
+2405,Tiroiditis de Hashimoto,E
+2406,Histerectomía,6
+2407,Hipertrigliceridemia,E
+2408,mola parcial,O
+2409,Metrorragia post-parto,6
+2410,Pleurodesis,V
+2411,cmv,1
+2412,Quiste de Bartholino,N
+2413,Insuficiencia tricuspidea,I
+2414,asma part,O
+2415,Feto muerto anteparto,6
+2416,Versión cefálica externa,O
+2417,Corioamnionitis,O
+2418,vrs,B
+2419,antibioticos,3
+2420,anemia posparto,O
+2421,QUISTE SEBÁCEO,N
+2422,vertigo posicional,H
+2423,BGN,B
+2424,LINFADENECTOMIA PARAAÓRTICA,0
+2425,Celiaquia parto,K
+2426,ptr bialteral,Z
+2427,soplo sistólico,R
+2428,Cesárea iterativa,O
+2429,Hernia inguinal derecha incarcerada,K
+2430,migrañas part,O
+2431,Ex fumadora,Z
+2432,TORACOCENTESIS,0
+2433,vm 1,5
+2434,GEU derecho,O
+2435,lc 13 mm,C
+2436,gonartrosis derecha,M
+2437,Obesidad PART,O
+2438,artritis,M
+2439,Sjogren parto,O
+2440,Anemia part,D
+2441,FUMADORA,F
+2442,Punción amigdalar,0
+2443,Espondilitis Anquilosante,M
+2444,LITIASIS VESICAL,N
+2445,Hipertrofia prostática benigna,N
+2446,Trauma dent,8
+2447,Hipertrofia amigdalar,4
+2448,desbridamiento pierna izquierda,0
+2449,Diabetes mellitus tipo I,E
+2450,Esofagitis grado A,K
+2451,reacción eritematosa,L
+2452,historia carcinoma basocelular,V
+2453,candidiasis vaginal parto,O
+2454,IMC 36,Z
+2455,Mioma PARTO,O
+2456,Fibril·lació auricular,I
+2457,Fimosi,6
+2458,Analgésia,3
+2459,Fiebre,R
+2460,Herpes Zoster parto,O
+2461,Fototerapia,9
+2462,Fisura anal,K
+2463,Estreñimiento,K
+2464,parálisis facial,G
+2465,cistoprostatectomía radical laparoscopica,0
+2466,Quistectomia ovario derecho,0
+2467,Malaltia inflamatoria pélvica,N
+2468,Hipertiroidismo parto,E
+2469,hepáticas,K
+2470,ITUs a repetición,Z
+2471,Cotiledón aberrante,O
+2472,desprendimiento parcial de placenta,O
+2473,pielonefritis de repetición,Z
+2474,LLA,2
+2475,Migraña,G
+2476,gestación gemelar,O
+2477,Demencia Senil,G
+2478,febril 2,R
+2479,histerectomía total lap,6
+2480,hepatomegàlia,5
+2481,SONDA NASOGASTRICA,0
+2482,micrognatia,Q
+2483,von Willebrand parto,D
+2484,Espondiloartrosis,M
+2485,ecografía renal,B
+2486,GS A +,Z
+2487,RECEPTORES DE ESTRÓGENOS: NEGATIVOS,Z
+2488,Blefaritis crónica,H
+2489,fiebre postparto,O
+2490,34+1 semanas,Z
+2491,bacterioides fragilis,0
+2492,gestación gemelar bicorial biamniótica,O
+2493,Hipertensión arterial irc,4
+2494,Historia de TROMBOFLEBITIS,Z
+2495,obesidad parto,Z
+2496,coartacio aortica,V
+2497,metrorragia postmenopausia,N
+2498,faringoscopia,4
+2499,anemia ferropénica part,O
+2500,ESTENOSIS LUMBosacra,M
+2501,Alergica a Ibuprofeno,Z
+2502,atelectàsia,5
+2503,linfadenectomia axilar izda,4
+2504,GsRH: O positivo,Z
+2505,VARÓN,Z
+2506,Protrusión discal,7
+2507,Linfadenectomia pélvica,4
+2508,TC abdominal,B
+2509,parkinson,G
+2510,restes ovulars,O
+2511,ADENOCARCINOMA MUCINOSO,8
+2512,Nòduls pulmonars migratorios,J
+2513,aLÈRGIES AINEs,Z
+2514,hmd,4
+2515,amniocentesi,1
+2516,HIPERTROFIA ADENOAMIGDALAR,N
+2517,A POSITIVO,Z
+2518,Bronquitis VRS,J
+2519,Adenopatías laterocervicales,R
+2520,Silla de ruedas,Z
+2521,Alergia a Penicilinas,Z
+2522,Cáncer de mama bilateral,C
+2523,Nefrectomía radical dreta laparoscópia,0
+2524,GSRH: O (+),Z
+2525,HIPOACUSIA,H
+2526,40+1 semanas,Z
+2527,MIELOPATÍA CERVICAL,M
+2528,Urocultivo,N
+2529,Útero miomatoso,D
+2530,Fibrilació auricular,4
+2531,parto estacionado,O
+2532,Gestación ectopica,O
+2533,Parto,6
+2534,Síndrome Ansioso- Depresivo,F
+2535,fuma parto,O
+2536,LINFADENECTOMÍA PARA-AÓRTICA,0
+2537,Hellp,O
+2538,presentación de pie,7
+2539,Cesárea anterior,O
+2540,hta ICC,I
+2541,GS: O (+),Z
+2542,MACROSOMÍA FETAL,0
+2543,Cancer de mama,1
+2544,Deterioro de la función renal,N
+2545,IRenal crónica,5
+2546,Espondilitis anquilosante,M
+2547,IMC 37,Z
+2548,miomatosis uterina,6
+2549,PCR-SARS-COV-2: negativo,Z
+2550,GS 0 Positivo,Z
+2551,Grupo sanguíneo materno: 0 rh positivo,Z
+2552,Palpitaciones,R
+2553,hemihipoestesia,G
+2554,Paràlisi cerebral,3
+2555,metrorragias,6
+2556,Trastorno depresivo/adaptativo,F
+2557,quiste seroso ovárico derecho,N
+2558,ANEXECTOMÍA BILATERAL lap,0
+2559,ECOGRAFÍA DE ABDOMEN,B
+2560,radiografa cadera izquierda,B
+2561,Parche hemático,3
+2562,cefalea postpunción dural,G
+2563,utero miomatoso,D
+2564,insuficiencia renal aguda,N
+2565,Ecografía : Feto,B
+2566,Bradicardia fetal,O
+2567,anemia postparto,O
+2568,bronquiolitis VRS positiva,J
+2569,Enfisema centrolobulillar,J
+2570,Gestación BC/BA,O
+2571,cambio de sonda de gastrostomía,V
+2572,MIOMECTOMIA POR LAPAROSCOPIA,0
+2573,pérdida de consciencia,R
+2574,Amniorrexis: artificial,O
+2575,hipertrigliceridemia,E
+2576,hipertrofia miometrial difusa,I
+2577,Grupo sanguíneo materno AB+,Z
+2578,Hipertensión arterial,I
+2579,Sangrado postconización,N
+2580,strip II grado,O
+2581,nasofibrolaringoscopia,3
+2582,VIH,Z
+2583,VHB,B
+2584,Síndrome intestino irritable,K
+2585,proteïnúria,R
+2586,Diabetes mellitus I,E
+2587,Histerectomía total,0
+2588,polipo endometrio,6
+2589,CARCINOMA INTRADUCTAL,8
+2590,ecografia torácica,B
+2591,Hipercalciuria,E
+2592,GS: O +,Z
+2593,ECO gemelos 2t,B
+2594,41 +4 semanas,Z
+2595,EMESIS GRAVIDICA,O
+2596,accidente de moto,E
+2597,mtx adk,8
+2598,Esofagitis eosinofilia,K
+2599,Dolor toràcic no especificat,R
+2600,MICROCIRUGIA LARINGEA,0
+2601,Rotura uterina PARTO,O
+2602,Virus hepatitis B,B
+2603,colelitiasis,K
+2604,770.89,R
+2605,Nódulos tiroideos,E
+2606,distocia de rotación,O
+2607,Hipotiroïdisme,E
+2608,Sepsis,R
+2609,HipotiroidiSMO PART,O
+2610,Hipopotasemia,E
+2611,sutura desgarro,0
+2612,Amniorrexis espontánea 1,O
+2613,SINUSITIS MAXILAR IZQUIERDA,N
+2614,Resonancia magnética cerebro,B
+2615,residencia,E
+2616,GEU izquierda,O
+2617,Fractura 1/3 medio Clavícula Derecha,S
+2618,anemia Puerpera,Z
+2619,om,K
+2620,intoxicación enólica,F
+2621,ILE) por trisomía,Z
+2622,deposiciones diarreicas,R
+2623,Gemelar anteparto,6
+2624,depresivo,F
+2625,salpinguectomía izquierda,0
+2626,oxigeno crónico domiciliario,Z
+2627,epiléptica tonico-clonicos,G
+2628,podalica 2,O
+2629,miomas intramurales,D
+2630,35+5 semanas,Z
+2631,ca urotelial,8
+2632,Hipertensión Insufiencia renal crónica estadio 3,N
+2633,amniorrexis espontánea,O
+2634,S.Aureus,B
+2635,deficit factor v,D
+2636,Hallux valgus der,M
+2637,Hierro,3
+2638,PTC Izquierda,Z
+2639,leucocitosi,2
+2640,cierre de gastrostomía,V
+2641,retención de membranas,O
+2642,Hernia inguinal izquierda recidivada incarcerada,K
+2643,Colecistectomía laparoscópica,5
+2644,crisis asmàtica,G
+2645,Malaltia de Crohn,5
+2646,RE positivo,V
+2647,Hipercolesterolemia,E
+2648,anexectomía izquierda 2,6
+2649,"Grupo sanguíneo: A, Rh POSITIVO",Z
+2650,Colitis ulcerosa pancolitis,K
+2651,laminectomía,0
+2652,Hipotiroididmo part,O
+2653,cpap 1,9
+2654,28 SEM,Z
+2655,GS O (+),Z
+2656,Anexectomía bilateral laparoscópica,0
+2657,hemoptisis,R
+2658,DLp,E
+2659,Disfonia,7
+2660,Urocultivo positivo,N
+2661,Rotura Prematura de Membranas 1,O
+2662,infarto placentario,O
+2663,Grupo sanguíneo materno: B Rh,Z
+2664,Anexectomía bilateral por laparoscopia,0
+2665,IAM,4
+2666,miomectomia,6
+2667,Glicemia basal alterada,R
+2668,Alergia a AINES,Z
+2669,617.0,N
+2670,Endometriosis trompa,N
+2671,BRD+HBAI,I
+2672,RTU prostática,0
+2673,varices,I
+2674,CATETERISMO ureteral IZQUIERDO,0
+2675,Policitemia Vera,2
+2676,Neurofibromatosis tipo I,Q
+2677,Desgarro II grado,0
+2678,preeclampsia gravedad,O
+2679,Alergias: parietaria,V
+2680,Radiografía abdomen,B
+2681,dislipémica,E
+2682,Microcirugia laringe,0
+2683,TC toràcica,B
+2684,Sindrome de Noonan,Q
+2685,Dispepsia,K
+2686,Adenofibroma seroso,8
+2687,cordón corto parto,O
+2688,Amputación supracondilea,Z
+2689,Rubeola : NEGATIVO,O
+2690,recambio de catéter doble j izquierdo,0
+2691,COXARTROSIS DCHA,M
+2692,rpm prematuro,O
+2693,a pòs,V
+2694,Tendinitis de Quervain,M
+2695,condiloma vagina,0
+2696,Nefrolitiasis,N
+2697,Crisis convulsivas rn,P
+2698,Glaucoma bilateral,H
+2699,granuloma,8
+2700,Polipectomía endometrial,0
+2701,Hernia discal part,O
+2702,augmentine,3
+2703,punción lumbar,0
+2704,HemIcolectomía,Z
+2705,HIPOTIROIDISMO parto,O
+2706,MAO,O
+2707,AngioTC toracico,B
+2708,Diverticulosis colónica,K
+2709,Perforación timpanica,3
+2710,Feto pequeño para edad gestacional,O
+2711,metrorràgia 2t,O
+2712,Condilomas parto,O
+2713,Bocio multinodular parto,E
+2714,traqueoscopia,3
+2715,medicamento,3
+2716,Trastorno depresivo,F
+2717,Polipnea rn,P
+2718,Trastorno autista,F
+2719,Ductus arterioso permeable,Q
+2720,fad,2
+2721,xarelto,Z
+2722,queilorrinoplàstia,6
+2723,caída por las escaleras,Y
+2724,preeclampsia grave,O
+2725,Alérgica a ibuprofeno,Z
+2726,hernioplastia inguinal bilateral,0
+2727,desgarro perineal,O
+2728,profiláctica ovario,V
+2729,cocaina parto,F
+2730,c541,C
+2731,K21.9,K
+2732,hidrocefalia,G
+2733,OLigoamnios,O
+2734,sv jose,0
+2735,Ecografía testicular,B
+2736,Ulceració vulvar,N
+2737,Anemización severa,D
+2738,Cateterismo ureteral izquierdo,0
+2739,Ecocardiografía,B
+2740,legrado obstetrico evacuador,1
+2741,Artrodesis,Z
+2742,ECO 2,B
+2743,Anemia pOSPARTO,O
+2744,nalgas,6
+2745,37+5 SEMANAS,Z
+2746,GS:AB+,Z
+2747,les parto,Z
+2748,vaginitis parto,O
+2749,Gammagrafia,8
+2750,prótesis de cadera derecha,Z
+2751,cdis,B
+2752,40 +5 semanas,Z
+2753,vòmit,R
+2754,Retirada de cerclaje cervical,0
+2755,Rx tòrax,B
+2756,Estenosis aórtica,I
+2757,IMC 46,Z
+2758,Se extrae coagulo,1
+2759,gentamicina,3
+2760,Dextrocàrdia,R
+2761,rotavirus,B
+2762,Colitis de probable etiologia infecciosa,5
+2763,Deficit acido folico,2
+2764,Esterilidad,N
+2765,EXPANSOR mama bilateral,0
+2766,Carcinoma in situ mamella,8
+2767,Trastorno de conducta,F
+2768,desgarro 1,O
+2769,multipara,6
+2770,CoVid part,O
+2771,hemofilia B parto,D
+2772,lipodistrofia,2
+2773,DM 1 parto,O
+2774,CATETER VENOSO CENTRAL,0
+2775,Gammagrafía pulmonar,C
+2776,MIOMATOSO,8
+2777,ABORTO TARDÍO,O
+2778,OSTEOPOROSI,M
+2779,Tabaquismo parto,O
+2780,Asperger,F
+2781,"Grupo sanguíneo: 0, +",Z
+2782,Legrado obstétrico evacuador,1
+2783,talassemia minor part,O
+2784,oblicua,O
+2785,Alergico a penicilina,Z
+2786,Deterioro cognitivo ligero,F
+2787,leiomiomas intramurales,D
+2788,Incontinencia fecal y urinaria,R
+2789,v12.59,Z
+2790,colitis ulcerosa,K
+2791,ALERGIA PENICILINA,V
+2792,podálica gemelos,O
+2793,re -,Z
+2794,Pneumònia NEUMOCOCO,B
+2795,PTR izq cementada,Z
+2796,diverticulosis parto,O
+2797,rectorragia post-polipectomía,K
+2798,GS AB (+),Z
+2799,Anemia feropenica,D
+2800,Migrañas con aura part,G
+2801,TAC-TAP,B
+2802,quemadura 10,T
+2803,INSUFICIENCIA AORTICA,I
+2804,Mioma part,D
+2805,Dolor toracic atipic,R
+2806,ascitis,R
+2807,Canal lumbar estrecho,M
+2808,tto,3
+2809,RE NEGATIVOS,Z
+2810,Tos,R
+2811,COLOCACIÓN DE MALLA PARA INCONTINENCIA TIPO ATOMS,Z
+2812,HIERRO IV,E
+2813,hta irc 6,N
+2814,Hipercolesterolèmia parto,E
+2815,prótesis mamaria,Z
+2816,quistes de Naboth,N
+2817,Depresion y ansiedad,F
+2818,RGE part,K
+2819,Microcefalia,Q
+2820,retraso pondoestatural 2,7
+2821,reconstrucción mamaria,8
+2822,alprazolam,3
+2823,cervix corto,6
+2824,Trastorno Adaptativo con Ansiedad,F
+2825,hta irc icc,I
+2826,Tacto rectal,0
+2827,Asma bronquial leve,J
+2828,Litiasis ureteral derecha,N
+2829,Trastorno depresivo con síntomas psicóticos,F
+2830,cefalea post punción lumbar,G
+2831,fiebre posparto,O
+2832,Adenopaties retroperitoneals,5
+2833,38.3 semanas,Z
+2834,Aplastamientos vertebrales,7
+2835,Fumador,F
+2836,deterioro cognitivo severo,F
+2837,fallo induccion,O
+2838,anexectomia esquerra lap,6
+2839,Diabetes Gestacional rn,P
+2840,Hipoacussia neurosensorial bilateral,H
+2841,bronquiolitis aguda,J
+2842,Cateterización de arteria radial izquierda,0
+2843,STC bilateral,Z
+2844,salpinguectomia,6
+2845,CPRE esfinterotomia,5
+2846,utero bicorne part,O
+2847,Papiloma intracanalicular,8
+2848,dolor abdominal,R
+2849,PRESÍNCOPES,R
+2850,Dinamica uterina,O
+2851,Desgarro grado 2,0
+2852,obstrucción carotídeo y vertebral derecho,I
+2853,DESPROPORCIÓN PELVICO-CEFÁLICA,N
+2854,mtx. ósea,1
+2855,Sd ansioso parto,O
+2856,angio tac toracico,B
+2857,HIPOTIROIDISMO 3T,O
+2858,Cardiopatia isquémica,I
+2859,laparoscópica-robótica,5
+2860,Anemia ferropenica part,D
+2861,RN vivo,V
+2862,DM anteparto,6
+2863,miomatoso,D
+2864,MALADAPTACIÓN PULMONAR,C
+2865,: 0 RH positivo,Z
+2866,Deficit de vit d,E
+2867,cst,O
+2868,Traqueomalàcia congènita,Q
+2869,i resp cronica,5
+2870,Prótesis de ambas rodillas,Z
+2871,Rinovirus,B
+2872,AFASIA,7
+2873,insuficiencia mitral,I
+2874,Circular prieta,O
+2875,ALERGIA pENICILINA,V
+2876,INSUFICIENCIA RESPIRATORIA crónica,5
+2877,tac torax,B
+2878,metástasis axilares,1
+2879,pòlips gàstrics,K
+2880,Hipogonadismo hipogonadotropo,E
+2881,tabaco,F
+2882,Rizartrosis bilateral,M
+2883,rádica,O
+2884,21 semanas,Z
+2885,historia GEU,Z
+2886,Absceso postoperatorio,9
+2887,colestasis,R
+2888,Hipotiroidismo 2t,O
+2889,hemorragia postparto,O
+2890,Preeclampsia leve.,O
+2891,diarrea crónica,R
+2892,melanoma,8
+2893,RE POSITIVO +++,Z
+2894,lactancia artificial,O
+2895,NO DESEA LACTANCIA,Z
+2896,Gestante de 40,O
+2897,TUMORECTOMÍA mama derecha,0
+2898,alergia Penicilina,Z
+2899,Escleros multiple parto,O
+2900,Anorexia nerviosa,F
+2901,ÓSEAS,C
+2902,Hipertension gestacional,O
+2903,adenoidectomia yamigdalectomia,2
+2904,Extabac,F
+2905,HISTERECTOMIA,0
+2906,cervicalgia posparto,O
+2907,Aborto incompleto,O
+2908,Urolitiasis,N
+2909,poliuria,R
+2910,IT,I
+2911,desgarro perineal de segundo grado,O
+2912,tiroiditis de Hashimoto,E
+2913,655.03,O
+2914,Hiperprolactinemia parto,E
+2915,re+,V
+2916,EA,I
+2917,Grupo sanguíneo: B positivo,Z
+2918,MIoma,8
+2919,IMC: 41,Z
+2920,sd poliglandular,D
+2921,Trastorno adaptativo parto,O
+2922,Grupo sanguíneo: 0 +,Z
+2923,MIOMA,8
+2924,Finegoldia,O
+2925,FÍSTULA DE LCR,R
+2926,Historia de SARS Cov 2,Z
+2927,ALERGICO A PENICILINA,V
+2928,Colestasis part,O
+2929,Nódulo tiroideo part,E
+2930,Dilatación pelvis renal,N
+2931,ECO TV,8
+2932,carcinoma invasivo,8
+2933,Nebulitzacions,9
+2934,Monitorizacion fetal,4
+2935,MIOMA vagina,D
+2936,alcohol parto,O
+2937,SGB+,6
+2938,CISTOPROSTATECTOMÍA RADICAL lap,0
+2939,les parto,Z
+2940,: 0 positivo,Z
+2941,exeresis piel nasal,0
+2942,Rx parrilla costal,B
+2943,anexectomia bilateral laparoscopica,6
+2944,Alergias medicamentosas: nolotil,Z
+2945,depresiva,F
+2946,Esófago de Barrett,K
+2947,itu E.faecalis,B
+2948,rpm 1,O
+2949,fracuta,1
+2950,prematuridad 1750,P
+2951,RE: positivo,Z
+2952,EEG,4
+2953,portador de DAI,Z
+2954,Apgar1,4
+2955,valvula dederivació ventriculo-peritoneal,Z
+2956,abortadora habitual,O
+2957,ENDOMETRIOSIS PROFUNDA DE OVARIO IZQUIERDO,N
+2958,hemibloqueo anterior,I
+2959,a pos,Z
+2960,12 sem,Z
+2961,Sutura vaginal,0
+2962,febril qx,R
+2963,A : NEGATIVO,Z
+2964,COLECISTECTOMÍA Lap,0
+2965,Desgarro PERINEAL II,0
+2966,anorexia nerviosa parto,F
+2967,PTR izquierda cementada,Z
+2968,ceftazidima,3
+2969,Historia de Fractrura,Z
+2970,COVID parto,O
+2971,SPBF,6
+2972,vaginosis bacteriana,6
+2973,herniorrafia inguinal derecha,0
+2974,Pirosis,7
+2975,Esteatosis hepática,K
+2976,Histerocopia quirúrgica,0
+2977,soplo inocente,R
+2978,Sd de Blackfan Diamond,Q
+2979,Amigdalitis aguda no especificada,J
+2980,tos,R
+2981,imc 41,Z
+2982,HBP,N
+2983,Hemitiroidectomia,V
+2984,ERC,N
+2985,hipotiroidismo qx part,E
+2986,ANEXECTOMIA BILATERAL LAP,0
+2987,Distimia,F
+2988,Hipotiroidismo part,O
+2989,ILE por Trisomia,O
+2990,Alergia Nolotil,Z
+2991,polimicrogiria frontal bilateral,Q
+2992,Descompensacio ascitica,R
+2993,Esofagitis eosinofílica,K
+2994,PTI part,O
+2995,herpes simple,B
+2996,Ependimoma ventriculo,2
+2997,estimulacion oxitocínica,3
+2998,bsGC,4
+2999,disfuncion renal,N
+3000,Nefropatía diabetica,E
+3001,trastorno ventilatorio restrictivo,J
+3002,Historia de Colicos renales de repetición,Z
+3003,Alergica a plantas,Z
+3004,GSRH:O positivo,Z
+3005,Artritis Reumatoide,M
+3006,febril posparto,O
+3007,Alergica AMOXICILINA,V
+3008,augmentine,3
+3009,meniscectomía derecha,0
+3010,Anemia macrocítica,D
+3011,IVE,6
+3012,trastorno ansioso depresivo,F
+3013,Mastectomia derecha,8
+3014,Hermana cáncer de mama,Z
+3015,Monorrena quirugica,V
+3016,Protesis de rodilla bilateral,Z
+3017,ca mama bilaterl,C
+3018,Tumorectomía mama bilateral,0
+3019,Sdm depresivo,F
+3020,Hipogonadismo hipergonadotropo,E
+3021,ALERGIA pirazolona,Z
+3022,eventración paraumbilical,K
+3023,Podálica,O
+3024,ABORTO INCOMPLETO,O
+3025,Ecografía obstétrica,B
+3026,neo mucinosa,8
+3027,36,Z
+3028,desgarro 1 grado,O
+3029,distensión abdominal,R
+3030,Hipoglucemias,R
+3031,ecografia obs,B
+3032,Klebsiella oxytoca,B
+3033,RX Tórax,B
+3034,pescado,E
+3035,celiaquia parto,O
+3036,Trastono adaptativo,F
+3037,Aborto tardio,6
+3038,fotofobia,R
+3039,Radiografía cervical,B
+3040,Alérgica claritromicina,Z
+3041,reflux gastroesofàgic,K
+3042,strip I,O
+3043,"GsRh, A positivo",Z
+3044,caída accidental,E
+3045,Tos ferina,O
+3046,ANEXECTOMÍA BILATERAL,0
+3047,carcinoma endometroide,8
+3048,Cataracta senil inespecificada,5
+3049,ampicilina,3
+3050,sutura vesical,0
+3051,hipertrofia endometrial,N
+3052,h Fractura,V
+3053,Asma alergica,J
+3054,Nódulo pulmonar,J
+3055,Litiasis Renal,N
+3056,Vaginosis,N
+3057,cateter arterial,0
+3058,Grupo 0 +,Z
+3059,laceración en horquilla vaginal,O
+3060,Nefrectomía radical dreta laparoscópia,0
+3061,HIDROCEFALIA OBSTRUCTIVA,N
+3062,ductus arterioso persitente,Q
+3063,"Artrosi secundària, espatlla dreta",M
+3064,Dermatitis seborreica parto,L
+3065,Corticoterapia,3
+3066,conización part,O
+3067,artropatía,M
+3068,sgb parto,O
+3069,CARCINOMA RENAL DE CÉLULAS CLARAS,C
+3070,Tumor vesical,C
+3071,seroma cesrea,O
+3072,condropatía femoralinterna grado III,M
+3073,BiPAP,9
+3074,CMV parto,O
+3075,UHN izquierda,0
+3076,METRORRAGIA POSTIVE,N
+3077,alergia a los acaros,Z
+3078,SEPTOPLASTIA,0
+3079,Rm cerebral,B
+3080,Linfadenectomia axilar derecha,0
+3081,Infección Respiratoria,J
+3082,Prematuridad 36,P
+3083,antibiótico,9
+3084,obesidad mórbida,2
+3085,RAM,Z
+3086,LT,0
+3087,absceso mamario,N
+3088,RE NEGATIVO,Z
+3089,290.3,N
+3090,SGB,6
+3091,mutacion protombina,O
+3092,Alérgica a Penicilinas,Z
+3093,Atrofia renal izquierda,N
+3094,ALERGIA A PENICILINA,V
+3095,Shock Séptico,R
+3096,Hiperglicemia,R
+3097,vídeo EEG,4
+3098,control posparto,6
+3099,embarazo cronológicamente prolongado,O
+3100,Cardiopatia isquémica,I
+3101,Discopatía degenerativa L5-S1,M
+3102,tce sin pc,P
+3103,Hemofilia,D
+3104,Disfagia,R
+3105,GS O rh positivo,Z
+3106,insuficiencia cardiaca biventricular,I
+3107,Bradicardia sinusal,R
+3108,Polipectomia mediante histeroscopia quirúrgica,0
+3109,Asma parto,J
+3110,Fiebre rn,P
+3111,arritmia benigna,I
+3112,Gonartrosis D,M
+3113,MIOMA anteparto,6
+3114,661.43,N
+3115,Amenorrea: 41,Z
+3116,Protesis de cadera dcha .,Z
+3117,Talla baja,R
+3118,bipolar,F
+3119,H11.001,H
+3120,radiografia rodilla bilateral,B
+3121,ictericia neonatal,P
+3122,HTA irc 3b,I
+3123,Sincope,R
+3124,duodenoscopia,0
+3125,espondiloartrosis lumbar,M
+3126,Quimioterapia,Z
+3127,sonda vesical,0
+3128,sangrado posparto,O
+3129,Traqueotomía,0
+3130,asma anteparto,6
+3131,doble J derecho,0
+3132,HBP,N
+3133,barrera idiomática,Z
+3134,Diástasis de recto,K
+3135,miomas part,D
+3136,desgarro 3 grado,O
+3137,RM medular,B
+3138,CDI MD,C
+3139,Ligadura tubarica,Z
+3140,anemia microcítica e hipocromica,D
+3141,escoliosis parto,O
+3142,Radiografía de tórax y abdomen,B
+3143,Anemia ferropenica part,D
+3144,anemia ferropenica parto,D
+3145,multirresistente,V
+3146,CISTOADENOMA SEROSO,8
+3147,NACO,Z
+3148,Vertigen i mareig,R
+3149,laringitis,4
+3150,Cirrosis hepática,K
+3151,quistectomia ovarica lap,6
+3152,S. Aureus,B
+3153,port a cath,8
+3154,Diabetes Gestacional,O
+3155,Apneas del sueño,G
+3156,hipomagnesemia,E
+3157,Escoliosis lumbar,M
+3158,sutura episiotomia,0
+3159,"Grupo sanguíneo: O, Rh: POSITIVO",Z
+3160,Nódulo pulmonar,J
+3161,Neutropenia,D
+3162,CISTOPROSTATECTOMÍA RADICAL lap,0
+3163,Aborto,6
+3164,ecografia cadera izq,B
+3165,ein,4
+3166,Aminiocentesis,1
+3167,Transfusión de 1 CH,3
+3168,MC/BA,O
+3169,onfalitis rn,P
+3170,Amenaça part prematur,O
+3171,cicatricial,L
+3172,Hematoma de pared abdominal,R
+3173,salpinguectomía bilateral laparoscópica,0
+3174,dermatitis dishidrótica,L
+3175,Metrorragia anemizante,N
+3176,distonía larínge,G
+3177,hipotiroidisme part,O
+3178,Madden izquierda,0
+3179,III plano OA,M
+3180,TC CEREBRO SIN/CON CONTRASTE,B
+3181,tumoración,8
+3182,Colitis ulcerosa,K
+3183,gastritis crónica part,O
+3184,Hemangioma hepático,2
+3185,Gastritis crónica,K
+3186,MIGRANYA,G
+3187,mareos,R
+3188,Lupus eritematoso sistémico,L
+3189,Psoriasis,L
+3190,Down,Q
+3191,Hipertrigliceridemia parto,O
+3192,Tumorectomía mama derecha.,0
+3193,herniorrafia umbilical,5
+3194,oxígeno,9
+3195,Incidentaloma suprarrenal izquierda,D
+3196,Retención placentaria,O
+3197,Anexectomía derecha laparoscopia,0
+3198,Cva,V
+3199,levetiracetam,3
+3200,Hemicolectomia,Z
+3201,ca Mama izquierda,C
+3202,rinitis,4
+3203,Ca.endometrio,C
+3204,57.22,I
+3205,TRISOMIA,0
+3206,deposiciones líquidas,R
+3207,Dostinex,3
+3208,Se administra gammaglobulina anti D,3
+3209,TC-toracoabdominal,B
+3210,Déficit Proteína S parto,D
+3211,cistectomía radical lap,0
+3212,Absceso tuboovarico,N
+3213,RESTOS PLACENTARIOS,O
+3214,VASECTOMIA,Z
+3215,Miocardiopatía dilatada isquémica,I
+3216,Desgarros I grado,O
+3217,hta irc 4,I
+3218,ceftriaxona,3
+3219,Nefrocalcinosis,N
+3220,obesidad morbida parto,Z
+3221,DOBLE ANEXECTOMÍA,0
+3222,Riñón en herradura,Q
+3223,Podálica anteparto,6
+3224,historia de neumonias,Z
+3225,ca mama bialteral,C
+3226,disartria,R
+3227,amigdalectomía,2
+3228,Depresión mayor,F
+3229,HIPERACTIVIDAD VESICAL,N
+3230,CIN 1 parto,O
+3231,queratocono,H
+3232,Anemia de transtornos crónicos,D
+3233,Adherencias part,O
+3234,DA lap,0
+3235,Crohn parto,K
+3236,hallux valgus bilateral,M
+3237,arteria umbilical única,Q
+3238,SOP parto,E
+3239,mioma subseroso part,D
+3240,endometritis aguda,N
+3241,DA,0
+3242,estenosis laringea,Q
+3243,Déficit factor VII parto,D
+3244,deficit Vit D parto,O
+3245,Migrañas PARTO,G
+3246,Radiografia de tòrax,B
+3247,angio tac torax,B
+3248,faldon abdominal,7
+3249,ECOGRAFIA TRANSVAGINAL,B
+3250,úlcera gástrica parto,O
+3251,resección gástrica,Z
+3252,Carcinoma endometrio,C
+3253,Hidrosalpinx,N
+3254,Trombosis historia,Z
+3255,COVID parto,O
+3256,Leucemia linfoide aguda,2
+3257,Reflux gastroesofàgic,K
+3258,ca Mama bilateral,C
+3259,Colestasis gravídica part,O
+3260,"Contusió de pulmó, bilateral",Q
+3261,Síndrome depresivo mayor,F
+3262,coma,R
+3263,Retención de DIU,Z
+3264,Fibriliación auricular,I
+3265,cigarrillos,3
+3266,historia ait,Z
+3267,antibiótcio,3
+3268,FIBROMA,8
+3269,parkinsonismo vascular,G
+3270,Gen Protrombina part,O
+3271,edoxaban,Z
+3272,ECOGRAFÍA UROLÓGICA,B
+3273,PARACETAMOL,3
+3274,IMC 29,V
+3275,Rinitis perenne,J
+3276,Leucopenia neonatal,D
+3277,LITIAIS RENAL,N
+3278,cordon largo,O
+3279,V15.82,Z
+3280,Quiste Hemorrágico Derecho,K
+3281,LITIASIS RENAL,N
+3282,Migrañas con aura part,G
+3283,obesidad mórbida part,E
+3284,quiste sacro,7
+3285,ANTIBIÓTICA,3
+3286,carcinoma seroso de alto grado,8
+3287,cesrea,1
+3288,ostoporosis,M
+3289,enfermedad pélvica inflamatoria,N
+3290,pàrt,V
+3291,diverticulosis sigmoidea,K
+3292,PCR COVID: NEGATIVO,Z
+3293,NO PROGRESIÓN DE PARTO,O
+3294,Neoplasia urotelial,8
+3295,Hipoacusia neurosensorial derecha,H
+3296,trastorno adaptativo,F
+3297,estreñimiento,K
+3298,Polimicrogiria,7
+3299,déficit factor VIII,D
+3300,Dermatitis Atópica parto,L
+3301,Anorexia nerviosa parto,F
+3302,Colonoscopia,4
+3303,SPECT cerebro,B
+3304,nefropatía IgA.,N
+3305,Carcinoma invasivo,8
+3306,historia Ictus iquémico,V
+3307,biopsia Mama derecha,0
+3308,Coriamnionitis anteparto,6
+3309,INSUFICIENCIA MITRAL,I
+3310,historia Pólipo colon,Z
+3311,Alergia a metamizol,Z
+3312,Mioma utero,D
+3313,Radiografía de torax,B
+3314,Ansiedad,F
+3315,Hernia hiato,K
+3316,historia RETINOBLASTOMA,Z
+3317,tea,G
+3318,TAC torácico,B
+3319,doble anexectomía,6
+3320,36 semanas,Z
+3321,Historia de Guillain-Barré,Z
+3322,estenosis aci,4
+3323,Biopsia cervical:,0
+3324,atelectasia,J
+3325,CÓLICO RENAL DERECHO,N
+3326,SGB POSITIVO,6
+3327,poliposis colonica,K
+3328,insuficiencia venosa parto,O
+3329,dolor abdominal anteparto,6
+3330,endometriomas ováricos,6
+3331,LINFADENECTOMIA AXILAR,0
+3332,distocia de hombros,6
+3333,IC descompensada,I
+3334,Gentamicina,3
+3335,Alérgico a clindamicina,Z
+3336,Hipertensión intracraneal idiopática,G
+3337,quiste renal,N
+3338,ovario poliquístico parto,O
+3339,legrado obstétrico evacuador,1
+3340,Luxación congénita de cadera,7
+3341,cdi mtx,8
+3342,celiaquía part,K
+3343,ITU de repetición parto,O
+3344,reba,O
+3345,sarcoidosis parto,O
+3346,colecistectomía laparoscópica,5
+3347,depresivo,F
+3348,hepatica,5
+3349,Litiaisi renal,5
+3350,Amputación supracondilea izquierda,0
+3351,Otitis mitjana aguda,H
+3352,quistes hepáticos,K
+3353,RM dorsal,B
+3354,Mastectomía izquierda,0
+3355,Amenaza de aborto,O
+3356,"GRUPO SANGUINEO B, Rh Positivo",Z
+3357,Grupo sanguineo 0+,Z
+3358,cdis mama der,0
+3359,Urticaria crónica,L
+3360,Historia de stent,Z
+3361,candidiasis vaginal part,O
+3362,Criptorquídia esquerra,M
+3363,Quiste simplerenal,N
+3364,cortis,E
+3365,sutura vagina,0
+3366,SCA,4
+3367,Klebsiella pneumoniae,B
+3368,ex-Pretermino,V
+3369,COXATROSIS DERECHA,M
+3370,Enfermedad de Steinert,G
+3371,laceracion en labio,0
+3372,biopsias colón,4
+3373,DPC,O
+3374,Puérpera,Z
+3375,dematitis atópica parto,L
+3376,Adherencias parto,O
+3377,amigdalitis a repetición,J
+3378,Lumbalgia parto,M
+3379,Asma,4
+3380,Adenoflemón,C
+3381,nefrectomía parcial izquierda laparoscópica,0
+3382,fiebre rn,P
+3383,retinopatia diabetica,E
+3384,carcinoma urotelial papilar,8
+3385,v5041,Z
+3386,Ulcera duodenal,K
+3387,alfa-talassemia part,O
+3388,Enolismo,F
+3389,mordedura de perro,T
+3390,35 sem,Z
+3391,hernioplastia umbilical con colocación de malla,0
+3392,c61,C
+3393,bulimia nerviosa parto,F
+3394,Ca endometri,C
+3395,PTR izqda,Z
+3396,33,Z
+3397,"E.Coli,",B
+3398,Neumonia COVID parto,O
+3399,ligadura tubárica derecha,0
+3400,recambio de Expansor,8
+3401,ITU,N
+3402,Radiografía de Abdomen,B
+3403,Retención de placenta,O
+3404,Quilotórax,N
+3405,Sínd Lynch,Z
+3406,Ca. epidermoide,8
+3407,fibrilación auricular permanente,I
+3408,Bulimia nerviosa parto,O
+3409,Tabac part,O
+3410,covid parto,O
+3411,Micosis fungoide,B
+3412,279.06,R
+3413,Transtorno ansioso-depresivo,F
+3414,depresion,F
+3415,anemia puerperal,O
+3416,multipara añosa,6
+3417,glaucoma,H
+3418,BOCIO INTRATORÁCICO,3
+3419,Sind. mielodisplasico,2
+3420,Esferocitosis congénita,D
+3421,65501,O
+3422,obesitat 3t,Z
+3423,neumotórax rn,P
+3424,cesáre,1
+3425,Varices pélvicas,I
+3426,lavado gástrico,3
+3427,Alteración visual,H
+3428,marcapàs,Z
+3429,Fumadora part,O
+3430,ile por trisomía,Z
+3431,extracción manual placentaria,O
+3432,bronquiectasia,4
+3433,DA laparoscópica,0
+3434,diabetes mellitus tipo 1,E
+3435,anti-D jose,O
+3436,Sobrepeso parto,E
+3437,Fibrosis quística,2
+3438,Hipotiroidisimo part,O
+3439,diverticulitis,5
+3440,Desgarro vaginales,0
+3441,recambio de catéter doble j izquierdo,0
+3442,Psoriasis part,L
+3443,Glaucoma,H
+3444,VULVECTOMÍA RADICAL,0
+3445,HISTERECTOMIA total LAPAROSCÓPICA,0
+3446,Anemia ferropenica part,D
+3447,Ex-prematura,V
+3448,Insuficiencia cardiaca,I
+3449,anexectomía bilateral por Laparoscopia,0
+3450,Insuficiencia Mitral parto,I
+3451,Hiperreactvidad bronquial,J
+3452,dinamica uterina irregular,O
+3453,cirugia profilactica ovario,V
+3454,"Desgarro I ,",0
+3455,ciclo de quimioterapia,Z
+3456,diazepam,3
+3457,VM 3,9
+3458,FPI,J
+3459,alergia contrastes yodados,Z
+3460,oxitocinica,3
+3461,desgarro grado 1.,O
+3462,retencion placentaria,O
+3463,microangiopatía trombótica,I
+3464,Bloqueo av 1 grado,I
+3465,Historia de quimio,Z
+3466,"Grupo sanguíneo A, Rh negativo",Z
+3467,IC,I
+3468,DESNUTRICIÓN,E
+3469,cistectomía radical laparoscópica,0
+3470,Hipertensión arterial -Insuficienta renal crónica,I
+3471,cin 1 parto,N
+3472,prolactinoma,8
+3473,Drenaje torácico,3
+3474,histerectomia lap,6
+3475,malformación arteriovenosa cerebral,Q
+3476,Annexectomia dreta,0
+3477,celiaca parto,K
+3478,Historia de tromboflebitis,Z
+3479,circuncision,0
+3480,sindrome Nefrotico,N
+3481,Pólipos endometriales,N
+3482,Urticaria,L
+3483,Pielonefritis Aguda,5
+3484,rn mort,Z
+3485,O30.032,O
+3486,amenorrea primaria,6
+3487,Hernia discal L5-S1,M
+3488,podalica 2,O
+3489,antibiotico,9
+3490,aneurisma de aorta torácica ascendente,I
+3491,histerectomía lap,6
+3492,teratoma ovario izq,D
+3493,Histerectomía total abd,0
+3494,ca mama izqu,C
+3495,OSTEOPENIA,D
+3496,desgarro vaginal,O
+3497,Úlcera estómago,K
+3498,acalasia,4
+3499,Limfadenectomia axilar,4
+3500,Sindrome depresivo,F
+3501,sincope,R
+3502,anticoagulació,Z
+3503,gastritis crónica atrófica,K
+3504,Prótesis de cadera izquierda,Z
+3505,Flemo parafaringi,4
+3506,prótesis mano derecha,Z
+3507,hiperprolactinemia,E
+3508,salpinguectomía geu izq lap,6
+3509,Oxigenoteràpia,9
+3510,rciu anteparto,6
+3511,hepatoblastoma,1
+3512,pesario cervical,6
+3513,Quist esplènic,I
+3514,deficit factor VII parto,D
+3515,discopatía degenerativa lumbar,M
+3516,alergias: níquel,Z
+3517,NEOPLASIA VESICAL cara lateral,C
+3518,Induccion médica de parto,O
+3519,endometriosis ovario,N
+3520,Mtx hepáticas,1
+3521,Bulbitis erosiva,4
+3522,RTU-Vesical,0
+3523,Adherencias pélvicas,K
+3524,Abdominalgia,R
+3525,RX de pelvis,B
+3526,Nefrostomía percutánea derecha,0
+3527,Grupo sanguíneo materno: O Rh: Positivo,Z
+3528,BOLSA ROTA,O
+3529,diabética,E
+3530,Hernias lumbares,M
+3531,DOLOR PÉLVICO CRÓNICO,R
+3532,recambio de expansor,8
+3533,TAC abd,B
+3534,carcinoma papilar tiroides,C
+3535,GsRh; O positivo,Z
+3536,Enfermedad Behcet,M
+3537,vía pública,Y
+3538,degeneración lumbar,M
+3539,mareo,R
+3540,EXTRACCION MANUAL placenta,1
+3541,Antibioticoterapia,9
+3542,Acidosis perinatal,O
+3543,Escoliosis part,O
+3544,sospecha de pérdida de bienestar fetal,6
+3545,S.aureus,B
+3546,HISTORIA PERSONAL DE QUIMIOTERAPIA ANTINEOPLASICA,Z
+3547,Cefalea migrañosa,G
+3548,345.00,I
+3549,accidnet d,O
+3550,inhibicion lactea,O
+3551,Síndrome adherencial,K
+3552,Cardiopatía fetal,O
+3553,obesidad exógena,E
+3554,Vitíligo,2
+3555,perineorrafia,0
+3556,lloc,E
+3557,gemelar monocorial biamniotico,O
+3558,Pólipo endometrial,N
+3559,grietas pezon posparto,O
+3560,Déficit neurológico,R
+3561,infeccion ptc,5
+3562,tged,8
+3563,Placenta: retenida,O
+3564,angiomas hepáticos,D
+3565,Insuficiència venosa crònica,I
+3566,Cuerpo extraño,9
+3567,Equimosis espontànies,7
+3568,Divertículosis colónica,K
+3569,no progresión del parto,O
+3570,Diabetes gestacional,O
+3571,utero bicorne,Q
+3572,Biopsia renal esq,0
+3573,Leiomiomas,D
+3574,migraña part,O
+3575,bebe alcohol,F
+3576,"Grupo A+,",Z
+3577,Hipotiroidismo quirúrgicas parto,O
+3578,preeclampsia leve,O
+3579,angina crónica estable,I
+3580,Hidrocele testicular bilateral,N
+3581,E. Coli,B
+3582,SOP PARTO,O
+3583,Síndrome ansioso-depresivo parto,O
+3584,Otitis Mitjana crónica,H
+3585,anti D jose,O
+3586,ca Mama derecha,C
+3587,Barro biliar,K
+3588,Weil,K
+3589,sialorrea,R
+3590,zika parto,O
+3591,Litiasis renal,N
+3592,Circular,O
+3593,playa,Y
+3594,psoriasis parto,L
+3595,salpinguectomía bilateral vía laparóscopica,0
+3596,Alergia al ibuprofeno,Z
+3597,incontinencia fecal,7
+3598,COLITIS ULCEROSA,K
+3599,Depresion,F
+3600,Grupo 0 POSITIVO,Z
+3601,Hipereactividad Bronquial,J
+3602,Úlcera gástrica,K
+3603,hiperaldosteronismo primario,E
+3604,Sobrepeso,E
+3605,litiasis ureteral,5
+3606,lipoma en antebrazo izquierdo,D
+3607,ecografías abdómino-renal,B
+3608,gastroscopia con biopsia,4
+3609,INSUFICIENCIA CARDIACA,I
+3610,Mastectomia tipo Madden mama derecha,0
+3611,Ansiedad y depresión,F
+3612,podalica,O
+3613,S. marcescens,B
+3614,neoplasia pancreática,C
+3615,angina de esfuerzo,4
+3616,Alteración de transaminasas,R
+3617,ELONGACION CERVICAL,O
+3618,S82.62XA,I
+3619,intolerancia gluten parto,O
+3620,Hipotiroidismo parto,E
+3621,insulina,Z
+3622,Hepatitis crónica VHC,B
+3623,colecistectomía laparoscópica,5
+3624,uretrografia retrògrada,B
+3625,anemización,D
+3626,cirrosis biliar,K
+3627,ANEXECTOMÍA IZQUIERDA,0
+3628,ADHERENCIAS,Z
+3629,Rechazo de la ingesta,R
+3630,Ureterocele congènit,N
+3631,K91.0,K
+3632,CA escamoso de cérvix,C
+3633,SAHOS,3
+3634,eco 1t,B
+3635,alergia a PENICILINA,V
+3636,Soplo cardíaco,R
+3637,Atresia esofàgica,5
+3638,Flemon dentario,5
+3639,Prurito sine materia,6
+3640,Apendicitis aguda,K
+3641,sulfonilureas,E
+3642,taquicardia parto,O
+3643,III plano OIIA,O
+3644,extrasístoles ventriculares,I
+3645,asma parto,O
+3646,Rubeola No inmune,Z
+3647,Enfisema,J
+3648,Madden izq,0
+3649,donación de médula ósea,Z
+3650,prótesis auditiva,Z
+3651,40+5 sg,Z
+3652,SINTROM,E
+3653,prematuro 2000,P
+3654,b9689,B
+3655,Ecografía transfontanelar,B
+3656,acenocumarol,V
+3657,Refluxe gastroesofàgic,K
+3658,alergia a tramadol,Z
+3659,síndrome de hiperestimulación ovárica,6
+3660,biopsiade ganglio centinela,4
+3661,hemitiroidectomía derecha,0
+3662,salpingectomía bilateral,0
+3663,75.4,N
+3664,Deficit Proteina S parto,O
+3665,cefuroxima,9
+3666,Cuadros sincopales,R
+3667,poliquistosis hepatorrenal,Q
+3668,hábito enólico,F
+3669,Trastorno obsesivo compulsivo,F
+3670,ALERGIAS: CEFUROXIMA,Z
+3671,rUBEOLA NO INMUNE,Z
+3672,Duodenitis,K
+3673,obesidad parto,Z
+3674,Grupo A+ Rh,Z
+3675,prótesis invertida de hombro derecho,0
+3676,golpe contra muro,E
+3677,gemelar monocorial biamniótica,O
+3678,Colangio - RMN,B
+3679,DISTOCIA DE HOMBROS,M
+3680,Intolerancia a la Lactosa,E
+3681,Mioma PARTO,O
+3682,excision ovario derecho lap,0
+3683,Adherencias part,O
+3684,GSRh O +.,Z
+3685,Esteatohepatitis alcoholica,5
+3686,varices pp,O
+3687,Enterococcus,B
+3688,mioma subseroso,D
+3689,Salpinguectomía geu izq lap,6
+3690,Trombectomía acm derecha,0
+3691,Rubeola NO INMUNE .,Z
+3692,Anemia carencial,D
+3693,carcinoma espinocelular,8
+3694,NEFROPATÍA DIABÉTICA,N
+3695,GS: A+,Z
+3696,desgarro grado IIIB,O
+3697,Diverticulosis coli,K
+3698,Lumbalgia crónica,M
+3699,gammaglobulina anti D,6
+3700,Miopía magna parto,H
+3701,VIH part,O
+3702,asma parto,O
+3703,adrenalina im,3
+3704,Histerectomi,6
+3705,Plaquetopenia part,D
+3706,RECONVERSIÓN A LAPAROTOMIA,Z
+3707,Carcinoma de ovario,C
+3708,Alergias: Iode-contrastos iodats,Z
+3709,aguas teñidas,O
+3710,fractura maleolo peroneal derecho,S
+3711,: B postivo,Z
+3712,Gastritis parto,K
+3713,acromioplastia izq,0
+3714,Grupo sanguineo: O (+),Z
+3715,Policitemia vera,D
+3716,Hidrosadenitis,N
+3717,Linfadenectomía axilar izquierda,0
+3718,Epilepsia focal,G
+3719,MASTECTOMÍA MAMA DERECHA,0
+3720,Dèficit psicomotor,R
+3721,lumbociatalgia,M
+3722,Impedanciometria,4
+3723,hipoglucemia dm,2
+3724,GS 0 +,Z
+3725,Hemangioma hepático,2
+3726,Herniorrafia umbilical,5
+3727,Xoc sèptic 2,R
+3728,Hipotensión qx,R
+3729,ECOGRAFÍA: Gestación gemelar,B
+3730,DTT,8
+3731,multiparidad,6
+3732,salpinguectomia derecha lap,6
+3733,enterovirus,B
+3734,Hipermetropia,H
+3735,39 semanas,Z
+3736,Fumadora PART,F
+3737,Fibromiàlgia,M
+3738,colonoscopia,5
+3739,Suero fisiològic,3
+3740,cesarea ant anteparto,6
+3741,sinusotomia frontal bilateral,0
+3742,Ex-fumadora,Z
+3743,40+3 SG,Z
+3744,Hipotiroidismo part,O
+3745,"Conjuntivitis atòpica aguda, ull no especificat",H
+3746,Alérgica a polen,Z
+3747,Esofagitis,K
+3748,Sinus pilonidal,L
+3749,migraña con aura parto,G
+3750,Quistes hepáticos,K
+3751,Prolapso de cúpula vaginal,N
+3752,Grupo sanguínea: A Rh positivo,Z
+3753,desnutrición,E
+3754,Hipertensión arterial Insuficiencia renal crónica,I
+3755,sd .constitucional,F
+3756,Obesidad mórbida part,E
+3757,dorsal ancho mama derecha,0
+3758,port-a-cath,0
+3759,desgarro iii,O
+3760,Síndrome polimalformativo,Q
+3761,dolor abdominal,R
+3762,FALTA DE PROGRESION,Z
+3763,Hipernatremia,E
+3764,DGA ANTEPARTO,6
+3765,hiperprolactinemia parto,E
+3766,metatarsalgia,M
+3767,orquiectomía izq,0
+3768,caída,E
+3769,HIV +,Z
+3770,Historia de Fractura,Z
+3771,hh,Z
+3772,SAHS SEVERO,G
+3773,E.coli,B
+3774,presentación inestable,R
+3775,Retraso psicomotor,R
+3776,ECO obstétrica,8
+3777,sondatge vesical,0
+3778,Extrasístoles ventriculares,I
+3779,TAC craneal,B
+3780,- Padres consanguíneos,Z
+3781,Adenopatía,8
+3782,Infección de herida quirúrgica,9
+3783,incontinenciaurinaria,R
+3784,Rendu-Osler,Q
+3785,Anexectomia bilateral,6
+3786,hipotiroidismo,E
+3787,HPP,O
+3788,Hipertensión arterial -Insuficienta renal crónica,I
+3789,Trombocitemia Esencial,D
+3790,Amniocentesi,6
+3791,ureterohidronefrosis izquierda,N
+3792,nebulizados,3
+3793,angiodisplasia,2
+3794,hiperhomocisteinemia,E
+3795,Incontinecia urinaria,R
+3796,vasculopatía diabetica,E
+3797,nevus melanocítico,8
+3798,IUU,O
+3799,Hipotiroidismo PARTO,O
+3800,Insuficiència mitral,I
+3801,epoc con bronquitis aguda,J
+3802,hernia umbilical malla,0
+3803,placenta previa hemorragia,O
+3804,hiperMg,O
+3805,nefrectomia,V
+3806,AC x FA paroxística,I
+3807,Grupo AB negativo,Z
+3808,nefroureterectomía izquierda laparoscópica,0
+3809,pérdida de bienestar fetal,O
+3810,cardiomegalia,4
+3811,Akin,3
+3812,o9912,O
+3813,Rubeola : NEGATIVA,Z
+3814,Otittis media aguda,H
+3815,pancreatitis crónica,K
+3816,nalga,6
+3817,Deslliurament manual de placenta,1
+3818,a.e.,O
+3819,Historia de Accidente vascular transitorio,Z
+3820,Retinopatia proliferativa,2
+3821,Hipotiroididmo part,O
+3822,GS: B positivo,Z
+3823,polipo endocervical,N
+3824,misoprostol Aborto,1
+3825,: ex fumador,Z
+3826,Oligofrenia,3
+3827,Alergia Paracetamol,Z
+3828,celiaquia part,O
+3829,EPI,6
+3830,ca in situ,8
+3831,mastectomía izquierda,0
+3832,colpoplastia anteriro,6
+3833,hta IRC 5,I
+3834,gastritis crónica antral,K
+3835,gemelar monocorial - biamniótica,O
+3836,esplenectomía,Z
+3837,: A positivo,Z
+3838,Polipo endometrial,N
+3839,alergia al Nolotil,Z
+3840,obesidad part,Z
+3841,Barrett,K
+3842,Celulitis eii,M
+3843,Plastia anterior fascial,0
+3844,bacteremia,R
+3845,Eco 2t,B
+3846,Hipovitaminosis B12.,E
+3847,EPIDIDIMITIS IZQUIERDA,M
+3848,sepsis,R
+3849,Gestación gemelar anteparto,6
+3850,Asma part,O
+3851,RMN cerebro,B
+3852,Tabaquismo,F
+3853,dolor abdominal crónico,R
+3854,strip grado II,O
+3855,Tietze,M
+3856,tto,3
+3857,furosemida,3
+3858,depresion parto,F
+3859,DESVIACIÓN SEPTAL,O
+3860,tumorectomía mama der,0
+3861,tumorectomía,8
+3862,TC de adbomen,B
+3863,Espondilolistesis,M
+3864,Desnutrición protéico-calórica,E
+3865,Historia de adenocarcinoma gástrico,Z
+3866,Infección vía urinaria,N
+3867,VHC part,B
+3868,Rpm,R
+3869,Depresión rn,P
+3870,Hipotiroidismo,E
+3871,HTA irc 6,N
+3872,ALERGIA sulfamidas,Z
+3873,Historia de Hemitiroidectomía,Z
+3874,miomas parto,D
+3875,Estat de gastrostomia,Z
+3876,transversa anteparto,6
+3877,Vive sola.,Z
+3878,estenosis L5-S1,M
+3879,nefrectomía derecha,0
+3880,Insuficiència renal aguda,5
+3881,Teratoma quístico maduro,8
+3882,Partos,O
+3883,Sdr. Del Tunel Carpiano,G
+3884,Tiroiditis parto,O
+3885,TAC toràcic,B
+3886,taponamiento nasal,3
+3887,Anemia posparto,O
+3888,carcinoma no microcítico,8
+3889,domicilio,Y
+3890,DIU,Z
+3891,itu parto,N
+3892,hipotiroidismo puerperio,E
+3893,epoc infección respiratoria,J
+3894,herida incisa cuero cabelludo,T
+3895,cesárea rn,P
+3896,demencia vascular,2
+3897,síndrome ansioso depresivo parto,O
+3898,DTT bilateral,0
+3899,Inmunoglobulinas,3
+3900,Hemangiomas hepáticos,2
+3901,Necrosis Avascular de cadera derecha,M
+3902,ILE por Trisomía,O
+3903,psoriasis guttata parto,L
+3904,síndrome ansioso depresivo part,O
+3905,migrañas,G
+3906,Epilèpsia temporal,G
+3907,resección recto,Z
+3908,Insuficiencia venosa crónica,I
+3909,Muguet oral,K
+3910,Endometriomas ováricos,N
+3911,Pneumònia bacteriana,J
+3912,PROLAPSO UTEROVAGINAL,N
+3913,salpingooforectomía bilateral,6
+3914,HTA ice,I
+3915,hta irc terminal,N
+3916,DLP,E
+3917,40+0 SEMANAS,Z
+3918,tit,Z
+3919,Quistes tiroideos,E
+3920,Biopsias vesicales,5
+3921,TIROIDITIS,E
+3922,Grupo Rh madre: A+,Z
+3923,colon irritable parto,K
+3924,Canalización de via periférica,0
+3925,pólipo endometrial.,N
+3926,Atelectásias,5
+3927,Manchester,0
+3928,Rinoconjuntivitis alérgica,H
+3929,cesárea anterior,O
+3930,Esplenectomía,Z
+3931,Mc cAll,0
+3932,intolerancia a la lactosa parto,O
+3933,fi,O
+3934,sachse,7
+3935,ibuprofeno,3
+3936,NEOPLASIA VESICAL cara laterla,C
+3937,Fumadora parto,O
+3938,RCTG NO TRANQUILIZADOR,O
+3939,parto gemelos,6
+3940,O positiv,Z
+3941,Bypass gástrico,Z
+3942,ansiedad 3t,O
+3943,CIN 2,N
+3944,Alérgica a sulfamidas,Z
+3945,Cordón largo,O
+3946,Vasa previa,O
+3947,Alergia ácaros,Z
+3948,Retard psicomotor,3
+3949,Histerctomia,6
+3950,REBA,V
+3951,Ca cérvix,C
+3952,Scarf izquierdo,0
+3953,"Grupo sanguíneo: A, Rh: NEGATIVO",Z
+3954,Legrado endometrial,0
+3955,INSTILACIÓN PREOPERATORIA DE MMC,3
+3956,Desgarro II.,0
+3957,Migraña parto,O
+3958,neumonías de repetición,Z
+3959,vejiga neurogena,N
+3960,Líquido teñido de meconio,O
+3961,multiparidad anteparto,6
+3962,Gardnerella,0
+3963,Klebsiela pneumoniae,B
+3964,Irritabilitat,R
+3965,quistes paratubárico,N
+3966,tac abdominopelvico,B
+3967,infeccion pstraumatica,9
+3968,RMN pélvica,B
+3969,anemia puerperal,O
+3970,DM 2 parto,O
+3971,Anemia parto,D
+3972,antibiótica,3
+3973,fisura anal part,O
+3974,Preeclampsia part,O
+3975,Ecografía transvaginal,B
+3976,RX ABDOMEN,B
+3977,Aborto completo,6
+3978,Cuerpo lúteo ovario izquierdo,N
+3979,Perthes,M
+3980,MIOCARDIOPATÍA HIPERTRÓFICA,I
+3981,Alergia a AMOXICILINA,V
+3982,Fistula recto vaginal,N
+3983,gea,K
+3984,HIPERLIPIDÈMIES,E
+3985,esplenomegalia,D
+3986,arritmia fetal,O
+3987,Eco ABD,8
+3988,ALERGIAS: Amoxicilina,Z
+3989,: Obito fetal,O
+3990,Apgar,4
+3991,Inhibicion de lactancia,O
+3992,ALERGIAS: METAMIZOL,Z
+3993,INFECCIÓN RESPIRATORIA AGUDA,5
+3994,Ex-enolismo severo,F
+3995,Teratoma Ovarico Derecho,D
+3996,Celestone IM,3
+3997,Asma 3t,J
+3998,colocación de PAC,V
+3999,32.5 semanas,Z
+4000,Epilepsia generalizada,G
+4001,HIPERACTIVIDAD DEL DETRUSOR,F
+4002,Vitíligo parto,O
+4003,Fumadora 3t,O
+4004,Grupo sanguíneo: A,Z
+4005,Gestación tubárica derecha,O
+4006,protusión discal L4-L5,M
+4007,Metástasis óseas,1
+4008,LTB,0
+4009,mioma,2
+4010,Cesárea ant,O
+4011,Síndrome ansioso-depresivo parto,O
+4012,Linfadenectomía axilar,4
+4013,PTC rodilla derecha,Z
+4014,sordomudo,E
+4015,Artritis psoriásica,M
+4016,fumadora 3t,O
+4017,Biopsia Renal,5
+4018,Insuficia renal crónica,5
+4019,Lumbociatalgia,M
+4020,Apendicectomia incidental,4
+4021,hta ice,I
+4022,Fiebre puerperal,O
+4023,Carcinoma tubular,8
+4024,Adenocarcinoma in situ,8
+4025,quiste sebáceo,L
+4026,ILE por Trisomia 21,O
+4027,Historia de COVID19,Z
+4028,fibroadenoma,8
+4029,Anexectomía bilateral LAPAROSCOPIA,0
+4030,Leiomioma uterino intramural,D
+4031,CIN 1 parto,O
+4032,cistoprostatectomía,Z
+4033,mtx pulmona,1
+4034,.Mellitus,E
+4035,mastectomía bilateral,0
+4036,Agenesia renal derecha,Q
+4037,Desgarro de segundo grado,O
+4038,Urticaria crónica parto,L
+4039,Ingesta accidental de cáustico,T
+4040,pna,B
+4041,CARCINOMA EPIDERMOIDE,8
+4042,anexectomía bilateral,6
+4043,"Grupo sanguíneo: O, rh: positivo",Z
+4044,Estreñimiento parto,K
+4045,INR lábil,R
+4046,Polisomnografia,4
+4047,Crisis comiciales generalizadas,G
+4048,Estenosis canal lumbar,M
+4049,GSRH O+.,Z
+4050,35+6 SEMANAS,Z
+4051,DISCECTOMÍA L4,0
+4052,quirúrgica,8
+4053,"Grupo sanguíneo O, Rh positivo",Z
+4054,Vaginosis bacteriana,N
+4055,40 + 5 semanas,Z
+4056,anquiloglosia,Q
+4057,vaginits parto,O
+4058,"O, negativo",Z
+4059,anemia parto,D
+4060,sd antifosfolipido,2
+4061,Artropatia degenerativa,M
+4062,Neumonia COVID parto,O
+4063,migrañas sin aura parto,G
+4064,acromioplastia dreta,0
+4065,mtx ganglio paraortico,1
+4066,insuf resp aguda,5
+4067,Linfadenectomia axilar,4
+4068,obsesidad,F
+4069,FACO + LIO,0
+4070,Ex-Fumadora,Z
+4071,Gastroenteritis,K
+4072,Síndrome de apnea del sueño,G
+4073,macrosóma rn,P
+4074,Insuficiencia Pancreatica,5
+4075,BSGC pélvico,0
+4076,reflux gastroesofàgic,K
+4077,Piel atópìca,O
+4078,gota,M
+4079,ALERGIA A BETALACTÁMICOS,Z
+4080,Extrasistolia Ventricular,I
+4081,absces escrotal,N
+4082,Sinusitis maxilar bilateral,J
+4083,colangioRM,B
+4084,parkinsonismo vascular,G
+4085,hiportiroidismo parto,E
+4086,Encefalopatía hepática,2
+4087,Kejlland,Z
+4088,antecedente de parto prematuro,O
+4089,HTA Enfermedad renal crónica estadio IIIA,I
+4090,sarcoidosis,2
+4091,angiomas,8
+4092,tac ABD,B
+4093,sgb,V
+4094,Macroglobulinemia de Waldestrom,D
+4095,Hipotiroidismo,E
+4096,GS:A positivo,Z
+4097,Hallux Valgus iquierdo,M
+4098,antibioterpia,3
+4099,deficit factor VII parto,D
+4100,40+4 sg,Z
+4101,endometritis aguda,N
+4102,Hipertensión gestacional,O
+4103,sincope,R
+4104,LEIOMIOMA DE UTERO,D
+4105,GSRH:O positiu,Z
+4106,HBPM,Z
+4107,desproporción pelvico fetal,O
+4108,Candidiasis vaginal parto,B
+4109,disfunción renal,N
+4110,ALERGIAS: ESTREPTOMICINA,Z
+4111,deficit Vit D parto,O
+4112,MIOMA SUBSEROSO,8
+4113,Radiografía columna lumbar,B
+4114,Tabaquismo part,O
+4115,Ileostomia,V
+4116,carcinoma de cérvix,C
+4117,Absceso de glándula de Bartholino,N
+4118,ooforectomía izquierdo,Z
+4119,Quistes hepaticos.,K
+4120,Hipertensión irc,4
+4121,Turbinoplastia,J
+4122,ligadura,0
+4123,cor pulmonale,4
+4124,Sèpsia greu,R
+4125,Hipertiroidismo part,O
+4126,Febrícula,R
+4127,canalitza via perifèrica,3
+4128,PRostatectomia,V
+4129,Gestacion ectópica tubárica,O
+4130,artrosis,M
+4131,Etilismo,6
+4132,Hipercalciuria,E
+4133,faringoamigdalitis bacteriana,4
+4134,discectomía l5-s1,0
+4135,mtx pulmonar bilateral,C
+4136,cardiopatia isquemica,I
+4137,absceso tuboovárico derecho,N
+4138,BCBA,V
+4139,antro,0
+4140,Colangio - RMN,B
+4141,ATB,9
+4142,Soplo,R
+4143,Déficit Vit D parto,O
+4144,Grupo sanguineo materno: A Rh: positivo,Z
+4145,atonia uterino pp,O
+4146,Sobreinfección respiratoria,5
+4147,polipectomía endometrial,0
+4148,HIPERLIPIDEMIA,E
+4149,Diverticulosis Colónica,K
+4150,sop parto,O
+4151,npt,V
+4152,Antibioterapia endovenosa,3
+4153,Trasplante cardíaco,Z
+4154,Infección crónica por VHC,B
+4155,atrofia pancreas,K
+4156,Historia de meninigitis,Z
+4157,HIPERTROFIA DE LAS AMIGDALAS,M
+4158,ha Ca endometrio,Z
+4159,BRI,I
+4160,Historia de QMT,Z
+4161,Se extrae coágulos,1
+4162,IMC: 37.,Z
+4163,dispepsia,K
+4164,Herpes genital part,O
+4165,40 +2,Z
+4166,Alérgica a AAS,Z
+4167,rotura artificial membranas,O
+4168,7 sem,Z
+4169,miom asubseroso,D
+4170,alergia nolotil,Z
+4171,rmn cadera,B
+4172,TABAQUISMO,I
+4173,Alergia a Clindamicina,Z
+4174,agorafobia,F
+4175,macroglòssia,2
+4176,alergia a ibuprofeno,Z
+4177,HIPERTESIÓN ARTERIAL,I
+4178,Trasplante bipulmonar,Z
+4179,Cefalea tensional,G
+4180,migrañas sin aura,G
+4181,Talasemia part,O
+4182,Claudicación intermitente,I
+4183,colocación de Port-a-Cath,8
+4184,desgarro tipo I.,O
+4185,Sagnat postamigdalectomia,6
+4186,trastorno extrapiramidal,3
+4187,Accidente laboral,E
+4188,litiasis vesical,5
+4189,DOBLE SALPINGUECTOMÍA LAPAROSCOPIA,0
+4190,Ectima gangrenoso,L
+4191,Desgarro III b,O
+4192,crisis comicial,G
+4193,Carcinoma Ductal infiltrante de mama derecha,C
+4194,TumorECTOMIA mama derecha,0
+4195,Migraña part,O
+4196,cytotec,3
+4197,biopsia ganglio,4
+4198,Historia neo renal,Z
+4199,anemia fanconi,D
+4200,Macroglòssia,Q
+4201,retencion placenta,O
+4202,condilomas part,O
+4203,inhibición de lactancia,O
+4204,intertrigo candidiásico,B
+4205,Gemelar Bicorial Biamniótica,O
+4206,DÉFICIT ÁCIDO FÓLICO,E
+4207,fuamdora,F
+4208,14 sem,Z
+4209,hipoTiroidismo part,O
+4210,Tiroidectomía,Z
+4211,DA lap,0
+4212,MALADAPTACIÓN PULMONAR rn,P
+4213,déficit leve de factor IX,D
+4214,AL.LÈRGIES Ibuprofe,Z
+4215,ictus,I
+4216,dialisis,5
+4217,CEFALEA TENSIONAL,G
+4218,AMC: penicilina,Z
+4219,endometrioma Ovario D,N
+4220,Fibrosis Quística,E
+4221,paracetamol,3
+4222,cardiopatia HTA irc,I
+4223,bronquitis aguda VRS positiva,J
+4224,Extrasístoles,I
+4225,HTA irc 2,I
+4226,Hèrnia de hiat,K
+4227,BSGC derecho,0
+4228,AE,6
+4229,Colporrafia anterior,7
+4230,Legrado obst,1
+4231,Osteopènia,7
+4232,Ex-fumador,Z
+4233,Blefaroplastia bilateral,0
+4234,nevus,8
+4235,Ansiedad / depresión,F
+4236,Debilitat,R
+4237,Hipertensión Insuficiencia cardíaca,I
+4238,Síndrome de ovario poliquístico,N
+4239,ECO TRANSVAGINAL,B
+4240,pna 3t,B
+4241,metástasis ganglio axilar,C
+4242,LUGAR,Z
+4243,COVID-19 negativos,Z
+4244,mastoplastia de aumento,8
+4245,"A , Rh: Negativo",Z
+4246,L81.5,M
+4247,Grupo sanguíneo: A Rh positivo.,Z
+4248,Alergias a Ibuprofeno,Z
+4249,ansietat,F
+4250,40+2,Z
+4251,Mastectomía de mama izquierda,0
+4252,Insulina,3
+4253,Bloqueo de rama izquierda,I
+4254,Exantema,R
+4255,Historia de Covid,Z
+4256,Polipo endocervical,N
+4257,hipotiroidismo pregestacional,O
+4258,electrocardiograma,4
+4259,Taquicardia supraventricular,I
+4260,sobrehidratación,E
+4261,"Hemorràgia retinal, ull esquerre",H
+4262,Oseltamivir,3
+4263,Adenocarcinoma endometrial de tipo endometrioide,C
+4264,Linfadenectomía pélvica derecha,0
+4265,HIPOTIR PARTO,O
+4266,trastorno ansioso-depresivo,F
+4267,cuadro adherencial,K
+4268,dinamica uterina,O
+4269,cuerpo extraño en faringe,9
+4270,Trombocitopenia rn,P
+4271,Hipertrofia prostatica,N
+4272,ha neoplasia de mama,V
+4273,trombopenia parto,D
+4274,33+2 semanas,Z
+4275,legrado Aborto,1
+4276,linfadenectomía axilar derecha,4
+4277,Alérgica a Nolotil,Z
+4278,parada cardiorespiratoria,R
+4279,Salbutamol,3
+4280,ESCOLIOSIS,M
+4281,Neoplasia epiglotis,C
+4282,inf resp,5
+4283,alcohol parto,O
+4284,Ecografía 3t gemelos,B
+4285,Carcinoma lobulillar in situ,8
+4286,infeccion herida cesárea,O
+4287,Deshidratación hipernatremica,E
+4288,EXPANSOR MAMA IZQUIERDA,0
+4289,axilares,4
+4290,sintrom,Z
+4291,strip grado I,O
+4292,ACXFA,I
+4293,Radiografia de tórax,B
+4294,Neuralgia del trigémino,G
+4295,hta irc 5,I
+4296,Anexohisterectomía,Z
+4297,sop,E
+4298,acidosi,E
+4299,bicorial/biamniótico,V
+4300,ciprofloxacina,3
+4301,incontinencia urinaria,R
+4302,túnel carpiano bilateral,G
+4303,Hipertoroidismo,E
+4304,candidas parto,O
+4305,Fibrosis pulmonar,J
+4306,KLIPPEL TRENAUNAY,0
+4307,obesidad morbida,E
+4308,adenocarcinoma in situ,8
+4309,colitis ulcerosa parto,O
+4310,perforación vesical,5
+4311,Biopsia esófago proximal,0
+4312,Diabetes mal controlada,E
+4313,carcinoma vulvar,C
+4314,Flutter auricular,I
+4315,N18.30,N
+4316,Gripe A,J
+4317,Clopidrogrel,3
+4318,prótesis mamaria bilateral,Z
+4319,HTA irc 6,N
+4320,HTA irc icc,I
+4321,adenocarcinoma de endometrio,C
+4322,ovario poliquístico parto,O
+4323,GSRh: O (+),Z
+4324,seroma de herida quirúrgica,9
+4325,Stafilococo aureus MRSA,B
+4326,Traqueostomia,V
+4327,sinusopatía crónica maxilar,4
+4328,FA paroxística,I
+4329,hta icc,I
+4330,Anemia ferropénica parto,D
+4331,Adenoma tiroide,2
+4332,hidrocele derecho,N
+4333,eventracio,5
+4334,Prolpaso uterino Cistocele,N
+4335,serumteràpia,3
+4336,ALERGIAS: AAS,Z
+4337,Rubeola no inmune,O
+4338,RTU VEJIGA,0
+4339,metrorragia postmenopáusica,N
+4340,Ferinjet,Z
+4341,Registro patológico fetal parto,O
+4342,Apendicectomia laparoscópica,0
+4343,CESAREA ant,O
+4344,Macrosomía part,O
+4345,HoLEP,0
+4346,piuria,R
+4347,hemorroides,K
+4348,Oxigeno,9
+4349,INFECCIÓN BRONQUIAL,J
+4350,FÒBIA,5
+4351,HIPOPLASIA MAXILAR,C
+4352,40+5 semana,Z
+4353,WPW,G
+4354,hta irc icc,I
+4355,ecocardiografía,B
+4356,induccción,O
+4357,cefalea,R
+4358,Extracción manual placenta,1
+4359,Migrañas sin aura parto,G
+4360,40 +2 sem,Z
+4361,ASTIGMATISMO,2
+4362,neuropatia diabetica,G
+4363,antiepilepticos,3
+4364,Trastorono de memoria,R
+4365,21+3 semanas,Z
+4366,gestación gemelar,O
+4367,Adenocarcinoma de endometrio,C
+4368,hepatitis alcóholica aguda,B
+4369,absceso pulmon,5
+4370,Celiaquia part,O
+4371,gammaglobulina anti-D,O
+4372,cortis,E
+4373,hiperPTH secundario,E
+4374,Colon irritable parto,K
+4375,Cistoadenoma seroso de ovario bilateral,D
+4376,Histerectomía total abd,0
+4377,esclerosis múltiple parto,G
+4378,TVP derecha,I
+4379,obesidad parto,Z
+4380,CIV,Q
+4381,colgajo boca,0
+4382,hematoquecia,R
+4383,GCP,O
+4384,HTA irc 6,N
+4385,Alergia acaros,Z
+4386,eco abd,B
+4387,Grupo sanguíneo:O RH Negativo,Z
+4388,Madre ca endometrio,Z
+4389,HISTERECTOMÍA VAGINAL,0
+4390,varices pélvicas,I
+4391,rituximab,3
+4392,Ecocardiografías,B
+4393,Sonda nasogástrica,0
+4394,Oh,3
+4395,: O Positivo,Z
+4396,Hallux valgus,M
+4397,Absceso de Bartholino derecho,N
+4398,Dolor epigàstric,R
+4399,Haemophilus,B
+4400,HTA irc,I
+4401,Retencion placentaria,O
+4402,neutropenia ciclica,2
+4403,caida casual,E
+4404,biopsia cervix,0
+4405,Dolor FID,R
+4406,Grupo sanguíneo materno: A positivo,Z
+4407,Evisceración de laparotomía,0
+4408,Riesgo de pérdida de bienestar fetal,O
+4409,cistectomía radical laparoscópico,0
+4410,induccion,O
+4411,Revision Manual de cavidad,0
+4412,alergia a varidasa,Z
+4413,Prematuro 1500,P
+4414,Devolvulación endoscópica,3
+4415,: O POSITIVO,Z
+4416,pesario vaginal,0
+4417,Taquicardia sinusal,R
+4418,Ecografia de tórax,B
+4419,Desgarro perineal 3 grado,O
+4420,anexectomía bilateral laparoscopica,6
+4421,quiste ovario,N
+4422,odinogafia,7
+4423,ATRESIA ESOFÁGICA,Q
+4424,LA meconial,O
+4425,27+2 semanas,Z
+4426,cuerpo extraño esofagico,9
+4427,ECO via urinaria,B
+4428,hernia epigástrica malla,0
+4429,Desgarro perineal Iº.,O
+4430,retirada de prótesis,V
+4431,37+5 semanas,Z
+4432,Celiaquía parto,K
+4433,Pneumotórax,5
+4434,ex enol,F
+4435,ANEXECTOMIA BILATERAL POR LAPAROSCOPIA,0
+4436,40 +0 semanas,Z
+4437,trastorno adaptativo ansioso,F
+4438,miopía parto,O
+4439,bypass aorto-coronario,Z
+4440,I67.6,I
+4441,historia iam,Z
+4442,Desarrollo psicomotor,R
+4443,esplenectomia,Z
+4444,Urticaria crónica,L
+4445,atrocentesis rodilla izquierda,0
+4446,Desgarro vulvar,0
+4447,Migraña parto,O
+4448,Hipotiroidismo part,O
+4449,Cesárea iterativa,O
+4450,40+3,Z
+4451,plaquetas,3
+4452,hipoglucemia,E
+4453,Historia de quimioterápico,Z
+4454,Hashimoto part,E
+4455,henria inguinal izquierda,K
+4456,Hipotiroismo parto,O
+4457,Diabetes hiperglicemia,E
+4458,ECOGRAFIA ABDOMINAL/RENAL,B
+4459,epilepsia parto,G
+4460,ferinject,3
+4461,Dolor lumbar,M
+4462,NEOPLASIA vejiga,C
+4463,ascitis neo,R
+4464,HISTERECTOMÍA total abd,0
+4465,31+1 semanas,Z
+4466,CISTOPROSTATECTOMÍA RADICAL lap,0
+4467,34+2 semanas,Z
+4468,puncion dural posparto,6
+4469,Cirrosis hepática,K
+4470,Endoscopia digestiva alta,5
+4471,Historia de coronavirus,Z
+4472,transtorno alimentario,F
+4473,Miocardiopatía dilatada isquémica,I
+4474,cesárea ant,O
+4475,Historia de Trombosis,Z
+4476,Z plastia,0
+4477,Tumoracion renal derecha,D
+4478,Antibioterpia,3
+4479,Radiografia de rodillas,B
+4480,acidosis metabolica,E
+4481,enolismo crónico,F
+4482,oxigenoterapia domiciliaria,Z
+4483,diarrea,R
+4484,Migraña sin aura parto,G
+4485,alfa talasemia,2
+4486,ECO abdomen,B
+4487,Quistes corticales renales,N
+4488,bronquitis cronica,J
+4489,ex alcoholica,F
+4490,port a cath,8
+4491,Deficit de Proteina S,2
+4492,nefropatía lúpica,N
+4493,DEPRESIÓN,F
+4494,Gardenerella vaginales,0
+4495,UCE,1
+4496,lupus eritematoso,2
+4497,Crisis hipertensiva,I
+4498,Hermana ca mama,Z
+4499,Ecografía reno-vesical,B
+4500,Bronquièctasi,4
+4501,lipoma en antebrazo izquierdo,D
+4502,colecistectomía,5
+4503,Hepatitis C crònica,B
+4504,EMO,6
+4505,ERC hta,N
+4506,sanguíneo: 0+,Z
+4507,ECO obs,B
+4508,deficit proteina s parto,O
+4509,Alergias a Ciprofloxacino,Z
+4510,Robot,8
+4511,enf alzehimer,F
+4512,adenoma ciego,2
+4513,litiasis vesicales,5
+4514,IUM,7
+4515,inyección higado,3
+4516,leucoma izq,D
+4517,Tumorectomía MAMA DERECHA,0
+4518,Sobrecarga hídrica,E
+4519,pielonefritis aguda,5
+4520,dorsalgía,M
+4521,Bacterièmia,R
+4522,LES parto,O
+4523,ALERGIAS: AINEs,Z
+4524,Inserción velamentosa de cordon,7
+4525,VRS,B
+4526,G24.8,G
+4527,SOP parto,E
+4528,vacunación triple vírica,Z
+4529,Hemiparèsia dreta,G
+4530,Desgarro vulvar,0
+4531,Desgarro perineal I,O
+4532,NEOPLASIA DE MAMA DERECHA,C
+4533,Nebulizaciones,3
+4534,vértigos,R
+4535,Polihidramnios leve,O
+4536,Salpingectomia bilateral,0
+4537,41+1 SG,Z
+4538,ureterohidronefrosis,N
+4539,Artrosi de genoll,M
+4540,hernia inguinal bilateral,5
+4541,migrañas parto,O
+4542,Dismorfia septal,4
+4543,ALÉRGICA A AAS,Z
+4544,Tabaco 2t,O
+4545,linfadenectomia paraortica,4
+4546,Oxitocina,3
+4547,Cardioversió elèctrica,3
+4548,Tumoración ovárica izquierda,N
+4549,Enfermedad renal crónica - Hipertensión arterial,I
+4550,Hipotiroidismo quirúrgico parto,O
+4551,ENTEROVIRUS,B
+4552,Sinus pilonidal,L
+4553,Tumorectomía mama derecha,0
+4554,herida de labio,T
+4555,ureteroscopia izq,0
+4556,sindrome derpesivo part,O
+4557,Alergia a PLV,Z
+4558,Grupo sanguíneo materno 0 positivo,Z
+4559,UCe,0
+4560,adenopaties laterocervicals,4
+4561,Diabetes gestacional.,O
+4562,FRACTURA SUBTROCANTEREA FEMUR DERECHO,S
+4563,CIN I,N
+4564,factor,O
+4565,hiperhomocistinemia,2
+4566,Punción dural posparto,6
+4567,Mioma uterino,D
+4568,etmoidectomia bilateral,0
+4569,Hipotiroidismo Tiroidectomía PARTO,E
+4570,ventosa fallida,O
+4571,sedación,3
+4572,GRUPO SANGUINEO A POSITIVO,Z
+4573,shock séptico 3,R
+4574,Leiomiomas,D
+4575,Bronquitis aguda parainfluenza,J
+4576,bronquiolitis aguda VRS positiva,J
+4577,Hábito enólico,F
+4578,amo,Z
+4579,Ecografía renovesical,B
+4580,Bronquitis aguda,J
+4581,síndrome de abstinencia,F
+4582,Historia de QT,Z
+4583,HISTERECTOMÍA abdominal RADICAL,0
+4584,herniorrafia epigástrica,5
+4585,BAL,3
+4586,Cesarea ant anteparto,6
+4587,renal parto,N
+4588,stent coronario,Z
+4589,Hipotiroidismo partp,O
+4590,hematíes,3
+4591,Abceso periamigdalino derecho,J
+4592,inducción,3
+4593,Desgarro I:,O
+4594,obesidad part,Z
+4595,cannabis part,F
+4596,GS materno: B+,Z
+4597,Ecografía uter,B
+4598,BLEE,V
+4599,gemelar Monocorial - Biamniótico,O
+4600,fibrosis mama derecha,N
+4601,ÚTERO METROPÁTICO,N
+4602,Bicorial/Biamniótica,O
+4603,ENFERMEDAD PULMONAR INTERSTICIAL DIFUSA,J
+4604,Heces con sangre,R
+4605,vive en residencia,Z
+4606,Hipotiroidismo 3t,O
+4607,maladaptación pulmonar,P
+4608,VÉRTIGOS,R
+4609,TC ABDOMINAL,B
+4610,RM HEPÁTICA,B
+4611,Hipoacusia neurosensorial,H
+4612,incompatibilidad rh,O
+4613,PREECLAMPSIA,O
+4614,Psoriasis invertida,L
+4615,40 +3,Z
+4616,Fractura pertrocantérea cadera derecha,S
+4617,demencia,F
+4618,legrado obstétrico,1
+4619,Historia de Meninguitis,Z
+4620,itus de repetición,Z
+4621,Insulinoterapia,3
+4622,hipertensión arterial renovascular,I
+4623,esplenectomía laparoscópica,0
+4624,protesis de rodilla,V
+4625,talassemia minor part,O
+4626,nefroureterectomía izquierda laparoscopica,0
+4627,TRASTORNO DEPRESIVO MAYOR RECIDIVANTE,F
+4628,Preeclampsia grave,O
+4629,enol leve,F
+4630,quistectomía ovario derecho lap,0
+4631,Leucèmia limfoide aguda en recaiguda,2
+4632,sd metabolica,E
+4633,vhb parto,O
+4634,ELONGACION HIPERTROFICA DEL CERVIX,N
+4635,gastrostomia,V
+4636,Ca. de mama izquierda,C
+4637,doble lesión mitral,I
+4638,Leucoaraiosis,D
+4639,Hipertrigliceridemia,E
+4640,sgb rn,P
+4641,oxiuros,3
+4642,Encefalopatia,G
+4643,puncion accidental qx,9
+4644,mastectomia derecha,0
+4645,nefrostomías bilaterales,0
+4646,coronariografía 2,4
+4647,pares separats,O
+4648,Gastritis,K
+4649,Sd. Lynch,Z
+4650,CI crónica,I
+4651,Covid Parto,U
+4652,Nódulo mamario,N
+4653,V14.6,Z
+4654,Estenosi traqueal congenita,Q
+4655,Colestasis,K
+4656,refluo gastroesofágico,K
+4657,excision piel,0
+4658,Claritromicina,3
+4659,Artropatía degenerativa generalizada,M
+4660,Hiperparatiroidismo primario,E
+4661,catéter,9
+4662,ondansetrón,3
+4663,protesis mama,Z
+4664,inestabilidad emocional,R
+4665,Alergia NOLOTIL,Z
+4666,Hernia de hiato parto,K
+4667,Salpinguectomia Derecha,0
+4668,Enolismo,F
+4669,stent convencional,Z
+4670,estenosis subglótica,4
+4671,Colposacropexia,7
+4672,Amoxicilina,9
+4673,Insuficiència cardíaca,I
+4674,Neoplasia mama izquierda,C
+4675,hemorroidectomía,4
+4676,displasia renal,N
+4677,Hidrops vesicular,K
+4678,Anexectomía bilateral por laparoscopia,0
+4679,Lobectomía,V
+4680,flebitis historia,Z
+4681,hipertrofia adenoidea,4
+4682,Grupo A POSITIVO,Z
+4683,onfalitis neonatal,7
+4684,GASTROSTOMIA,0
+4685,evacuacion hematoma subdural,3
+4686,Infecciones de orina de repetición,Z
+4687,Empeoramiento de función renal,N
+4688,Prótesis rodilla derecha,Z
+4689,agenèsia renal,N
+4690,Lumbartrosis,M
+4691,GSRH A positivo,Z
+4692,DOBLE ANEXECTOMIA,0
+4693,problemática social,Z
+4694,Esteatosis,K
+4695,Ecografía torácica,B
+4696,fumadora,F
+4697,miocardiopatía,I
+4698,Nefroureterectomía izquierda,Z
+4699,Betametasona im,3
+4700,alteración de la memoria,R
+4701,plaquetopenia,D
+4702,GsRh O positivo,Z
+4703,Absces coll,K
+4704,saf,J
+4705,Escoliosis part,O
+4706,delirium,R
+4707,hirschprung,Q
+4708,Epilepsia vascular,G
+4709,TC cerebral,B
+4710,Pesario,V
+4711,Gea gastro-enteritis aguda,K
+4712,Neumonia,J
+4713,Mastectomía izquierda,0
+4714,NST sospecho,O
+4715,Flegmó dentari,8
+4716,Ferropenia,2
+4717,intolerancia gluten parto,O
+4718,Inhibición lactancia,O
+4719,CIERRE DE PARED ABDOMINAL,0
+4720,SINUSITIS CRÒNICA,J
+4721,Artritis reumatoide parto,M
+4722,Fractura pertrocantérea fémur izquierdo,S
+4723,Insuficiencia venosa periférica,I
+4724,AINEs,Z
+4725,transtorno ansioso depresivo part,O
+4726,Globo vesical,N
+4727,Status convulsivo,R
+4728,tromboembolismo pulmonar,I
+4729,41 semanas cumplidas,O
+4730,COLOCACIÓN DE DOBLE J IZQUIERDO,0
+4731,Artrosis de manos,M
+4732,"Calazi, parpella inferior esquerra",0
+4733,Alzeheimer,F
+4734,Metrorragia postmenopausica,N
+4735,hernia discal,M
+4736,Osteoporosis,M
+4737,doble j bilateral,0
+4738,EV,3
+4739,Pielonefritis aguda rn,P
+4740,candida pell,B
+4741,Derrame pleural,J
+4742,39+5 semanas,Z
+4743,Doble uréter,Q
+4744,Biopsia duodenal,0
+4745,Hipercolesterolèmia pura,E
+4746,broncodilatadores,3
+4747,acne,R
+4748,V15.51,Z
+4749,hipotiroidismo parto,E
+4750,ANEXECTOMÍA IZQUIERDA,0
+4751,Reacción anafiláctica,D
+4752,celiaquia,K
+4753,hipertrigliceridèmia,E
+4754,alérgico a penicilina,Z
+4755,PARADA CARDIACA,I
+4756,coletasis parto,O
+4757,pódalica rn,P
+4758,Hashimoto parto,O
+4759,Pólipo endometrial,N
+4760,ecocardiografía transtorácica,B
+4761,antibiotica,3
+4762,Historia de quemadura,Z
+4763,Raquitismo,Q
+4764,quiste hepático,K
+4765,Anemia feropénica,D
+4766,amputación abdómino-perineal,0
+4767,bolsa rota pretérmino,O
+4768,41 semanas rn,Z
+4769,Miopía parto,H
+4770,HISTERECTOMÍA total,0
+4771,Alergia a la Penicilina,V
+4772,Hemocultivo,0
+4773,perdida fuerza,R
+4774,hipotiroidismo parto,E
+4775,Bradicardia,R
+4776,linfadenectomia axilar,4
+4777,Carcinoma intraductal,8
+4778,Hiperhidrosis palmo-plantar,L
+4779,anemia ferropénica 2t,D
+4780,QUISTECTOMÍA OVÁRICA DERECHA lap,0
+4781,ALERGIAS METAMIZOL,Z
+4782,LLC -B,2
+4783,Asma part,O
+4784,CARCINOMA DUCTAL IN SITU DE MAMA DERECHA,C
+4785,Linfadenectomia iliaca,4
+4786,exenteración,V
+4787,leiomiosarcoma,8
+4788,GS: AB Rh positivo,Z
+4789,anticoagulación,Z
+4790,exantema vírico,B
+4791,Leucemia linfocítica crónica,2
+4792,sueroterapia endovenosa,3
+4793,Prótesis total de rodilla derecha,Z
+4794,Hernia inguinal derecha,K
+4795,bordetella pertussis,B
+4796,registro cardiotocográfico sospecho,4
+4797,Desproporción pelvico-fetal,O
+4798,Neurofibromatosis,Q
+4799,Ureterohidronefrosis renal litiasis,N
+4800,ecografía obs,8
+4801,Trastorno ansioso-depresivo,F
+4802,dpf,O
+4803,itu E. Coli,B
+4804,Historia de TUBERCULOSIS PULMONAR,Z
+4805,HISTERECTOMIA VAGINAL,0
+4806,PODÁLICA,O
+4807,Anemia ferropéncia parto,D
+4808,Trastorno límite de personalidad,F
+4809,taquimiocardiopatía,I
+4810,Celestone,3
+4811,Rinovirus,B
+4812,fumadora anteparto,6
+4813,pancolitis ulcerosa,K
+4814,síndrome ansioso depresivo part,O
+4815,Meningioma,8
+4816,infecció del tracte urinari,N
+4817,Desproporción Pélvico Cefálica,O
+4818,esquizofrenia desorganizada,F
+4819,uretroscopia,0
+4820,Cesarea anterior,O
+4821,Ecografia transvaginal,8
+4822,: A positiu,Z
+4823,exanguinotransfusión,9
+4824,Fibromiàlgia,M
+4825,varón,V
+4826,Nòdul suprarrenal,2
+4827,MENISCectomia IZQUIERDA,0
+4828,mioma intramural parto,D
+4829,Pródromos de parto,O
+4830,Incontinencia urinaria,R
+4831,Anexectomia derecha lap,6
+4832,Ovario poliquístico,N
+4833,Edemas en miembros inferiores,R
+4834,mastectomía,Z
+4835,Neurofibromatosis tipo II,Q
+4836,Angio TaC torax,B
+4837,hiperaldosteronismo,E
+4838,EcoABD,B
+4839,Obesitat morbida part,O
+4840,ECO ABDOMINAL,B
+4841,cistoscopia,5
+4842,febril qx,R
+4843,CARCINOMA INTRADUCTAL,8
+4844,Prematuridad 1000,P
+4845,Ruptura prematura de membranas 2,O
+4846,dolor toracico atipico,R
+4847,Bipolar,F
+4848,LLOC,Y
+4849,hemofilia A grave,D
+4850,OTITIS MEDIA CRONICA SUPURADA,H
+4851,Audiometria,3
+4852,Procidencia de mano,O
+4853,HIJO DE MADRE CON DIABETES GESTACIONAL,O
+4854,44020,B
+4855,Demencia por Cuerpos de Lewy,G
+4856,Parálisis facial izquierda,G
+4857,cesárea ant,O
+4858,Poliartrosis,M
+4859,Historia de fracturas,Z
+4860,MIOMECTOMIAS,0
+4861,GS: AB Rh:POSITIVO,Z
+4862,insuficiencia mitral parto,I
+4863,SALPINGECTOMÍA IZQUIERDA lap,0
+4864,adherencia intestinal,K
+4865,sALPINGUECTOMIA bilateral,0
+4866,covid Negatiu,Z
+4867,Enfermedad carotídea,I
+4868,41+1 sg,Z
+4869,ITU 2t,O
+4870,hemiparèsia,3
+4871,Páncreas ectópico,K
+4872,hipotensión,R
+4873,valvulopatía mitral,I
+4874,gastrostomia,V
+4875,ILE por Trisomia 21,O
+4876,Multípara añosa,Z
+4877,migraña parto,O
+4878,654.23,O
+4879,quemadura 3 muslo izquierdo,0
+4880,Ansioso depresivo,F
+4881,desgarro de I grado,O
+4882,miomectomía laparoscópica,0
+4883,Asma parto,J
+4884,acxfa,I
+4885,extrasistoles supraventriculares,I
+4886,HT,Z
+4887,LITIASIS URETERAL PROXIMAL IZQUIERDA,N
+4888,Episiotomia,0
+4889,Hiportiroidismo parto,E
+4890,: B positivo,Z
+4891,múltiples ITUs,Z
+4892,migraña PART,O
+4893,lupus eritematoso discoide parto,O
+4894,Silla turca vacía,5
+4895,Ansioso-depresivo,F
+4896,cefalea holocraneal,R
+4897,Hipertrofia benigna de prostata,N
+4898,Desbridamiento pierna derecha,0
+4899,angiomiolipomas,8
+4900,RTU-PRÓSTATA,0
+4901,Pielonefritis obstructiva,N
+4902,HTDA,Z
+4903,rx torax,B
+4904,40 .sem,Z
+4905,Alergia a ibuprofeno,Z
+4906,linfadenectomía axilar izquierda,4
+4907,Ecografías obs,B
+4908,efecto tardio mielitis viral,O
+4909,Disforia de género,6
+4910,oxitócina,3
+4911,cesarea,O
+4912,CARCINOMA DUCTAL IN SITU,8
+4913,Dolor neoplasia,8
+4914,Incontinente urinaria,R
+4915,rpbf,O
+4916,esteatohepatitis,K
+4917,Fibrilacion auricular,I
+4918,POLIPO fosa nasal,0
+4919,Alergia PRIMPERAM,Z
+4920,tumor maligno,8
+4921,Neoplasia de endometrio,C
+4922,colecistectomíalaparoscópica,5
+4923,ca mama bialteral,C
+4924,íleo paralítico postquirurgico,5
+4925,Ureteroscopia,0
+4926,Ecografia trasfontanelar,B
+4927,Hematoquecia,K
+4928,Cesarea rn,P
+4929,antibioterápia,3
+4930,DMNI,2
+4931,BRAQUITERAPIA,3
+4932,AMENAZA DE ABORTO,O
+4933,Enfermedad de Méniere,M
+4934,túnel carpiano bilateral,G
+4935,Endometriosis intestinal,N
+4936,hipercolesterolemia parto,E
+4937,Rubeola NO INMUNE,Z
+4938,Insuficiencia renal crónica leve,N
+4939,Zika part,O
+4940,expulsivo prolongado,O
+4941,alergia a ácaros,Z
+4942,Cadidiasis esofágica,K
+4943,Hermana Ca. de mama,Z
+4944,desgarro grado 1º,O
+4945,absceso de mama,N
+4946,Ansioso,F
+4947,Degeneración macular asociada a la edad,H
+4948,O negatiu,Z
+4949,rebuig de l'aliment,5
+4950,ex Tabaquismo,F
+4951,enfermedad de alzheimer,G
+4952,LINFADENECTOMÍA PÉLVICA,0
+4953,trombopenia parto,D
+4954,Desgarro parauretral,O
+4955,HPT,O
+4956,desproporción pélvico fetal,O
+4957,LINFADENECTOMÍA AXILAR DERECHa,0
+4958,Nódulo tiroideo part,E
+4959,utero miomatoso,D
+4960,HP moderada,I
+4961,Prótesis total de cadera,Z
+4962,Psoriasis en gota,M
+4963,760.8,R
+4964,Adenocarcinoma endometroide,8
+4965,PCR COVID: Negativo,Z
+4966,ANEXECTOMÍA IZQUIERDA POR LAPAROSCOPIA,0
+4967,madden IZQUIERDA,0
+4968,Diverticulos colon,K
+4969,mioma uterino,D
+4970,pancitopenia,D
+4971,celiaquia parto,O
+4972,epoc infeccio resp,J
+4973,DISTRES RESPIRATORIO rn,P
+4974,HIV part,O
+4975,Ansiedad anteparto,6
+4976,metrorragia parto,O
+4977,arritmia cardíaca,I
+4978,Eosinofilia,D
+4979,Salpinguectomia esquerra,0
+4980,Hipertrofia amigdalar,4
+4981,forceps,7
+4982,Retraso mental,R
+4983,mastectomia derecha,0
+4984,Estreñimiento crónico,K
+4985,Adherencias parto,O
+4986,intestino irritable,K
+4987,fotofobia,R
+4988,CA CERVIX,C
+4989,cytotecs rectal,3
+4990,Desgarro IIº,O
+4991,condilomas parto,O
+4992,Asma anteparto,6
+4993,Orzuelo,L
+4994,coágulo intravesical,N
+4995,K pneumoniae,B
+4996,tratamiento betabloquante,3
+4997,enolismo,F
+4998,DM 1 part,O
+4999,METRORRAGIA anteparto,6
+5000,37,Z
+5001,IMC 39,Z
+5002,40 +5 sg,Z
+5003,Artrosis generalizada,M
+5004,ANEXECTOMÍA IZQUIERDA 2,0
+5005,Neumonía COVID parto,O
+5006,Fumadora part,O
+5007,Gestacion gemelar,O
+5008,LINFADENECTOMÍA AXILAR DERECHA,0
+5009,Neuroma de Morton pie derecho,G
+5010,sobrepeso,E
+5011,Alergia a VOLTARÉN,Z
+5012,HTA ice,I
+5013,Quiste epidídimo derecho,N
+5014,Rx abdominal,B
+5015,histerectomia abdomial radical,0
+5016,Gonartrosis izquierda,M
+5017,Eliquis,V
+5018,metatarsalgia izquierdo,M
+5019,folicualr ovari,6
+5020,nodulo higado,K
+5021,laparoscopia reconvertida,5
+5022,Retenció d'orina,R
+5023,INSUFICIENCIA RENAL CRÓNICA AGUDIZADA,N
+5024,Lobectomia,V
+5025,síndrome nefrótico,N
+5026,Hipogammaglobulinèmia,2
+5027,Politrauma,T
+5028,hernia dehiato,5
+5029,Mordedura perro,T
+5030,insuficiencia cardiaca izquierda,I
+5031,neuroblastoma,1
+5032,miastenia gravis parto,O
+5033,kjelland,7
+5034,Bicorial biamniótica,O
+5035,retraso mental grave,F
+5036,40+6,Z
+5037,AL.LÈRGIES Àcars,Z
+5038,digestivo parto,O
+5039,Laparoscopia robótica,8
+5040,Acúfeno OD,H
+5041,obesisdad,E
+5042,ANEXECTOMÍA IZQUIERDA LAPAROSCÓPICA,0
+5043,Sindrome Turner,Q
+5044,nefrostomía bilateral,0
+5045,alèrgia penicilina,V
+5046,ILE por trisomia 21,Z
+5047,antiemético,3
+5048,Enfermedad de membrana hialina,I
+5049,FACO+`LIO OD,0
+5050,Alérgica a Metamizol,Z
+5051,Hematuria anemizante,N
+5052,Catarata nuclear OD,H
+5053,presentación transversa,O
+5054,metrotrexate im aborto,1
+5055,Placenta oclusiva total,O
+5056,infertilidad primaria,N
+5057,Cordón corto,O
+5058,Mioma cervical,D
+5059,Restraso en el lenguaje,R
+5060,hipotir part,O
+5061,biopsia gangli,4
+5062,ALERGIAS: PENICILINA,Z
+5063,drenaje torácico,3
+5064,anemia anteparto,6
+5065,Hipoalbuminemia,2
+5066,Gastritis crónica parto,K
+5067,GS: 0 Rh+,Z
+5068,quemadura 2 mano derecha,0
+5069,amigdalectomía,2
+5070,Teratoma ovario izquierdo,D
+5071,hipotiroidsimo 2t,O
+5072,pericarditis constrictiva,4
+5073,Hipotiroidimo 1t,E
+5074,Hipertensión Enfermedad renal crónica,I
+5075,gastroscopia,5
+5076,Adenoma suprarrenal derecho,D
+5077,insuficiencia cardiaca,I
+5078,tumorectomia mama bilateral,0
+5079,Anexectomía izquierda,0
+5080,RTU-VEJIGA,0
+5081,rinitis alérgica part,J
+5082,Grupo y Rh: A -,Z
+5083,trombofilia parto,O
+5084,absces cervical,N
+5085,eco abd,B
+5086,asma PART,J
+5087,rtu vesical,5
+5088,ECOGRAFÍA TV,B
+5089,Hipotiroidismo PARTO,O
+5090,catéter doble J izq,0
+5091,síncopes de repetición,Z
+5092,neurofibromatosis,2
+5093,parto estacionado.,O
+5094,diarreas,R
+5095,Sd de Bartter,I
+5096,corticoide,3
+5097,Duplicidad renal,Q
+5098,mtx hepatica,1
+5099,AB negativo,Z
+5100,grietas pezones posparto,O
+5101,Grupo sanguíneo: B+.,Z
+5102,angioTC pulmonar,B
+5103,rtu,P
+5104,Ecocardiograma Doppler,B
+5105,arcinomatosis peritoneal,C
+5106,toracocentesis,3
+5107,fiebre intraparto,O
+5108,prematura 2000,P
+5109,asma parto,O
+5110,dfp,6
+5111,RE+++,V
+5112,Apendicectomía Laparoscópica,0
+5113,colectomia,V
+5114,Úlceras gástricas parto,O
+5115,Miopia Magna,H
+5116,TVP,I
+5117,transplante medula,Z
+5118,debut dm 1,2
+5119,enfisema centrolobulillar,J
+5120,NEUTROPENIA FEBRIL 1,D
+5121,Metrorragia part,O
+5122,Podàlica,O
+5123,Candidiasis del pañal,B
+5124,CPAP 2,Z
+5125,tac Toraco-abdominal,B
+5126,Eco TV,8
+5127,Grupo sanguíneo materno A NEGATIVO,Z
+5128,FA permanente,I
+5129,eco cerebro,B
+5130,dislipidemia,E
+5131,artropatia degenerativa,M
+5132,Endometriosis parto,O
+5133,escoliosis Dorsolumbar,M
+5134,GS: 0 positivo,Z
+5135,Vulvectomía,6
+5136,Eco-doppler,B
+5137,fumadora part,O
+5138,EVISCERACION DE LAPAROTOMIA,0
+5139,Antecedente de neoplasia de mama,Z
+5140,CÒLON IRRITABLE part,K
+5141,utero septo parto,Q
+5142,disfonías,R
+5143,TAC rodilla derecha,B
+5144,i aortica,4
+5145,toracoscópia,1
+5146,Historia de Fracturas,Z
+5147,Grupo sanguineo materno O rh positivo,Z
+5148,TBC historia,Z
+5149,quistes renales,N
+5150,E10.22,E
+5151,migrañas part,O
+5152,CA MAMA IZQUIERDA CSI,C
+5153,incompetencia cervical,6
+5154,Escoliosis part,O
+5155,biopsia de gangli sentinella,4
+5156,Alergia a ácaros,Z
+5157,Alérgica a Torecan,Z
+5158,induccio,3
+5159,candidiasis oral,B
+5160,R44.0,R
+5161,hta irc icc,I
+5162,Desgarro I,0
+5163,rx tx,B
+5164,nodulo tiroideo parto,E
+5165,Apendicits aguda,K
+5166,desgarro 1,O
+5167,HIPERCOLESTEROLÈMIA,E
+5168,Ansiedad parto,O
+5169,pti part,O
+5170,candidiasis oral,B
+5171,Alérgica a PENICILINAS,Z
+5172,Rhinovirus,B
+5173,Ictus h,V
+5174,cistectomía radical laparoscópica,0
+5175,PICC,0
+5176,gestación cronológicamente prolongado,O
+5177,Biopsia piel pierna derecha,0
+5178,OCD,Z
+5179,SOP parto,E
+5180,IVE fallido,O
+5181,FACO+LIO OI,0
+5182,atencion de traqueostomía,E
+5183,Mioma part,D
+5184,hipotir PARTO,O
+5185,Asmática,R
+5186,Edoxaban,Z
+5187,cistoadenoma seroso,8
+5188,salpingectomía geu izq lap,6
+5189,Cesáreas ant anteparto,6
+5190,HDA,5
+5191,Historia de itus de repetición,Z
+5192,E Coli,B
+5193,Trastorno adaptativo,F
+5194,Canalización de vía perférica,0
+5195,Bypass gástrico,Z
+5196,6 semanas,Z
+5197,protesis mamas,Z
+5198,historia Trombosis venosa,Z
+5199,AMIGDALITIS CRONICA,J
+5200,útero miomatoso,D
+5201,Grupo sanguíneo: AB +,Z
+5202,Herida labio inferior,T
+5203,ANEXECTOMIA BILATERAL,0
+5204,trombosis portal,I
+5205,ca mama,1
+5206,Obito fetal,O
+5207,cesárea ant,O
+5208,Parálisis Cuerda vocal izq,G
+5209,aciclovir,9
+5210,Von Willebrand part,D
+5211,Exenolismo crónico,F
+5212,H70.091,H
+5213,Cames Inquietes,R
+5214,cistoadenoma ovari,2
+5215,Alergia al huevo,Z
+5216,Grupo sanguíneo: O Rh: NEGATIVO,Z
+5217,"Insuficiència renal crònica, estadi II",5
+5218,alergia amoxicilina,Z
+5219,anorexia nerviosa,F
+5220,Hipotiroidsmo part,O
+5221,RESECCIÓN ANTERIOR BAJA,Z
+5222,colelitiasis parto,K
+5223,metrorragia 2T,O
+5224,Hipogonadismo hipergonadotropo,E
+5225,Enoxaparina,9
+5226,ANSIETAT,F
+5227,episodios de ITU,N
+5228,Angor estable,I
+5229,Anexectomía bilateral lap,6
+5230,ILE por Trisomia 21,O
+5231,Biopsia endometrio,0
+5232,hipotirodismo qx parto,E
+5233,tratamiento inmunosupresor,Z
+5234,litiasis vesicular,5
+5235,anexectomia,6
+5236,desgarro IIIA,O
+5237,TRAQUEOSTOMÍA,0
+5238,DOBLE ANEXECTOMA,0
+5239,Lumbalgia parto,M
+5240,PROLAPSO RECTAL,N
+5241,Quiste parapiélico,N
+5242,Enfermedad pulmonar obstructiva,J
+5243,Ca Mama dreta,C
+5244,historia neoplasia vesical,Z
+5245,Síndrome ovario poliquístico,N
+5246,Ádenopatías inguinales,R
+5247,htp pulmonar,0
+5248,adk,8
+5249,cSI,0
+5250,Puérpera,Z
+5251,CIN-III,N
+5252,Artrosis manos,M
+5253,Ulcus bulbar,4
+5254,Litiasis renal parto,N
+5255,Incontinencia,R
+5256,Transtorno bipolar,F
+5257,vph parto,O
+5258,cannabis parto,O
+5259,Apnea del sueño,G
+5260,ANEXECTOMÍA IZQUIERDA lap,0
+5261,desgarro grado III,O
+5262,Fractura isquiopubiana derecha,S
+5263,oxitocíca,3
+5264,Insuficiencia renal crónica grado III,N
+5265,Dexketoprofeno,3
+5266,ECOGRAFÍA ABDOMINAL,B
+5267,itu E. Coli,B
+5268,laboral,E
+5269,Insuficiencia Aortica,I
+5270,Rubeola NO INMUNE,Z
+5271,ansiós,3
+5272,Hernia hiato part,O
+5273,puerperal,O
+5274,sd .constitucional,F
+5275,Anexectomía derecha lap,6
+5276,Pielonefritis aguda anteparto,N
+5277,podálica gemelo,O
+5278,apneas,G
+5279,alergia PENICILINA,V
+5280,DM tipo 1 -,E
+5281,40+5 setmanes,Z
+5282,estreñimiento crónico,K
+5283,Rubéola: NO Inmune,Z
+5284,"Grupo sanguíneo materno:0 , Rh: +",Z
+5285,estenosis esofágica,5
+5286,bronquitis aguda rinovirus,J
+5287,carcinoma infiltrante,8
+5288,RETINOPATIA DIABÈTICA,2
+5289,Hepatitis B. -,B
+5290,Fibromialgia parto,O
+5291,cesarea iterativa,O
+5292,historia Linfoma no Hodgkin,Z
+5293,ECO ABD,B
+5294,Púrpura trombocitopènica immunitària,D
+5295,Rinitis parto,O
+5296,GsRh:A positivo,Z
+5297,sobreinfección respiratoria,5
+5298,ligadura tubarica,0
+5299,CARCINOMA UROTELIAL,8
+5300,MRSA,B
+5301,osteoporosi,7
+5302,Hiperpotasemia,E
+5303,labilidad emocional,R
+5304,CPAP,Z
+5305,Gestacion bicorial/biamniótica,O
+5306,Hipertensió portal,5
+5307,AIT h,V
+5308,Factor V de Leiden parto,O
+5309,soporte vasoactivo,9
+5310,colostomia,V
+5311,Alergica a: ácaros,Z
+5312,Anemia perniciosa,D
+5313,Crohn part,K
+5314,Inducción de parto,6
+5315,Ulcus antral,K
+5316,Dermatitis atopica,L
+5317,Desgarro IV,0
+5318,Ecografia cervical,B
+5319,ANEXECTOMIA DERECHA lap,0
+5320,Transtorno limite de la personalidad part,O
+5321,anemia macrocítica,D
+5322,Diabetes tipo II,E
+5323,37 + 5 semanas,Z
+5324,ira prerrenal,5
+5325,"Adenoidectomía, Amigdalectomía",2
+5326,DOLOR ABDOMINAL,R
+5327,herpes genital parto,O
+5328,ILE por trisomía 21,Z
+5329,apendicitis perforada,K
+5330,RE+(,V
+5331,hidrocele,N
+5332,estenosis subglotica,4
+5333,Leucèmia limfoide aguda,D
+5334,Grupo sanguíneo A +,Z
+5335,Enfermedad renal crónica terminal,N
+5336,Anemia crónica,D
+5337,sordera congénita,H
+5338,rubeola,O
+5339,hipertensión pulmonar,I
+5340,Grupo sanguíneo: A Rh: POSITIVO,Z
+5341,K76.0,K
+5342,APP,O
+5343,sondaje,0
+5344,RTU PRÓSTATA,0
+5345,dislipemia part,O
+5346,trasplante renal derecho,Z
+5347,madre: cáncer de mama,Z
+5348,Hematuria,R
+5349,ecografía SNC,B
+5350,nudo verdadero,O
+5351,Ecocardio transtorácico,B
+5352,úlceras sacras,5
+5353,síndrome de QT largo,I
+5354,pielonefritis aguda rn,P
+5355,Shock hipovolémico,R
+5356,Portador de gastrostomia,Z
+5357,historia ca renal,Z
+5358,31 semanas,Z
+5359,eritema nodoso,L
+5360,atrofia córtico subcortical,G
+5361,Epístaxis,7
+5362,Doble Anexectomia,6
+5363,podálica,O
+5364,migrañas,G
+5365,Asma alergico,J
+5366,ITU POSPArTO,N
+5367,Sexo,Z
+5368,Biòpsies peritoneals,5
+5369,alergia a proteina de leche de vaca,Z
+5370,hta + irc,I
+5371,Gonalgia,M
+5372,GS:O positivo,Z
+5373,Ulcus gástrico,K
+5374,drenaje mama,8
+5375,Covid parto,U
+5376,Síndrome ansioso parto,O
+5377,tumorectomía derecha,8
+5378,queiloplastia,0
+5379,Artrosis columna,M
+5380,Bypass gastrico lap,0
+5381,pielonefritis del injerto,N
+5382,RM craneal,B
+5383,2 vertebras,M
+5384,Hipertensión,I
+5385,hta irc,I
+5386,Hipotiroismo parto,O
+5387,BiPAP,9
+5388,TEP cronico,I
+5389,LitiasisRenal,N
+5390,Déficit Vit D parto,O
+5391,fumador,F
+5392,Grupo sanguineo: Rh negativo,Z
+5393,Doble lesión mitral,I
+5394,Obesidad parto,Z
+5395,Torsion ovárica derecho,N
+5396,Ciclofosfamida,9
+5397,Tumor vesical h,N
+5398,Fracaso de inducción,O
+5399,mioma parto,D
+5400,tac cerebral,B
+5401,Fisura anal,K
+5402,Cefazolina,3
+5403,Edema pene,N
+5404,RE,V
+5405,irritabilitat,R
+5406,40 PARTO,O
+5407,immunosupresor,3
+5408,Obesitat morbida parto,O
+5409,asma 3t,J
+5410,Ansioso depresivo,F
+5411,ANEXECTOMÍA IZQUIERDA LAPAROSCÓPICA,0
+5412,O Negativo,Z
+5413,Hallux valgus izquierdo,M
+5414,SFA,I
+5415,cefotaxima,3
+5416,MIELOMA MÚLTIPLE,8
+5417,2CCHH,3
+5418,Ecografia abdomianl,B
+5419,circular cordon,O
+5420,Hemangioma en cuerpo vertebral,D
+5421,Deficit de proteina c,D
+5422,feto pequeño para edad gestacional,O
+5423,Anemia parto,D
+5424,puerperio,6
+5425,Ehlers-Danlos,Q
+5426,vaginismo,6
+5427,Nódulos suprarrenales,N
+5428,adenocarcinoma de endometrio,C
+5429,Púrpura de Schonlein Henoch,I
+5430,concentrado de hematíes,3
+5431,madden DERECHA,0
+5432,RM COLUMNA LUMBOSACRA,B
+5433,Infecciones urinarias de repeticion,Z
+5434,trombocitosis esencial,D
+5435,apneas obstructivas del sueño,G
+5436,GONARTROSIS DERECHA,M
+5437,Febricular,R
+5438,Vomits,R
+5439,intolerancia lactosa,E
+5440,celiaquia parto,O
+5441,Ca in situ,8
+5442,SGb +,6
+5443,diabetes gestacional (insulina,O
+5444,COVID negativa,Z
+5445,esofagoscopia,0
+5446,sng,0
+5447,itu anteparto,6
+5448,cesaria ant anteparto,6
+5449,Desgarro perineal Iº,O
+5450,salpinguectomia bilateral,6
+5451,Fibrilación auricular permanente,I
+5452,henia de hiato,K
+5453,útero miomatoso parto,D
+5454,transplante renal,Z
+5455,desgarros vaginales,O
+5456,Orquidopexia izquierda,0
+5457,malla TOT,0
+5458,Maladaptación pulomar,J
+5459,neoplasia incierta,8
+5460,útero miomatoso parto,D
+5461,portadora de oxigenoterapia,Z
+5462,Hipoacusia transmisiva oido derecho,H
+5463,astigmatismo,H
+5464,hipermenorrea,N
+5465,Bronquiolitis aguda VRS,J
+5466,mielopatía cervical,G
+5467,o752,O
+5468,ligadura tubárica,V
+5469,nst sospechoso,O
+5470,Protesis total de cadera izquierda,Z
+5471,Cifoescoliosis,M
+5472,ALERGICO A PENICILINA,V
+5473,M79.81,R
+5474,Deterioro función renal,N
+5475,APGaR,3
+5476,vómito bilioso,R
+5477,Gestación gemelar bicorial-biamniótica,O
+5478,angio tac torax,B
+5479,PENICILINA,V
+5480,gestación gemelar parto,O
+5481,carcinoma ductal infiltrante mama izquierda,C
+5482,Artropatia hemofílica,M
+5483,rubeola no inmune,O
+5484,Polimialgia Reumática,M
+5485,LUMBALGIA,M
+5486,T. Adaptativo Mixto,F
+5487,Quiste epidérmico,L
+5488,Radiografía tórax,B
+5489,enoxaparina,9
+5490,Historia de QUIMIOTERAPIA,Z
+5491,doble anexectomía,6
+5492,quistes mamarios,N
+5493,gestación tubárica izquierda,O
+5494,rpm,O
+5495,quiste seroso ovario derecho,N
+5496,Preclamsia leve,O
+5497,o pos,Z
+5498,hipotiroidismo gestacional,O
+5499,reflujo gastroesofagico,5
+5500,gammablobulina anti D,3
+5501,Ecografías obstetr,8
+5502,epilepsia parto,G
+5503,Biopsia renal,5
+5504,Paracentesis evacuadora,0
+5505,ITUs derepetición,Z
+5506,"Grupo Sanguíneo A, Rh Positivo",Z
+5507,Macrosomía fetal,O
+5508,Parálisis facial,G
+5509,Ex- fumador,Z
+5510,vejiga hiperactiva,N
+5511,hemocultivos,B
+5512,ILE) por trisomía,Z
+5513,HEMATOMA postquirugico,9
+5514,erupcion polimorfa,L
+5515,ITU e.coli,B
+5516,preclampsia,O
+5517,laparotomia,5
+5518,canabis part,O
+5519,Tumor de Células gigantes,8
+5520,nebulizada,3
+5521,AC x FA crónica,I
+5522,fumadora part,O
+5523,Gestante 41,O
+5524,obesidad parto,Z
+5525,Episodios de infección urinaria,N
+5526,íleo paralítico qx,9
+5527,Hipotiroidimo 1t,E
+5528,Procidencia de mano,O
+5529,Hipercolesterinemia,E
+5530,Polineuropatía diabética,E
+5531,Exéresis de ganglio centinela,4
+5532,AB Rh positivo,Z
+5533,fuma parto,O
+5534,neutrofilia,D
+5535,ansiosa-depressiva,F
+5536,Bronquitis aguda Rinovirus,J
+5537,Histerectomía total simple,0
+5538,lipoma muslo derecho,D
+5539,presentación podálica,O
+5540,Neumonía COVID parto,O
+5541,Hipotiroidismo 1t,O
+5542,Fractura periprotesica cadera derecha,S
+5543,Sindrome tunel carpiano,G
+5544,chagas part,B
+5545,acúfenos,R
+5546,adherencias part,O
+5547,esofagitis eosinófila,5
+5548,VPH part,O
+5549,V12.72,Z
+5550,Trastorno de la conducta alimentaria,F
+5551,SAG:positivo,O
+5552,: 0 Rh: positivo,Z
+5553,Ateromatosis aortoilíaca,I
+5554,HIV parto,Z
+5555,Absceso retroauricular,L
+5556,BRICKER,0
+5557,Alergia a amoxicilina-clavulánico,V
+5558,angioma hepatico,2
+5559,pti,3
+5560,Asma part,O
+5561,HIPOGLUCEMIA Rn,P
+5562,anticoagulante lúpico,D
+5563,biopsia peritoneal,5
+5564,carcinoma ESCAMOSO,8
+5565,Desgarro IIIa,0
+5566,Grupo sanguíneo:: 0 +,Z
+5567,Ecografía de cadera,B
+5568,endometrioma ovari,6
+5569,histerectomia vaginal,6
+5570,Aplasia medular,7
+5571,FOP,O
+5572,: O negatico,Z
+5573,anemia 2t,D
+5574,SONDAJE URINARIO,0
+5575,Migraña part,O
+5576,Oxigeno domiciliario,9
+5577,Ecografia ABD,B
+5578,Grupo sanguíneo A positivo,Z
+5579,Quist cortical,I
+5580,colestasis parto,K
+5581,nódulos tiroideos,E
+5582,S. confusional,F
+5583,diu,5
+5584,enfermedad de alzheimer,G
+5585,Hepatitis C,B
+5586,Estreptococo Grupo B Positivo,Z
+5587,BACTERIEMIA,R
+5588,CIA parto,Q
+5589,Dolor adominal,R
+5590,Exfumador,Z
+5591,Insuficiencia pancreática exocrina,E
+5592,Endoscopia digestiva alta,5
+5593,Legrado uterino obst,6
+5594,TCE secuelas,S
+5595,Anemizacion severa,2
+5596,neumonitis rádica,5
+5597,cirrosis hepatica vhc,B
+5598,Grupo sanguíneo .B+,Z
+5599,atrofia ovarioss,N
+5600,Deficit B12,E
+5601,flutter paroxístico,I
+5602,MIOMA SUBMUCOSO,8
+5603,SUTURA TSE,7
+5604,Histerectomía total lap,6
+5605,endometriosis ovari,6
+5606,eritema,L
+5607,cbc párpado,0
+5608,7 semanas,Z
+5609,Hipovitaminosis D,E
+5610,Miastenia Gravis,6
+5611,meniscectomia DERECHA,0
+5612,Varices,I
+5613,retraso de crecimiento intrauterino,O
+5614,mioma PARTO,O
+5615,nebulizacions,3
+5616,Obesidad parto,Z
+5617,CATÉTER DOBLE J IZQ,0
+5618,Electrocardiograma,4
+5619,cervezas,F
+5620,SANGRADO MENSTRUAL ABUNDANTE,N
+5621,Celiaquía parto,K
+5622,Ecografías ginecológicas,8
+5623,desgarro IIIb,O
+5624,SAG: +,O
+5625,Carcinoma de endometrio,C
+5626,Déficit vit B12 part,O
+5627,laceracion periuretral,O
+5628,TUMORECTOMIA Mama derecha,0
+5629,PTC dcha,Z
+5630,fimosi,O
+5631,31,Z
+5632,hta parto,I
+5633,MALADAPTACIÓN pulmonar rn,P
+5634,Hipotiroidismo primario,E
+5635,Ecografía ABD,B
+5636,Hemorragia digestiva baixa,K
+5637,Restos ovulares,N
+5638,Fibroma ovarico izquierdo,D
+5639,Hallux valgus i,M
+5640,piés zambo,G
+5641,Distres respiratorio rn,P
+5642,Se extrae cerclaje cervical,0
+5643,E83.42,E
+5644,Linfadenectomia pelvica,4
+5645,acv crónico,I
+5646,INSUFICIENCIA VENOSA,I
+5647,quiste anexiales bilateral,N
+5648,Plastia prepucial,7
+5649,vaginitis 2t,O
+5650,bloqueo AV de primer grado,I
+5651,ECO ABD:,B
+5652,Anexectomia bilateral,6
+5653,ansiosa part,O
+5654,dispareunia,N
+5655,IMC 29.,V
+5656,nutrición parenteral,3
+5657,Artosis,M
+5658,Hipotiroidismo partp,O
+5659,Vértigo periférico,H
+5660,Embolización seletiva de arterias uterinas,0
+5661,HIPOTIROIDISMO POR LITIO,E
+5662,40+0 sg,Z
+5663,esclerosis mesial,G
+5664,exalcohol,F
+5665,Metástasis hepáticas,C
+5666,vasoespasmo,4
+5667,Leiomioma uterino,D
+5668,vértigos,R
+5669,epìdural,3
+5670,AOS,R
+5671,alergia a Amoxicilina,Z
+5672,Metrorragia postparto,O
+5673,Colon espástico.,K
+5674,febril intraparto,O
+5675,Meningitis virica,B
+5676,Cardiopatía isquémica crónica,4
+5677,Venoclisis,3
+5678,Prolapso de cúpula vaginal,N
+5679,comedocarcinoma,8
+5680,Anexectomía derecha,0
+5681,Desgarro perineal de 3º grado,O
+5682,ESTEATOSIS HEPÁTICA,K
+5683,Fumadora parto,O
+5684,hipertrofia de cornetes,J
+5685,Neoplasia vesical,C
+5686,Nefroureterectomía,Z
+5687,BRCA2,Z
+5688,déficit de Vit D,E
+5689,Sobrepeso part,O
+5690,Nefrectomía,Z
+5691,Riesgo de toxoplasmosis congénita,Z
+5692,mastectomia radical modificada esquerre,0
+5693,Electrocardiografía,4
+5694,ha TEP,V
+5695,Enterococus faecium,B
+5696,ECOGRAFIA ABDOMINAL,B
+5697,cateter central,3
+5698,HTA IRC,I
+5699,hemorroides externas,K
+5700,LAMINECTOMÍA,0
+5701,bulto axila derecha,D
+5702,Ca mama,1
+5703,SGB parto,6
+5704,Obesidad part,O
+5705,HISTEROSCOPIA QUIRÚRGICA,0
+5706,quiste dermoide,N
+5707,vasectomia,Z
+5708,Hipertiroidismo parto,E
+5709,Ceftriaxona,3
+5710,TROMBOPEnia parto,D
+5711,Anemia parto,D
+5712,Infección de tracto urinario,N
+5713,AMILOIDOSIS renal,C
+5714,Incontinecia urinaria de esfuerzo,N
+5715,Útero polimiomatoso,D
+5716,QUISTE epidermico,8
+5717,HTA irc ICC,I
+5718,SALPINGECTOMÍA geu izq lap,1
+5719,SOP parto,E
+5720,Óbito fetal,6
+5721,ooforectomia izquierda,Z
+5722,anexectomia bilateral laparoscópica,6
+5723,Miopia magna part,H
+5724,mch,O
+5725,IRC estadio 3,N
+5726,Claudicación de la marcha,R
+5727,HIPERTENSIÓN PULMONAR,I
+5728,desproporcion pelvico fetal,O
+5729,irc 4,N
+5730,DIABETAS GESTACIONAL CON INSULINA,O
+5731,aumento peso parto,O
+5732,Alergia a penicilina,Z
+5733,Pseudomona aeruginosa,B
+5734,eventración,K
+5735,RM hepática,B
+5736,descompensación cardiaca,I
+5737,Bronqueictasias,J
+5738,nefropatía diabetica,E
+5739,dga,O
+5740,oxitocina,3
+5741,Eritema pernio,L
+5742,Canalización de via periferica,0
+5743,CISTORRAFIA,0
+5744,Leiomiomas submucosos,D
+5745,Alergia a los acaros,Z
+5746,ColangioRM,B
+5747,fgeg,6
+5748,toxina botulinica,3
+5749,Fumadora part,O
+5750,eco renal,B
+5751,Cataracta,3
+5752,Fractura diafisaria tibia izquierda,S
+5753,hepatitis C parto,O
+5754,tractament quimioteràpic,9
+5755,estenosis favi,4
+5756,Mastectomía izq,0
+5757,O positiu,Z
+5758,asma part,O
+5759,R51,R
+5760,vejiga neurogena,N
+5761,Síndrome antifosfolípido parto,O
+5762,Ca. endometrio,C
+5763,ateromatosi cerebral,I
+5764,hiperplasia benigna de prostáta,N
+5765,Ecografía de cuello,B
+5766,Hernioplastia inguinal izquierda malla,0
+5767,inhibición de la lactancia,O
+5768,Eco-Doppler mii,B
+5769,Hernia de hiato parto,K
+5770,litiasis renal part,O
+5771,NEUMONIA POR BRONCOASPIRACION,J
+5772,Depresivo,F
+5773,EcoABD,B
+5774,quistes corticales,N
+5775,GOLL MULTINODULAR,O
+5776,65951,O
+5777,Historia de radioterapia,Z
+5778,Neumonia COVID parto,O
+5779,dermatitis seborreica,L
+5780,Ca endometrio,C
+5781,CARCINOMA DUCTAL INFILTRANTE mtx,8
+5782,sgb rn,P
+5783,historia TVP,Z
+5784,Escoliosis lumbar,M
+5785,Nistagmus,R
+5786,hipertensión gestacional,O
+5787,vertigos,H
+5788,ILE por trisomia 21,Z
+5789,Multípara,O
+5790,sangrado post adenoidectomia,2
+5791,Febre postprocedimental,O
+5792,G71.01,G
+5793,adenopatías retroperitoneales,R
+5794,Tumorectomía mam derecha,0
+5795,Fumadora,F
+5796,Fractura subtrocanterea cadera izquierda,S
+5797,Apendicits aguda,K
+5798,DM 1,E
+5799,Exantema,R
+5800,Reacción aguda al estrés,F
+5801,Estrabisme,H
+5802,adenovirus,B
+5803,Insuficiencia venosa part,O
+5804,Monitorizacion fetal,4
+5805,Q04.3,Q
+5806,Bronquiectasi,4
+5807,Alergia a CODEINA,Z
+5808,nefropatía diabética 2,2
+5809,celulitis brazo,L
+5810,hta parto,I
+5811,rx TÓRAX,B
+5812,vertigo,R
+5813,Coxalgia,M
+5814,tabaco parto,F
+5815,Torsió testicular no especificada,N
+5816,conización parto,O
+5817,IMC: 39,Z
+5818,cesària ant,O
+5819,Febrícula,R
+5820,Hematoma qx,9
+5821,Hernia incisional,K
+5822,SALPINGUECTOMÍA BILATERAL LAPAROSCÓPICA,0
+5823,Síndrome antifosfolipídico,2
+5824,Doble lesión aórtica ligera,I
+5825,"bicorial, biamniótica",O
+5826,Hipotirodismo anteparto,6
+5827,ileitis isquemica,5
+5828,33 sem,Z
+5829,Vitíligo part,O
+5830,madden dERECHA,0
+5831,DG,6
+5832,amniorexis,1
+5833,RTCG no tranquilizador,O
+5834,Desgarro perineal Iº +,O
+5835,sd constitucional,R
+5836,DIVERTÍCULO VESICAL,K
+5837,artritis reumatoide parto,M
+5838,cérvix que se sutura,0
+5839,Antecedentes familiares de miocardiopatia,Z
+5840,colon irritable,K
+5841,PREECLAMPSIA PUERPERAL,O
+5842,ANEMIZACIÓN AGUDA,D
+5843,albúmina,9
+5844,obesidad morbida part,E
+5845,dislipemia,2
+5846,nst,O
+5847,Quiste lúteo,N
+5848,fibromialgia part,O
+5849,Disfagia orofaringea,R
+5850,transversa 1,O
+5851,itu ecoli,B
+5852,"Grupo sanguíneo materno: A , Rh: Positivo",Z
+5853,dfp,6
+5854,J18.9,J
+5855,ex Enolismo,F
+5856,Microadenoma hipofisario,D
+5857,Metrotrexate IM aborto,O
+5858,Neumonía,J
+5859,radioterapia,Z
+5860,Ex fumadora,Z
+5861,Tumorectomía mama derecha,0
+5862,Laminectomía,0
+5863,risc infeccio rn,O
+5864,apendicectomía laparoscópica,0
+5865,Flutter,I
+5866,Encefalopatia epilèptica,G
+5867,Endometriosis parto,O
+5868,NTG,3
+5869,INSUFICIÈNCIA VENOSA (PERIFÈRICA,I
+5870,Peritonectomía,V
+5871,Déficit de vitamina B12,E
+5872,reparación de enterocele,V
+5873,Desgarro 1º grado,O
+5874,LARINGITIS CRÓNICA,J
+5875,Migraña PARTO,G
+5876,Bocio Multinodular part,E
+5877,ampicilina,3
+5878,Historia de CIA intervenida,Z
+5879,alcohol parto,O
+5880,hipotiroidismo qx,E
+5881,Prostanglandinas,3
+5882,picos febriles,R
+5883,NEo,Z
+5884,Polineuropatía dm 2,G
+5885,Alergia a contraste iodado,Z
+5886,desgarro de primer grado,O
+5887,Metilprednisolona,3
+5888,Vitíligo parto,O
+5889,Hiperplasia prostatica benigna,N
+5890,Lipoma brazo derecho,D
+5891,AL.LÈRGIESPenicil·lines,Z
+5892,Alergico a PENICILINA,V
+5893,Prematuridad 1250,P
+5894,lipoma lumbar,D
+5895,Historia de Meningioma,Z
+5896,tos seca,R
+5897,rtu vesical,5
+5898,anemia ferropénica parto,D
+5899,nefroblastoma,8
+5900,Hiperplasia benigna de próstata,N
+5901,doble anexectomía lap,6
+5902,fx aplastameinto L2,8
+5903,Disartria hipofónica,R
+5904,talassemia minor parto,D
+5905,Tendinitis rotuliana,M
+5906,Hipotiroidismo part,O
+5907,diverticulosis,K
+5908,Hipergliceridèmia pura,E
+5909,hematoma retroamniótico,O
+5910,Mastectomía mama izquierda,0
+5911,Hipertiroidismo anteparto,6
+5912,Cesarea,1
+5913,vph parto,O
+5914,Desgarro Ii,0
+5915,histerectomia lap,6
+5916,Obesitat part,O
+5917,desgarro vagianal,O
+5918,Histerectomía vaginal,0
+5919,hipotiroidismo part,O
+5920,Disfunción renal aguda,N
+5921,Hipotiroidimo parto,O
+5922,Sinusitis parto,O
+5923,prótesis cadera derecha,Z
+5924,catéter venoso periférico,0
+5925,Drenaje torácico izq,0
+5926,Augmentine,9
+5927,Lumbalgia crónica,M
+5928,rafi tibia izq,0
+5929,Parkinsonismo,G
+5930,Escoliosis part,O
+5931,fistulografía,0
+5932,Paralisis de cuerdas vocales,J
+5933,decanulacion traqueostomia,9
+5934,DORSÀLGIA,M
+5935,ca mama derecha cie,C
+5936,acortamiento cervical 2t,O
+5937,liquido ascitico,R
+5938,artrodesis,V
+5939,Fractura supracondílea de fémur derecho,S
+5940,misoprostol vaginales,3
+5941,miomectomía,6
+5942,Desprendimiento de vitreo,H
+5943,Col·lecció intraabdominal,5
+5944,registro no tranquilizador,O
+5945,Sars COv 2 Negatiu,Z
+5946,Cetoacidosis diabética dm 1,E
+5947,Grupo sanguíneo 0 Rh:+,Z
+5948,cambio de sonda de gastrostomía,V
+5949,Oliguria,R
+5950,ANEXECTOMÍA DERECHA,0
+5951,shock séptico 2,R
+5952,hemiparèsia esquerra,G
+5953,Fibrilacion auricular paroxistica,I
+5954,organo,1
+5955,Distrofia muscular,7
+5956,Poliposis gástrica,K
+5957,Historia de cáncer de mama,Z
+5958,infección respiratoria,J
+5959,Alergica a: Codeina,Z
+5960,LT,0
+5961,SARS-CoV-2 negatiu,Z
+5962,taquicardia sinusal,R
+5963,fototerapia,9
+5964,eritrodèrmia,D
+5965,retención placentaria,O
+5966,Miomectomia,6
+5967,BOCIO,E
+5968,Nasofaringitis aguda,J
+5969,efecto adverso heparina,O
+5970,Miopía parto,H
+5971,Insufiencia mitral,I
+5972,: 0 RH: positivo,Z
+5973,ITUs de repetición,Z
+5974,prematura 33,P
+5975,Úlcera duodenal,K
+5976,quiste tiroglos,2
+5977,disfagia Orofaríngea,R
+5978,Litiasis renal parto,N
+5979,neo de mama,1
+5980,quistes corticales renales,N
+5981,intubación orotraqueal,3
+5982,Cerclaje cervix,6
+5983,HT portal,5
+5984,mastectomía,Z
+5985,demencia vascular,2
+5986,Trastorno adaptativo parto,O
+5987,d62,D
+5988,Pólipo colónico historia,Z
+5989,Quistes hepáticos,K
+5990,circumstàncies legals,Z
+5991,Bloqueo rama izquierdo,I
+5992,Gestant de 40,O
+5993,misoprostol abort,1
+5994,v4577,Z
+5995,CIR,O
+5996,plasmaféresis,3
+5997,tabaco parto,F
+5998,Alergica a penicilina,Z
+5999,postquirúrgico,E
+6000,Eco 2T,B
+6001,AMILOIDOSIS renal,C
+6002,Espondilosi lumbar,M
+6003,Presbiacusia,H
+6004,Osteoporosi,M
+6005,leucopenia rn,P
+6006,metilprednisolona,3
+6007,Eco 3t gemelos,B
+6008,"Asma no especificada, amb estat asmàtic",J
+6009,enf Parto,O
+6010,Retinopatía diabetica 2,E
+6011,AL·LÈRGIA A PENICIL·LINA,V
+6012,SARS CoV-2: Negativos,Z
+6013,Meniere,H
+6014,bsgc,0
+6015,tabac,F
+6016,Bronquitis crónica,J
+6017,Fibrosis Quística pulmon,2
+6018,Circular al pie,7
+6019,lavados vesicales,3
+6020,Mastectomia izquierda,0
+6021,Grupo 0 Rh Positivo,Z
+6022,40 +4sg,Z
+6023,deceleraciones variables,O
+6024,asma grave,J
+6025,Grupo A+.,Z
+6026,hipotiroidismo qx parto,E
+6027,coagulación laser fetal,O
+6028,bronquitis aguda VRS,J
+6029,HELICOBACTER PYLORI,B
+6030,secuelas covid,U
+6031,Leucemia Aguda Limfoblástica,2
+6032,PROSTATECTOMÍA RADICAL RETROPUBICA,0
+6033,IMC 45,V
+6034,cistoprostatectomía radical laparoscopica,0
+6035,anisocoria,H
+6036,oxigenoterapia,9
+6037,DESPLAÇAMENT DISC INTERVERTEBRAL LUMBAR,M
+6038,Alérgica a ácaros,Z
+6039,Hemorroides internas grado II/IV,K
+6040,Artropatía degenerativa,M
+6041,SarsCov2,U
+6042,Colestasis gravídica anteparto,6
+6043,fractura humero proximal derecho,S
+6044,ilpp pierna izquierda,0
+6045,condilomas parto,O
+6046,Sutura de desgarro grado I,0
+6047,Grupo sanguíneo: 0 rh negativo,Z
+6048,ha dejado de fumar,Z
+6049,Portadora de gastrostomía,Z
+6050,postparto,6
+6051,Historia de Tifus,Z
+6052,útero miomatoso part,D
+6053,nefrectomia radical lap,0
+6054,intolerancia digestiva rn,P
+6055,Anexectomía Bilateral,0
+6056,"GS A +,",Z
+6057,quiste de Naboth,N
+6058,immunoglobulinas,3
+6059,amputación supracondílea izquierda,0
+6060,RTU prostática,0
+6061,gastrostomía percutánea,0
+6062,rubeola inmune,O
+6063,GSRh: O POSITIVO,Z
+6064,esclerosis múltiple part,G
+6065,ATB,9
+6066,A.E.,6
+6067,cesarea ant,O
+6068,colecistitis aguda,5
+6069,emld,0
+6070,alergia a penicilina,Z
+6071,cesareas ant,O
+6072,Tabac part,O
+6073,Ictericia no isoinmune,E
+6074,ECP,6
+6075,B Positivo,Z
+6076,útero bicorne part,O
+6077,Arritmia parto,I
+6078,NEOPLASIA urotelial,8
+6079,parto 41,6
+6080,ICC,I
+6081,ECO vagina,B
+6082,Gemelar bicorial/ biamniotico,O
+6083,les parto,Z
+6084,ligadura tubárica bilateral,0
+6085,disfàgia,R
+6086,MC-BA,O
+6087,Version cefalica externa,O
+6088,286.9,E
+6089,Ansietat,F
+6090,Estenosis hipertrófica de píloro congenita,Q
+6091,Ecografia intestinal,B
+6092,cardiopatia HTA irc,I
+6093,BAV 1º grado,I
+6094,TAC toracoabdominal con contraste,B
+6095,no progresión,Z
+6096,GEU tubárico derecho,O
+6097,HIpoglucemia neonatal,P
+6098,Trastorno Bipolar,F
+6099,HIPERPOTASEMIA,E
+6100,Ritchter,0
+6101,Drenaje transtimpanico,3
+6102,Alergia alimentos,Z
+6103,SAF,6
+6104,parto,6
+6105,stent coronario,Z
+6106,presentación de cara,6
+6107,Muguet oral rn,P
+6108,Sindrome de Gilbert,E
+6109,feto pequeño para edad gestacional,O
+6110,Paracentesi,O
+6111,itu part,O
+6112,cistectomía radical lap,0
+6113,Transfusión,3
+6114,RTU VESICAL,0
+6115,Fumadora parto,O
+6116,biopsias vulvares,0
+6117,sueroterapia,3
+6118,PTR izquierda,Z
+6119,LINFOEPITELIOMA,8
+6120,colestasis gravídica parto,6
+6121,insufiencia venosa crónica,I
+6122,Rubéola no inmune,O
+6123,fiebre,R
+6124,hipotiroidismo parto,E
+6125,hiponatremia,2
+6126,"Grupo sanguíneo: B, Rh: positivo",Z
+6127,taponamiento vaginal,0
+6128,bacteremia,R
+6129,Urticara crónica parto,L
+6130,hipertenso,4
+6131,Alcohol part,F
+6132,Intolerancia a Lactosa,E
+6133,cesárea en 2013,O
+6134,Drenaje torácico toracoscopico,0
+6135,Divertículo esofágico,K
+6136,reflujo gastroesofágico parto,K
+6137,Forceps episio,7
+6138,Extracción de DIU,Z
+6139,Enfermedad granulomatosa crónica,2
+6140,miopia,H
+6141,tumorectomia Mama derecha,0
+6142,Hipotiroidismo part,O
+6143,óbito fetal,O
+6144,FA paroxística,I
+6145,TAC toraco-abdominal,B
+6146,Hipotiroidismo part,O
+6147,Historia de sarna,Z
+6148,Espondiloartritis,M
+6149,Insuficiència tricuspídica,I
+6150,dm 1 parto,O
+6151,Grupo sanguíneo materno:0 Rh positivo,Z
+6152,Se suspende intervención,Z
+6153,40.2 semanas,Z
+6154,anexectomía derecha,6
+6155,HISTÒRIA PERSONAL TUBERCULOSI,Z
+6156,Desgarro grado 1,0
+6157,ITU de repetición,Z
+6158,miopía magna parto,H
+6159,gastrostomía,Z
+6160,edema laringeo,R
+6161,Síndrome de lisis tumoral,2
+6162,Rx de tórax .,B
+6163,Hepatitis B part,O
+6164,Grupo Sanguíneo Materno: B NEGATIVO,Z
+6165,prolapso de cordón,O
+6166,Ecografía transtorácica,B
+6167,covid PARTO,O
+6168,34 + 2 semanas,Z
+6169,Legrado uterino evacuador,1
+6170,Fuma,F
+6171,insure,5
+6172,Alergias medicamentosas : IBUPROFENO,Z
+6173,ELONGACIÓN CERVICAL,O
+6174,Transtorno ansioso-depresivo,F
+6175,bebe,Z
+6176,nauseas vómitos,R
+6177,ECO tv,8
+6178,Distocia,6
+6179,arritma,I
+6180,Estenosi traquea congenit,Q
+6181,Rasgo talasémico,D
+6182,ECO-TV,B
+6183,Hidrocefàlia,Q
+6184,acidosi metabolica,E
+6185,estenosis uretral,N
+6186,salpingitis,N
+6187,consanguinitat,Z
+6188,Teratoma en ovario izquierdo,D
+6189,BGN,B
+6190,Plaquetopenia,D
+6191,Neutropenia febril 1,D
+6192,oxígeno,9
+6193,Déficit Proteína S part,O
+6194,Endometrioma ovárico,N
+6195,Lipoma,8
+6196,cirrosis,K
+6197,bradicardia sinusal,R
+6198,cólico nefrítico derecho,N
+6199,cocaina,F
+6200,esteatosis hepática parto,O
+6201,ACORtamiento cervical parto,O
+6202,Divertículos colon,K
+6203,Legrado evacuador,1
+6204,Hipospadias,Q
+6205,Grupo sanguíneo: B Rh: POSITIVO,Z
+6206,cir,E
+6207,itu parto,N
+6208,ARTROSIS,M
+6209,Litiasis renals,N
+6210,Alergia a anisakis,Z
+6211,PTC derecha,Z
+6212,bebedora,F
+6213,Adenoma suprarrenal,2
+6214,gestacón prolongada,O
+6215,hipotiroidismo qx parto,E
+6216,ENTEROCOCO FECALIS,B
+6217,Hiperhidrosis,L
+6218,POLIPO ENDOMETRIAL,N
+6219,Foramen oval,Q
+6220,cetosis dm 1,2
+6221,parainfluenza,B
+6222,Hepatitis C,B
+6223,64631,O
+6224,leucoencefalopatia hipòxica crónica,G
+6225,colon irritable,K
+6226,Riñón izquierdo atrófico,Q
+6227,CARCINOMA LOBULILLAR INFILTRANTE,8
+6228,Amenaza de Parto Prematuro,O
+6229,obesidad mórbida part,E
+6230,Inestabilidad,R
+6231,ACIDOSIS RESPIRATORIA,5
+6232,K40.91,K
+6233,depresión,F
+6234,CATARATA od,C
+6235,Balón de Cook,0
+6236,Traqueostomía,V
+6237,Ecocardiograma,B
+6238,Discopatía,M
+6239,Obesitat,E
+6240,Gastritis cronica atrófica,K
+6241,desgarro cervix,O
+6242,Intoxicación por barbitúricos,F
+6243,malformación anorrectal,K
+6244,fibrosis quística pulmon,2
+6245,TRAQUEOSTOMIA,Z
+6246,Uter unicorne,O
+6247,Miocardiopatía hipertrófica,4
+6248,pólipo endometrial,N
+6249,Ecografía renal,B
+6250,PLASMOCITOMA SOLITARIO,D
+6251,Cordón umbilical en bandolera,O
+6252,hipotensión intracraneal,R
+6253,estenosis uretral,N
+6254,CIN II parto,O
+6255,sepsis 2,5
+6256,Cervicoartrosis,M
+6257,vm,5
+6258,Historia de ADK de recto,Z
+6259,MIGRANYA,G
+6260,tabaquismo parto,O
+6261,partos,7
+6262,RM abdominal,B
+6263,Mastectomia izquierda,0
+6264,Hiperprolactinemia part,E
+6265,tumorectomía mamaria izquierda,0
+6266,Mordedura de perro,T
+6267,meniscectomía izq,0
+6268,Diabetes gestacional A1,O
+6269,CIN 3 parto,O
+6270,problema social,Z
+6271,Hernia de Hiato,K
+6272,Hashimoto parto,O
+6273,GCP,O
+6274,DMT2,2
+6275,hipermenorrea,N
+6276,Hipotiroidismo gestacional,O
+6277,Sd. Subacromial hombro izdo,M
+6278,doble j bilateral,0
+6279,neo,8
+6280,histerectomía,6
+6281,infección del tracto urinario,N
+6282,espondiloartropatía anquilosant,M
+6283,Fibroadenoma mamario,D
+6284,fatiga crónica,R
+6285,retinopatía dm,2
+6286,Apneas nocturnas,G
+6287,E Coli,B
+6288,anlagesia,3
+6289,MIOCARDIOPATÍA DILATADA,I
+6290,Epilepsia parcial secundariament generalitzada,G
+6291,hepatocarcinoma multicéntrico,8
+6292,Historia de Neo de vejiga,Z
+6293,miomatosi uterina,D
+6294,PTC IZQUIERDA,Z
+6295,colecistectomia,5
+6296,1011,O
+6297,Decanulación traqueostomía,9
+6298,hipercalcemia,E
+6299,leucocitosis,D
+6300,historia parto prematuro,O
+6301,UROPATÍA OBSTRUCTIVA IZQUIERDA,N
+6302,hosp,Y
+6303,30+1 semanas,Z
+6304,41 +1 semanas,Z
+6305,Depresió,F
+6306,ANGIOMIOLIPOMA,8
+6307,insuficienciarespiratoria,5
+6308,enf part,O
+6309,LAPAROTOMÍA,0
+6310,ETT,B
+6311,Fusió lumbar,7
+6312,hipotiroidismo part,O
+6313,ELIQUIS,M
+6314,Encefalopatía hepática,2
+6315,leucosis,2
+6316,Hipotiroidsmo,E
+6317,desgarro,O
+6318,Temblor esencial,G
+6319,fibroadenomas,9
+6320,pérdida de agudeza visual,H
+6321,DSL,Z
+6322,Eco abdominal,8
+6323,RTU-vesical,0
+6324,VIVO,Z
+6325,gammaglobulinas,3
+6326,Fumadora part,O
+6327,reflujo,5
+6328,colectomia,V
+6329,DÉFICIT DE ATENCIÓN,G
+6330,Gastritis parto,K
+6331,R26.9,R
+6332,Cefotaxima,3
+6333,ca mama bilateral,C
+6334,DEMENCIA,G
+6335,Alergia a: Ibuprofeno,Z
+6336,66923,O
+6337,hiperamilasemia,2
+6338,Alérgica a Cefalosporinas,Z
+6339,PEG,0
+6340,celulitis abdomen,L
+6341,N81.11,N
+6342,Desgarro 3 grado,0
+6343,angioTC,B
+6344,Esofagitis Eosinofílica,K
+6345,derrame pleura,J
+6346,Histerectomia Vaginal,0
+6347,Histerectomía vaginal,0
+6348,Vaginitis part,O
+6349,Rinitis alergica parto,O
+6350,Teratoma,8
+6351,ESCOLIOSI,7
+6352,estreñemiento,K
+6353,Urocultivo: Positivo:,Z
+6354,angina de pecho,I
+6355,ex fumador,Z
+6356,Adenomiosis,N
+6357,colecistectomía,5
+6358,inmunoglobulina,3
+6359,vacuna,Z
+6360,quistectomía ovario lap,6
+6361,cordon corto parto,O
+6362,F31.60,F
+6363,Hipertiroidismo parto,E
+6364,Hipertensión arterial,I
+6365,ILE por trisomía 21,Z
+6366,úlceras EEII,I
+6367,antibioteràpia,9
+6368,Levofloxacino,9
+6369,mtx axilar,1
+6370,Grupo sanguineo materno: O Rh +,Z
+6371,retirada port-a-cath,0
+6372,cpap,Z
+6373,Angioma congénito,9
+6374,postectomía,8
+6375,24 sem,Z
+6376,INSTILACIÓN DE MMC,3
+6377,CARCINOMA ENDOMETRIAL,C
+6378,Maniobra de McRoberts,M
+6379,hernia epigástrica,K
+6380,Bandolera,O
+6381,desgarro grado 1,O
+6382,fibrosis mama izq,N
+6383,Gastritis,K
+6384,Insuficiència respiratòria aguda i crònica,5
+6385,Ecografia 1t,B
+6386,Hiperplasia Benigna de Próstata,N
+6387,mastectomia bilateral profiláctica,8
+6388,Demencia tipo Alzheimer,G
+6389,faco,0
+6390,hipertensión portal,K
+6391,Insuficienciatricuspidea,4
+6392,Ecoscopia,8
+6393,RCTG,B
+6394,DESGARRO 1,O
+6395,Escoliosis parto,O
+6396,pólipos gástricos,K
+6397,polihidramnios,O
+6398,: A POSITIVO,Z
+6399,circular al pie,7
+6400,Bloqueo Auriculo Ventricular,I
+6401,Depresión-ansiedad,F
+6402,hemiplejia izquierda,G
+6403,glicèmia,R
+6404,Immunodeficiencia,E
+6405,institucionalizada en Residencia,Z
+6406,ANEXECTOMíA BILATERAL,0
+6407,LEIOMIOSARCOMA,8
+6408,detrussor hipocontràctil,N
+6409,Déficit proteina c parto,O
+6410,asmática,4
+6411,nudo verdadero de cordón,O
+6412,Amenaza de parto prematuro,O
+6413,Gamapatía monoclonal,D
+6414,imc 34,Z
+6415,Prolactinoma,8
+6416,Historia de Menisco,Z
+6417,fractura trimaleolar tobillo derecho,S
+6418,ca pancreas,C
+6419,esfinterotomía,0
+6420,Desgarro I grado,0
+6421,Sinusopatia crónica,J
+6422,v1359,Z
+6423,Tratamiento atb,9
+6424,h fractura,V
+6425,APGAR,7
+6426,B NEGATIVO,Z
+6427,mamoplàstia de aumento,8
+6428,Trombopenia Parto,D
+6429,parkinson,G
+6430,Valvula aórtica bicúspide,I
+6431,placentitis,6
+6432,PSORIASIS GUTTATA,L
+6433,gestación cronológicamente prolongada,O
+6434,cmv parto,O
+6435,Historia de Meningitis,Z
+6436,Taquicardia Supraventricular Paroxísitica,I
+6437,Nefropatía diabetica 2,E
+6438,Hernia Hiato parto,O
+6439,Alergia alimentaria,Z
+6440,suboclusión,5
+6441,ateromatosis aortoilíaca,I
+6442,feto único en podálica convertida anteparto,6
+6443,ne sng,3
+6444,Gestante de 40 semanas,Z
+6445,OMA bilateral,H
+6446,pielonefritis gestante,6
+6447,sat,J
+6448,PARTO,O
+6449,Rectocele,N
+6450,Bronquitis aguda rhinovirus,J
+6451,440.20,I
+6452,o925,O
+6453,E.coli,B
+6454,Colelitiasi,K
+6455,Ibuprofeno,E
+6456,anexectomía bilateral profiláctica,6
+6457,deficit proteina s parto,O
+6458,Arritmia parto,I
+6459,ANEXECTOMÍA DERECHA Lap,0
+6460,TC DE ABDOMEN CON CONTRASTE,B
+6461,Blefaroplastia bilateral,0
+6462,hipocalcemia,E
+6463,Histerectomia radical,0
+6464,tumor vesical historia,Z
+6465,ebv,B
+6466,hipotiroïdisme part,O
+6467,Obesitat morbida part,O
+6468,bronquitis aguda Adenovirus,J
+6469,Desgarro,0
+6470,40 +4semanas,Z
+6471,ITU 2t,O
+6472,Hipotiroidismo part,O
+6473,rGe,Q
+6474,Prótesis de rodilla,Z
+6475,Intoxicación digitálica,E
+6476,ILE por Trisomía,O
+6477,arritmias,I
+6478,hipertensión arterial,I
+6479,carcinoma de cervix,C
+6480,protesis mama,Z
+6481,enolismo crónico,F
+6482,Síndrome ansioso depresiva parto,O
+6483,Historia de Rt,Z
+6484,Salpinguectomía bilateral,0
+6485,Temblor esencial familiar,G
+6486,OH,F
+6487,eventración supraumbilical,K
+6488,cardiopatía hipertensiva,4
+6489,Desgarro vaginal grado I,O
+6490,HISTERECTOMÍA ABDOMINAL TOTAL,0
+6491,hcl,0
+6492,34+4 semanas,Z
+6493,Diltación esofágica,0
+6494,iso burgos,J
+6495,apèndice preauricular,Q
+6496,ABDOMINALGIA,R
+6497,artritis reumatoide parto,M
+6498,contusion rodilla izq,S
+6499,K40.00,K
+6500,Intolerante a lactosa parto,E
+6501,Hipotiroidismo secundario a tiroidectomia,E
+6502,Historia de VHC,Z
+6503,Flemon periamigdalino,J
+6504,piernas inquietas,G
+6505,Escoliosis parto,O
+6506,ca Mama bilateral,C
+6507,alergia ANESTESICOS,Z
+6508,TC cerebral,B
+6509,CLAUDICACIÓN INTERMITENTE,Z
+6510,Quimioterápia,9
+6511,mastectomia derecha,0
+6512,ANGIOMIOLIPOMA RENAL DERECHO,D
+6513,prolapso de órganos pélvicos,N
+6514,insuficiencia respiratoria aguda,5
+6515,MDMA,3
+6516,ooforectomía izquierda,Z
+6517,659.51,O
+6518,asma part,O
+6519,Prótesis mecánica mitral,Z
+6520,Artritis reumatoide,M
+6521,TC craneal,B
+6522,Enterovirus,B
+6523,Enterococo Faecalis,B
+6524,olanzapina,3
+6525,Linfoma folicular grado 1,2
+6526,34.1 semanas,Z
+6527,cardiopartia Hipertensiva irc,4
+6528,hipotiroidismo puerperal,O
+6529,fallo de inducción,O
+6530,MILLIGAN-MORGAN,0
+6531,Disminucion movimientos fetales,O
+6532,Estat de trasplantament de ronyó,Z
+6533,Hiperplasia de prostata amb obstruccio urinaria,N
+6534,MASTECTOMÍA dreta,0
+6535,enoxaparina subcutánea,3
+6536,hipotir parto,E
+6537,carcinoma de mama izquierda,C
+6538,hbp rao,4
+6539,Alergia aINES,Z
+6540,asma parto,O
+6541,asma parto,O
+6542,ecocardiografia,B
+6543,taquicardia,R
+6544,"extracción manual, placenta",O
+6545,Hipertension portal,K
+6546,ice,N
+6547,pseudomona,B
+6548,trastorno límite de personalidad,F
+6549,Incontinència urinària funcional,R
+6550,Sedación,3
+6551,Preeclampsia rn,P
+6552,Transplante de córnea,Z
+6553,URETRITIS CRONICA,N
+6554,Abscéso retrofaringeo,J
+6555,pólipo exocervical,6
+6556,Preeclamspia leve anteparto,6
+6557,ferroterapia,3
+6558,Catarata congénita,H
+6559,carcinoma papilar,8
+6560,Intolerancia Hidratos carbono parto,E
+6561,Bony en mama,1
+6562,Hipoglucemia neonatal,O
+6563,parto pretermino,6
+6564,Fx subcapital femur izquierdo,S
+6565,útero polimiomatoso,D
+6566,furosemida,3
+6567,dm 2,E
+6568,histerectomia total lap,6
+6569,Milligan Morgan,E
+6570,DÉFICIT DE VITAMINA D,E
+6571,hematuria,R
+6572,Síndrome mielodisplásico,2
+6573,Carcinoma coloide,8
+6574,Herniorrafia inguinal derecha,5
+6575,Colecistitis aguda,K
+6576,esplenectomia,Z
+6577,cistoscopia,5
+6578,nebulizaciones,3
+6579,omentectomia,5
+6580,Colestasis PARTO,O
+6581,bocio parto,E
+6582,Cesària ant,O
+6583,IMC:34,Z
+6584,hiportiroidismo parto,E
+6585,Bacteroides,0
+6586,amniodrenaje,1
+6587,Esplenomegalia,D
+6588,Plasma,3
+6589,LES,2
+6590,Adenocarcinoma de próstata,C
+6591,8 semanas,Z
+6592,TABAC,F
+6593,SEPSIS rn,P
+6594,TC ABD,B
+6595,hiperprolactinemia parto,E
+6596,Síndrome linfoproliferativo,2
+6597,Hipertrofia adenoidea,4
+6598,INSF.RESPIRATORIA AGUDA,5
+6599,perforación septal,J
+6600,síndrome depresivo part,O
+6601,desgarro 3a,O
+6602,TC abdominal con contraste,B
+6603,Estat de trasplantament de fetge,Z
+6604,B positiu,Z
+6605,Dinámica uterina regular,O
+6606,Sueroteràpia,3
+6607,interrupción legal del embarazo,6
+6608,HISTERECTOMÍA total,0
+6609,anemia sangre cronica,D
+6610,cchh,3
+6611,Eco abd:,B
+6612,Fumadora parto,O
+6613,COVID19 parto,U
+6614,agudización de EPOC,J
+6615,Cefuroxima,3
+6616,ANEXECTOMÍA BILATERAL,0
+6617,Hepatopatía OH,5
+6618,Alergia ambiental,Z
+6619,Hiperparatiroidismo secundario a hipovitaminosis D,E
+6620,Cardias laxo,4
+6621,carcinoma ductal in situ,8
+6622,atropello,X
+6623,sobrepeso part,Z
+6624,Dorsalgia,M
+6625,Gota,3
+6626,anexectomía bilateral lap,6
+6627,Deshidratación,E
+6628,adherencia peritoneal,5
+6629,Limfopènia,D
+6630,trombocitopenia,D
+6631,35 semanas,Z
+6632,HBP rao,N
+6633,Gammaglobulina anti D,6
+6634,Hipotiroidimo parto,O
+6635,prostatectomia,V
+6636,antrostomía maxilar izquierda,0
+6637,extraccion manual de placenta,1
+6638,sordera neurosensorial,H
+6639,prednisona,3
+6640,438.9,I
+6641,ansiedad generalizada part,O
+6642,migraña,G
+6643,tratamiento quimioterápico,V
+6644,Richter,I
+6645,cuadro ansioso,F
+6646,ITU parto,O
+6647,Alérgico a Nolotil,Z
+6648,disfunción diastólica,I
+6649,mastectomia izq,0
+6650,QUIMIOTERAPIA,9
+6651,Hamartoma,8
+6652,64893,O
+6653,discopatia L4-L5,M
+6654,Mamoplastia de aumento,Z
+6655,Cirugía bariátrica,Z
+6656,RPM PP 1,O
+6657,Osteroporosis,M
+6658,Síndrome d'intestí curt,O
+6659,SALPINGUECTOMIA IZQUIERDA LAPAROSCÓPICA,0
+6660,Espondiloartrosis lumbar,M
+6661,Infeccio orina,N
+6662,Espondilosis lumbar,M
+6663,gripe A,J
+6664,Polipos endometriales,N
+6665,Hèrnia ventral,K
+6666,CA PAPILAR,C
+6667,vancomicina,3
