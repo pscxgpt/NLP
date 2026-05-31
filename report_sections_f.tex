@@ -1,0 +1,184 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+
+\begin{document}
+
+% =========================================================================
+% SECTION 1: Description of the Proposed Solution
+% =========================================================================
+
+\section{Description of the Proposed Solution}
+Clinical codification represents a critical administrative and clinical bottleneck in healthcare systems, requiring the translation of free-text diagnostic and procedural notes into standardized classification codes. In this work, we address the single-label multiclass clinical codification task, which maps raw, brief Spanish clinical report literals into their corresponding first-character ICD-10 categories, spanning 36 distinct classes ($0\text{--}9$ and $\text{A}\text{--}\text{Z}$). 
+
+Our final engineering pipeline is designed as a highly specialized, sequential deep learning pipeline optimized to handle severe class imbalance, Catalan-Spanish bilingual expressions, medical jargon, and hardware VRAM limitations. The core components of our proposed architecture and text-processing workflow are detailed below.
+
+\subsection{Sequential Pipeline Architecture}
+The processing of a raw clinical literal flows through a multi-stage sequential architecture:
+\begin{enumerate}
+    \item \textbf{Text Preprocessing:} The raw clinical report is cleaned using a lightweight preprocessing filter implemented in the \texttt{preprocess\_text} function within our pipeline. This step casts the inputs to strings, strips leading and trailing whitespaces, and collapses multiple consecutive whitespaces into a single space:
+    \begin{align}
+        x_{\text{clean}} = \text{RegExSub}(\text{Strip}(\text{String}(x_{\text{raw}})), \text{`}\backslash\text{s+}\text{'}, \text{` }\text{'})
+    \end{align}
+    Crucially, we do not perform lowercase normalization, accent removal, or punctuation stripping. Preserving original casing and accents is essential, as the downstream specialized clinical tokenizer contains unique subword representations for these clinical forms.
+    
+    \item \textbf{Subword Tokenization:} The cleaned text is tokenized using the pre-trained Spanish biomedical tokenizer associated with the '\textit{PlanTL-GOB-ES/roberta-base-biomedical-clinical-es}' backbone. The sequences are padded or truncated to a highly optimized maximum length of $64$ tokens. While standard pipelines use a max length of $128$, our analysis of the dataset made us discover that the longest clinical literal in \texttt{codification\_data.csv} contains $49$ subwords. Setting the limit to $64$ reduces RAM consumption  and accelerates training speeds with zero loss of clinical information.
+    
+    \item \textbf{Biomedical Transformer Encoder:} The tokenized IDs are passed through the $12$-layer Spanish biomedical-clinical RoBERTa model. Standard multilingual models are trained on general web corpora and struggle to encode Spanish medical abbreviations (e.g. \texttt{VHC}, \texttt{HPB}, \texttt{DG}) and diagnostic idioms. This backbone, pre-trained on over 1B tokens of Spanish clinical notes, and medical publications, provides robust pre-built clinical contextual embeddings of dimension $d_{\text{odel}} =768$.
+    
+    \item \textbf{Custom Attention Pooling:} To aggregate the sequence hidden states into a single sequence vector, we replace standard $\langle\text{CLS}\rangle$ and Mean pooling with a parameterized \textbf{Attention Pooling Layer}. Standard $\langle\text{CLS}\rangle$ pooling suffers because the sequence-start token in RoBERTa is trained on general masked language modeling and fails to focus on short, highly dense medical nouns. Mean pooling assigns equal weight to non-informative terms (e.g. Catalan/Spanish prepositions like \texttt{de}, \texttt{en}). 
+    
+    \item \textbf{Multi-Sample Dropout Regularization:} To prevent overfitting on small clinical target sets, the pooled representation $\mathbf{v}$ is processed by a Multi-Sample Dropout head. We initialize five parallel dropout paths with a dropout probability of $p=0.15$. During training, the representation is cloned five times, passed through independent dropout masks, and fed into the shared linear classification head.
+    
+    Averaging the logits acts as a robust ensemble regularizer, smoothing the decision boundaries and preventing the classifier head from co-adapting to specific high-frequency clinical words.
+    
+    \item \textbf{Linear Classification Head:} A linear projection layer maps the averaged $768$-dimensional vector to the $36$ logits mentioned, corresponding to the ICD-10 clinical categories.
+\end{enumerate}
+\vspace{\baselineskip}
+
+\subsection{Justification of the Deep Learning approach}
+Our group transition from traditional statistical methods to a deep clinical transformer architecture was due to to the challenges inherent to medical narratives:
+\begin{itemize}
+    \item \textbf{Failure of Traditional Term Frequency Models:} Traditional statistical baselines rely on exact term matching. Clinical reports frequently use non-standard abbreviations, misspellings ,multi-word clinical concepts... For example, TF-IDF is incapable of mapping the abbreviation \texttt{HTA} to \textit{Hipertensión Arterial} or \texttt{VHC} to \textit{Hepatitis C}, treating them as entirely different features.
+    
+    \item \textbf{Bilingual Medical Terminology:} The dataset is characterized by a fluid, real-world mix of Spanish and Catalan terminology. A deep learning model trained on localized clinical text successfully maps these distinct lexical words to the same semantic space, but statistical methods would have required manually bilingual synonym dictionaries.
+    
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+
+
+
+
+
+\end{itemize}
+
+% =========================================================================
+% SECTION 2: Experiments and Evaluation Setup
+% =========================================================================
+\section{Experiments and Evaluation Setup}
+To assess our models and prevent overestimating performance, we established a robust validation partition and systematic training setup that clones rea clinical deployment constraints.
+\vspace{\baselineskip}
+
+\subsection{Dataset Partitioning and the "Split-Before-Augment" Protocol}
+The primary clinical dataset (\texttt{codification\_data.csv}) consists of $13,702$ short clinical report literals. The classification target spans $36$ classes. Ten classes correspond to the \textbf{ICD-10 Procedure Coding System}, where digit \texttt{0} indicates surgical procedures and digit \texttt{3} indicates administrative procedures. The remaining $26$ classes  correspond to the \textbf{ICD-10 Clinical Modification (ICD-10-CM)} diagnostic categories.
+We implemented a **stratified $80/20$ train/validation split** using the scikit-learn \texttt{train\_test\_split} utility, preserving class proportions across both sets:
+\begin{itemize}
+    \item \textbf{Stratified Training Split:} $10,961$ samples.
+    \item \textbf{Clean Validation Split:} $2,741$ samples.
+\end{itemize}
+
+
+\subsection{Hyperparameter Configuration}
+For both the baseline and advanced models, we systematically tracked and tuned several hyperparameters. Table~\ref{tab:hyperparameters} outlines the exact experimental configurations used during training.
+
+\subsection{Evaluation Metrics and the Insufficiency of Accuracy}
+Model evaluation was performed using Loss curves, Precision, Recall, and the Macro F1-Score. In our clinical codification task, Accuracy alone is a highly misleading and insufficient metric. 
+\vspace{\baselineskip}
+
+Because the primary hospital data is  imbalanced by some factors, a naive model that predicts only these three categories would mathematically achieve over $60\%$ validation accuracy while failing  to classify the other $33$ clinical classes. In a clinical setting, errors like those would have catastrophic implications for patients.
+
+Therefore, we used the **Macro-averaged F1-Score** as our primary optimization and early stopping target:
+\begin{table}[h]
+\centering
+\caption{Hyperparameter Configurations for Baseline and Advanced Models}
+\label{tab:hyperparameters}
+% Ajusta la tabla exactamente al ancho del texto en el PDF
+\resizebox{\textwidth}{!}{%
+% Definimos la primera columna con ancho fijo de 5cm y las otras dos centradas (c)
+\begin{tabular}{lp{4.5cm}c}
+\toprule
+\textbf{Hyperparameter} & \textbf{Baseline Model} & \textbf{Advanced Optimized Model} \\
+\midrule
+Pre-trained Backbone & \texttt{roberta-base-} \newline \texttt{biomedical-clinical-es} & \texttt{roberta-base-} \newline \texttt{biomedical-clinical-es} \\
+Sequence Max Length ($L$) & $128$ & $64$ \\
+Optimizer & AdamW & AdamW \\
+Learning Rate (Backbone) & $2.0 \times 10^{-5}$ & $2.0 \times 10^{-5}$ \\
+Learning Rate (Heads) & $2.0 \times 10^{-5}$ & $2.0 \times 10^{-5}$ \\
+Weight Decay & $0.01$ & $0.01$ \\
+Warmup Ratio & $10\%$ & $10\%$ \\
+Physical Batch Size & $128$ & $32$ \\
+Gradient Accumulation Steps & None & $4$ \\
+Effective Batch Size & $128$ & $128$ \\
+Max Training Epochs & $50$ & $50$ \\
+Early Stopping Metric & Validation Accuracy & Validation Macro F1-Score \\
+Early Stopping Patience & $10$ epochs & $10$ epochs \\
+Encoder Frozen Layers & None (All $12$ active) & Embeddings + Bottom $6$ Layers \\
+Dropout Probability ($p$) & $0.10$ & $0.15$ (5-sample Multi-Dropout) \\
+Loss Criterion & Standard Cross-Entropy & Balanced Class-Weighted Cross-Entropy \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+
+\section{Critical Analysis of Results}
+Following the  implementation of our deep learning models, we made a comparative analysis of the validation and test results. Table~\ref{tab:results} breakdown of model performance.
+
+\begin{table}[h]
+\centering
+\caption{Model Performance Comparison on Clinical Codification (Stratified Split)}
+\label{tab:results}
+% Ajusta la tabla automáticamente para que quepa exactamente entre los márgenes de la página
+\resizebox{\textwidth}{!}{%
+% Usamos p{6.5cm} para que los nombres largos de los modelos salten de línea limpiamente
+\begin{tabular}{lp{0.5cm}cccc}
+\toprule
+\textbf{Pipeline Architecture} & \textbf{Val. Loss} & \textbf{Val. Acc.} & \textbf{Val. Macro F1} & \textbf{Kaggle Test Acc.} \\
+\midrule
+Baseline RoBERTa + $\langle\text{CLS}\rangle$ Pooling & $1.724$ & $0.565$ & $0.245$ & $0.558$ \\
+Baseline RoBERTa + Mean Pooling & $1.682$ & $0.570$ & $0.258$ & $0.562$ \\
+RoBERTa + Attention Pool + Multi-Dropout (No Aug.) & $1.104$ & $0.685$ & $0.452$ & $0.678$ \\
+\textbf{Our Final Optimized Pipeline (Aug. + Weights + Freeze)} & \textbf{0.682} & \textbf{0.804} & \textbf{0.718} & \textbf{0.792} \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+
+
+\subsection{Successes and Shortcomings of the Advanced Model}
+\paragraph{Where the Advanced Model Succeeded:}
+\begin{itemize}
+    \item \textbf{Generalization to Rare Diagnoses:} The combination of balanced class weights and targeted dictionary augmentation enabled the model to correctly identify rare diagnostic classes. 
+    \vspace{\baselineskip}
+
+    \item \textbf{Disambiguating Procedural vs. Diagnostic Contexts:} The model successfully distinguished between diagnostic records and their corresponding clinical procedures.
+    
+    \item \textbf{Robustness to Lexical Noise:} Attention pooling allowed the classification head to bypass syntactic noise and focus on key clinical terms.
+\end{itemize}
+
+\paragraph{Where the Advanced Model didn't succeeded:}
+\begin{itemize}
+    \item \textbf{Ambiguity in Ultra-Short Literals:} Extremely brief literals consisting of a single abbreviation remained a major bottleneck. For example, the literal \texttt{ia} can represent \textit{Insuficiencia Aórtica} or \textit{Inteligencia Artificial} or \textit{Inseminación Artificial}. The lack of context in some sentences made the model defaulted to the maternally-biased class \texttt{O} or procedure class \texttt{0}, leading to systematic errors.
+    
+    \item \textbf{Granular boundary confusion:} The model occasionally struggled with the boundary between specialized endocrinology and general metabolic symptoms. Literals like \texttt{Deshidratación hipernatrémica} were misclassified as general symptoms instead of metabolic disorders .
+\end{itemize}
+
+
+% =========================================================================
+% SECTION 4: Conclusions and Future Work
+% =========================================================================
+\section{Conclusions and Future Work}
+In this academic project, our group successfully designed, optimized, and deployed an end-to-end clinical text classification pipeline for ICD-10 codification. By leveraging a specialized Spanish biomedical pre-trained backbone, designing a custom attention pooling mechanism, and implementing a strict stratified split-before-augment strategy, we transformed a difficult baseline into a highly robust clinical model capable of generalizing to rare diagnostic and procedural categories.
+
+\subsection{Collaborative and Engineering Takeaways}
+This project taught us that brute-force scaling of deep learning models is sub-optimal when working with real-world medical data and restricted academic hardware. The key engineering takeaways from our collaboration are:
+\begin{itemize}
+    \item Data quality and separation are essential: setting up a clean, leak-free validation split before running dictionary augmentations was the single most important factor in obtaining reliable evaluation metrics.
+    
+    \item Custom pooling and regularization, like Multi-Sample Dropout, provide substantial performance gains over simple pooling baselines, proving that custom network heads are vital when fine-tuning general encoders on domain-specific, short literals.
+    
+    \item Proactive hardware optimization is an essential skill in  AI engineering, allowing high-quality research to progress even under conditions like the ones we met in this project.
+\end{itemize}
+
+\subsection{Sociotechnical and Ethical Implications}
+Deploying machine learning models in clinical environments carries significant ethical responsibility.
+For instance, the bias and underrepresentations lead our training data to be heavily biased toward common hospital encounters. A model trained on this data might underperform on marginalized demographics or rare medical conditions, potentially leading to administrative misclassifications.
+
+\end{document}
