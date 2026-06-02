@@ -1,69 +1,82 @@
 # ICD-10 Clinical Codification Classification Pipeline
 
-This repository contains an end-to-end deep learning pipeline for Spanish clinical text codification. The task is formulated as single-label multiclass classification, mapping raw clinical report literals to their corresponding first-character ICD-10 category (**36 classes**: `0-9`, `A-Z`).
+This repository contains an end-to-end clinical text codification pipeline in Spanish. The task is formulated as a single-label multiclass classification problem, mapping short clinical report literals to their corresponding first-character ICD-10 chapter (**36 classes**: `0-9`, `A-Z`).
 
 ---
 
-## 1. Dataset Characteristics & Challenges
+## 1. Dataset Characteristics & Key Statistics
 
 The dataset presents several distinct machine learning challenges:
-1. **Severe Class Imbalance**: Primary training data is dominated by a few common diagnostic categories (such as `Z`, `O`, and `0`), while long-tail clinical conditions (e.g. `U` or `W`) contain only a handful of examples.
-2. **Domain Mismatch**: The pipeline relies on two data sources:
-   - **Primary Dataset (`codification_data.csv`)**: Raw, short clinical report literals containing misspellings, colloquial phrasing, and medical abbreviations (e.g. *"HTA irc 6"*, *"miomas parto"*).
-   - **Augmentation Dataset (`icd_d_p_pairs.csv`)**: Clean, formal ICD-10 dictionary descriptions (e.g. *"Colera debido a Vibrio cholerae..."*).
-3. **Short Literal Lengths**: Real clinical reports are brief—averaging only 2 to 3 words, and peaking at 9 words. Standard dictionary terms peak around 35 words.
+* **Severe Class Imbalance:** The corpus is dominated by a few common diagnostic categories (such as `Z`, `O`, and `0`), while long-tail clinical conditions (e.g., `W` or `X`) contain only a handful of examples.
+* **Short Literal Lengths:** Clinical reports are extremely brief—averaging only 16.9 characters (2.2 words) per sample, with a median word count of 2.0.
+* **Corpus Scale:** Total of 13,700 samples across the 36 alphanumeric chapters. The maximum class imbalance ratio is **245.0x** (Chapter `Z` has 1,715 samples, whereas Chapter `W` has only 7).
 
 ---
 
-## 2. Overall Pipeline Workflow
+## 2. Model Architecture
 
-1. **Light Preprocessing**: Casts inputs to strings, strips whitespace, and resolves multiple spaces into a single space. Accent marks, punctuation, and character casing are preserved intact so the tokenizer can extract semantic signals.
-2. **Stratified Split-Before-Augment**: The primary clinical reports are split into an 80% training set and a 20% validation set using stratified splitting (preserving class proportions). The validation split is kept completely clean. Standard ICD-10 dictionary entries (`icd_d_p_pairs.csv`) are combined **only** with the training split to prevent data leakage.
-3. **Tokenization & Datasets**: Text sequences are mapped to subword IDs using the pre-trained Spanish biomedical tokenizer. Sequence lengths are capped at 128.
-4. **Deep Learning Model**: Batches are processed through a Spanish-specific pre-trained RoBERTa backbone, pooled using a custom attention layer, regularized with Multi-Sample Dropout, and passed to a linear classification head.
-5. **Loss & Backpropagation**: Gradient updates are computed using CrossEntropyLoss with balanced class weights and label smoothing.
-
----
-
-## 3. Architecture & Design Decisions
-
-Every component of the network is tailored to Spanish clinical text and the specific data constraints:
+The deep learning model is implemented in PyTorch and fine-tunes a pre-trained clinical transformer:
 
 ```mermaid
 graph TD
     A[Raw Clinical Literal] --> B[Spanish Biomedical Tokenizer]
     B --> C[RoBERTa-base-biomedical-clinical-es]
-    subgraph "Encoder Freezing"
-        C --> D["Frozen Embeddings & Layers 0-5"]
-        C --> E["Fine-Tuned Layers 6-11"]
-    end
-    E --> F[Attention Pooling Layer]
-    F --> G[Multi-Sample Dropout 5x, p=0.15]
-    G --> H[Classifier Head Linear 768->36]
-    H --> I[Balanced CrossEntropy Loss]
+    C --> D[Full Fine-Tuning of All Encoder Layers]
+    D --> E[Attention Pooling Layer]
+    E --> F[Multi-Sample Dropout 5x, p=0.1]
+    F --> G[Classifier Head Linear 768->36]
+    G --> H[Standard CrossEntropy Loss]
 ```
 
-### A. Pre-trained Backbone: `PlanTL-GOB-ES/roberta-base-biomedical-clinical-es`
-* **Why**: Standard multilingual models (e.g., multilingual BERT) are trained on general web corpora (like Wikipedia). They struggle with Spanish clinical acronyms (like *HTA*, *IRC*, *VHC*), abbreviations, and specific diagnostic idioms. This backbone was pre-trained on 1B+ tokens of Spanish biomedical literature, SciELO papers, clinical notes, and medical registries, providing it with pre-built clinical representations.
+### A. Pre-trained Backbone
+We use `PlanTL-GOB-ES/roberta-base-biomedical-clinical-es`, which was pre-trained on 1B+ tokens of Spanish biomedical literature, SciELO papers, clinical notes, and medical registries. All layers are fully fine-tuned during training.
 
 ### B. Custom Attention Pooling
-* **Why CLS/Mean is sub-optimal**: Standard CLS pooling relies on a single sequence-start token (`<s>`), which is trained during Masked Language Modeling to summarize general context but can fail to capture localized features in short literals. Mean pooling treats all tokens equally, giving the same weight to filler words (prepositions, articles) as to diagnostic words.
-* **How it works**: Attention pooling passes the RoBERTa hidden states through a small linear projection network, learning to output a relevance score for each subword. Padding tokens are masked with negative infinity (`-inf`), and scores are softmaxed to weight the final summation. This forces the model to focus its attention on core clinical terms (like *"dilatada"* or *"bronquial"*) while ignoring surrounding text.
+To capture localized features in short literals, the hidden states from the transformer backbone are pooled using a learnable attention mechanism:
+* Passes hidden states through a linear projection layer and a `Tanh` activation.
+* Masks out padding tokens with $-\infty$ so they receive zero weight during softmax.
+* Computes a weighted sum over the sequence length, ignoring fillers and focusing on diagnostic clinical tokens.
 
-### C. Multi-Sample Dropout (5x, `p = 0.15`)
-* **Why**: Overfitting is a primary concern with small medical datasets.
-* **How it works**: Instead of using a single dropout layer, the pooled representation is cloned and passed through 5 parallel dropout paths. Each path uses a different random mask. The model averages the 5 sets of classifier logits. During training, this acts as a robust ensemble regularizer, accelerating convergence and preventing the classifier head from co-adapting to specific words in the training set.
+### C. Multi-Sample Dropout
+To prevent overfitting on the clinical literals, the pooled representations are passed through **5 parallel dropout paths** ($p=0.1$) with different random masks. The resulting logits are averaged before classification.
 
 ---
 
-## 4. Advanced Training Regularization
+## 3. Training Configurations & Hyperparameters
 
-To enable stable convergence and prevent overfitting, the pipeline incorporates the following training parameters:
+* **Optimizer:** AdamW with a flat learning rate of $2 \times 10^{-5}$ and weight decay of $0.01$.
+* **Learning Rate Scheduler:** Cosine annealing with a 10% warmup phase.
+* **Gradient Accumulation:** Physical batch size of 16 is accumulated over 8 steps to simulate a stable **128 effective batch size**.
+* **Loss Function:** Standard Cross Entropy Loss (`nn.CrossEntropyLoss()`).
+* **Early Stopping:** Evaluates on validation accuracy with a patience of 10 epochs.
 
-* **Encoder Layer Freezing**: Embeddings and the bottom 6 layers of the RoBERTa encoder are frozen. Only the top 6 transformer layers, the attention pooling weights, and the classification head are trained. This significantly reduces the trainable parameter count (from 126M down to ~43.7M) and prevents the base layers from losing general clinical features.
-* **Differential Learning Rates**: 
-  - Backbone parameters are fine-tuned at a rate of: **$1.5 \times 10^{-5}$**.
-  - The pooling and classification heads (which are initialized from scratch) are trained at a higher rate: **$5 \times 10^{-5}$**.
-* **Balanced Class Weights**: Class weights are calculated inversely proportional to class frequencies and clipped to a range of **`[0.2, 5.0]`**. This prevents extreme class imbalances from producing gradient spikes that destabilize training.
-* **Label Smoothing (0.05)**: Distributes 5% of the target probability uniformly across all incorrect classes. This prevents the model from generating overconfident, saturated logit predictions and encourages it to maintain soft boundaries, which improves generalization.
-* **Gradient Accumulation**: To maintain a large **128 effective batch size** (as required to stabilize optimization on highly imbalanced targets) on consumer-grade GPUs, we use a physical GPU batch size of 16 and accumulate gradients over 8 steps.
+---
+
+## 4. Quantitative Results
+
+Both the deep learning classifier and the baseline model were evaluated on a stratified 80/20 train/validation split (using random seed 42) for a rigorous comparison.
+
+* **Baseline Model:** A Scikit-Learn `Pipeline` using a `FeatureUnion` of character-level TF-IDF (3-5 n-grams) and word-level TF-IDF (1-2 n-grams) paired with a multinomial Logistic Regression.
+
+### Performance Summary
+
+| Metric | TF-IDF + Logistic Regression | RoBERTa + Attention Pooling | Delta ($\Delta$) |
+| :--- | :---: | :---: | :---: |
+| **Accuracy** | 52.99% | **57.01%** | **+4.02%** |
+| **Macro-$F_1$** | 44.49% | **49.42%** | **+4.93%** |
+| **Weighted-$F_1$** | 51.04% | **55.07%** | **+4.03%** |
+
+*The deep learning model delivers substantial gains over the baseline, particularly in Macro-$F_1$ (+4.93\%), reflecting a much stronger ability to classify minority and long-tail categories.*
+
+---
+
+## 5. Repository File Structure
+
+* **`icd10_pipeline.py`**: The primary end-to-end PyTorch deep learning script containing model definition, dataset loading, training loops, evaluation metrics, and test-set inference generation.
+* **`eda_analysis.py`**: Exploratory data analysis script that analyzes dataset lengths, prints imbalance metrics, and outputs distribution plots (`eda_class_distribution.png`, `eda_text_length_distribution.png`).
+* **`baseline_tfidf.py`**: Evaluates and fits the TF-IDF + Logistic Regression pipeline, outputting the baseline classification report and comparative summaries.
+* **`error_analysis.py`**: Restores `best_model.pt` and evaluates validation set predictions to output a normalized confusion heatmap (`error_confusion_matrix.png`), top 15 error pairs (`error_top_confusions.png`), and qualitative error logs.
+* **`report.tex`**: The LaTeX source code of a comprehensive technical report compiled from all project findings.
+* **`dl_val_metrics.json`**: Cached validation results from the deep learning model.
+* **`baseline_classification_report.txt`**: Standard classification report details of the TF-IDF baseline.
+* **`baseline_vs_dl_comparison.txt`**: Plaintext summary table showing baseline vs. deep learning metrics side-by-side.
