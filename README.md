@@ -1,3 +1,5 @@
+![ICD-10 Clinical Codification](docs/hero.png)
+
 # ICD-10 Clinical Codification
 
 Assigning ICD-10 categories to Spanish clinical literals — short, noisy fragments written by
@@ -154,6 +156,8 @@ outputs/                       figures, metrics and reports produced by the scri
 docs/
   report.pdf                   full write-up
   report.tex                   LaTeX source
+  presentation.pdf             slides from the defence
+  hero.png                     banner above
 ```
 
 ### The optimized pipeline
@@ -174,8 +178,8 @@ rather than pure downscaling:
 ## Running it
 
 ```bash
-git clone https://github.com/pscxgpt/NLP.git
-cd NLP
+git clone https://github.com/pscxgpt/icd10-clinical-coding.git
+cd icd10-clinical-coding
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
@@ -192,6 +196,13 @@ pipeline will not fit in 6 GB.
 
 Training runs about 30 epochs before early stopping triggers. Model weights are not committed, so
 `error_analysis.py` needs a completed training run first.
+
+## Documents
+
+The full write-up is [`docs/report.pdf`](docs/report.pdf), with the LaTeX source alongside it.
+[`docs/presentation.pdf`](docs/presentation.pdf) is the defence deck — it carries the architecture
+diagram, the attention-pooling comparison and the multi-sample dropout schematic in a form that is
+quicker to read than the report.
 
 ## Notes
 
