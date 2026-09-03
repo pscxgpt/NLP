@@ -1,42 +1,28 @@
+# Trained weights — too large for the repository, reproducible from the pipelines
+outputs/*.pt
+
+# Local material kept out of the public repository
+_archive/
+
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-env/
+.venv/
 venv/
-ENV/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Jupyter
 .ipynb_checkpoints/
 
-# Data (if needed - uncomment to ignore large data files)
-# data/*.csv
-# data/*.json
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+texput.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

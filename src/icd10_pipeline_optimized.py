@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-ICD-10 First-Character Classification Pipeline
-================================================
+ICD-10 First-Character Classification Pipeline (Optimized for low-VRAM GPU)
+============================================================================
 End-to-end PyTorch deep learning pipeline for single-label multiclass
 NLP classification of ICD-10 codes (36 categories: 0-9, A-Z).
 
 Architecture: RoBERTa-base-biomedical-clinical-es + Attention Pooling
               + Multi-Sample Dropout (5x, p=0.1) Regularization.
+Optimized for RTX 3050 6GB Laptop GPU.
 """
 
 import os
@@ -26,7 +27,7 @@ import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
 from torch.amp import autocast, GradScaler
 from sklearn.model_selection import train_test_split
-
+from sklearn.utils.class_weight import compute_class_weight
 from sklearn.metrics import f1_score, accuracy_score
 from transformers import (
     AutoTokenizer,
@@ -46,29 +47,33 @@ warnings.filterwarnings("ignore")
 # =============================================================================
 class CFG:
     # Paths
-    project_dir = Path(__file__).resolve().parent
-    train_file = project_dir / "codification_data.csv"
-    leaderboard_file = project_dir / "leaderboard_data.csv"
-    output_dir = project_dir
-    model_save_path = project_dir / "best_model.pt"
+    project_dir = Path(__file__).resolve().parent.parent
+    data_dir = project_dir / "data"
+    train_file = data_dir / "codification_data.csv"
+    icd_pairs_file = data_dir / "icd_d_p_pairs.csv"
+    leaderboard_file = data_dir / "leaderboard_data.csv"
+    output_dir = project_dir / "outputs"
+    model_save_path = output_dir / "best_model_optimized.pt"
 
     # Model
     backbone = "PlanTL-GOB-ES/roberta-base-biomedical-clinical-es"
-    max_len = 128  # Sufficient for short medical text literals
+    max_len = 64  # Optimal for literals (max tokens = 49) to save memory and speed up
     hidden_size = 768
     num_classes = 36  # 0-9, A-Z
 
     # Training
-    # Real batch = 16 per GPU step, accumulate gradients to simulate 128
-    batch_size = 16
-    accumulation_steps = 8  # effective batch = 16 * 8 = 128
+    # Real batch = 32 per GPU step, accumulate gradients to simulate 128
+    batch_size = 32
+    accumulation_steps = 4  # effective batch = 32 * 4 = 128
+    max_aug_samples_per_class = 1000  # Cap to reduce redundancy and speed up training
+    freeze_layers = 6  # Number of lower transformer layers to freeze
     epochs = 50
     patience = 10
     lr = 2e-5
     weight_decay = 0.01
     warmup_ratio = 0.1
 
-    # Multi-sample dropout (architectural improvement over baseline's single dropout)
+    # Multi-sample dropout
     num_dropouts = 5
     dropout_p = 0.1
 
@@ -119,8 +124,8 @@ def preprocess_text(text):
 # =============================================================================
 def load_and_prepare_data():
     """
-    Load primary training data and perform stratified 80/20 split.
-    No augmentation — train exclusively on real clinical literals.
+    Load primary training data and augment with ICD description-pairs.
+    Returns augmented DataFrame with 'Literal', 'Code', and 'y_category' columns.
     """
     print("=" * 70)
     print("DATA ENGINEERING & PREPARATION")
@@ -129,7 +134,7 @@ def load_and_prepare_data():
     # 1. Load primary training data
     print("\n[1] Loading codification_data.csv ...")
     df_train = pd.read_csv(CFG.train_file)
-    print(f"    Training samples: {len(df_train)}")
+    print(f"    Primary training samples: {len(df_train)}")
     print(f"    Columns: {df_train.columns.tolist()}")
 
     # Ensure correct column order: Code, Literal
@@ -138,35 +143,86 @@ def load_and_prepare_data():
     # Generate y_category from Code
     df_train["y_category"] = df_train["Code"].astype(str).str[0].str.upper()
 
-    # Filter to valid categories only
+    # 2. Load ICD description-procedure pairs for augmentation
+    print("\n[2] Loading icd_d_p_pairs.csv for augmentation ...")
+    df_icd = pd.read_csv(CFG.icd_pairs_file)
+    print(f"    ICD pairs loaded: {len(df_icd)}")
+    print(f"    Columns: {df_icd.columns.tolist()}")
+
+    # Extract Code and Description, transform to match format
+    df_aug = df_icd[["Code", "Description"]].copy()
+    df_aug.rename(columns={"Description": "Literal"}, inplace=True)
+    df_aug["y_category"] = df_aug["Code"].astype(str).str[0].str.upper()
+
+    # 3. Filter to valid categories only
     valid_cats = set(CATEGORIES)
     df_train = df_train[df_train["y_category"].isin(valid_cats)].copy()
+    df_aug = df_aug[df_aug["y_category"].isin(valid_cats)].copy()
 
-    # Preprocess text
-    print("\n[2] Applying text preprocessing ...")
-    df_train["Literal"] = df_train["Literal"].apply(preprocess_text)
-    df_train = df_train[df_train["Literal"].str.len() > 0].reset_index(drop=True)
+    # Sample from augmentation data to limit training set size and class imbalance
+    print(f"    Sampling at most {CFG.max_aug_samples_per_class} augmentation samples per class...")
+    df_aug = pd.concat([
+        grp.sample(n=min(len(grp), CFG.max_aug_samples_per_class), random_state=CFG.seed)
+        for name, grp in df_aug.groupby("y_category")
+    ], ignore_index=True)
+
+    print(f"\n    Primary after filtering: {len(df_train)}")
+    print(f"    Augmentation after filtering: {len(df_aug)}")
+
+    # 4. Combine datasets
+    df_combined = pd.concat([df_train, df_aug], ignore_index=True)
+
+    # 5. Apply text preprocessing
+    print("\n[3] Applying text preprocessing ...")
+    df_combined["Literal"] = df_combined["Literal"].apply(preprocess_text)
+
+    # Drop rows with empty Literal
+    df_combined = df_combined[df_combined["Literal"].str.len() > 0].reset_index(drop=True)
 
     # Encode labels
-    df_train["label"] = df_train["y_category"].map(LABEL2ID)
-    df_train = df_train.dropna(subset=["label"]).reset_index(drop=True)
-    df_train["label"] = df_train["label"].astype(int)
+    df_combined["label"] = df_combined["y_category"].map(LABEL2ID)
 
-    # Perform stratified 80/20 split
-    print("\n[3] Performing stratified 80/20 train/validation split ...")
+    # Drop any rows that couldn't be mapped
+    df_combined = df_combined.dropna(subset=["label"]).reset_index(drop=True)
+    df_combined["label"] = df_combined["label"].astype(int)
+
+    print(f"\n    Total combined samples: {len(df_combined)}")
+    print(f"\n    Category distribution:")
+    cat_counts = df_combined["y_category"].value_counts().sort_index()
+    for cat, count in cat_counts.items():
+        print(f"      {cat}: {count:>7d}")
+
+    return df_combined
+
+
+def compute_weights(labels):
+    """Compute balanced class weights using sklearn."""
+    classes = np.arange(CFG.num_classes)
+    # Only consider classes that exist in labels
+    existing_classes = np.unique(labels)
+    weights = compute_class_weight(
+        class_weight="balanced",
+        classes=existing_classes,
+        y=labels
+    )
+    # Map to full class array
+    full_weights = np.ones(CFG.num_classes, dtype=np.float32)
+    for cls, w in zip(existing_classes, weights):
+        full_weights[cls] = w
+
+    return torch.tensor(full_weights, dtype=torch.float32)
+
+
+def split_data(df):
+    """Perform stratified 80/20 train/validation split."""
+    print("\n[4] Performing stratified 80/20 train/validation split ...")
     train_df, val_df = train_test_split(
-        df_train, test_size=0.2, random_state=CFG.seed,
-        stratify=df_train["label"]
+        df, test_size=0.2, random_state=CFG.seed,
+        stratify=df["label"]
     )
     train_df = train_df.reset_index(drop=True)
     val_df = val_df.reset_index(drop=True)
     print(f"    Train: {len(train_df)}  |  Validation: {len(val_df)}")
-
-    print(f"\n    Category distribution (train):")
-    cat_counts = train_df["y_category"].value_counts().sort_index()
-    for cat, count in cat_counts.items():
-        print(f"      {cat}: {count:>7d}")
-
     return train_df, val_df
 
 
@@ -259,7 +315,16 @@ class ICD10Classifier(nn.Module):
         self.backbone = AutoModel.from_pretrained(
             CFG.backbone, config=config
         )
-        # All layers are trainable (matching baseline approach)
+
+        # Freeze bottom layers of backbone to speed up backward pass
+        if CFG.freeze_layers > 0:
+            print(f"    Freezing embeddings and bottom {CFG.freeze_layers} backbone layers...")
+            for param in self.backbone.embeddings.parameters():
+                param.requires_grad = False
+            for i in range(CFG.freeze_layers):
+                for param in self.backbone.encoder.layer[i].parameters():
+                    param.requires_grad = False
+
         self.attention_pool = AttentionPooling(CFG.hidden_size)
 
         # Multi-sample dropout layers
@@ -398,7 +463,7 @@ def plot_metrics(history):
     ax.plot(epochs_range, history["val_loss"], "r-o", label="Validation Loss", markersize=4)
     ax.set_xlabel("Epoch", fontsize=12)
     ax.set_ylabel("Loss", fontsize=12)
-    ax.set_title("Loss Evolution", fontsize=14, fontweight="bold")
+    ax.set_title("Loss Evolution (Optimized Model)", fontsize=14, fontweight="bold")
     ax.legend(fontsize=11)
     ax.grid(True, alpha=0.3)
     fig.tight_layout()
@@ -412,7 +477,7 @@ def plot_metrics(history):
     ax.plot(epochs_range, history["val_macro_f1"], "m-o", label="Validation Macro-F1", markersize=4)
     ax.set_xlabel("Epoch", fontsize=12)
     ax.set_ylabel("Score", fontsize=12)
-    ax.set_title("Performance Metrics", fontsize=14, fontweight="bold")
+    ax.set_title("Performance Metrics (Optimized Model)", fontsize=14, fontweight="bold")
     ax.legend(fontsize=11)
     ax.grid(True, alpha=0.3)
     ax.set_ylim(0, 1.05)
@@ -496,8 +561,10 @@ def run_inference(model, tokenizer):
 # Main Pipeline
 # =============================================================================
 def main():
+    CFG.output_dir.mkdir(parents=True, exist_ok=True)
+
     print("\n" + "=" * 70)
-    print("ICD-10 FIRST-CHARACTER CLASSIFICATION PIPELINE")
+    print("ICD-10 FIRST-CHARACTER CLASSIFICATION PIPELINE (OPTIMIZED)")
     print("=" * 70)
     print(f"\n  Device: {CFG.device}")
     if torch.cuda.is_available():
@@ -511,16 +578,25 @@ def main():
     # =========================================================================
     # Step 1: Data Loading & Preparation
     # =========================================================================
-    train_df, val_df = load_and_prepare_data()
+    df = load_and_prepare_data()
+    train_df, val_df = split_data(df)
+
+    # Compute class weights
+    print("\n[5] Computing balanced class weights ...")
+    class_weights = compute_weights(train_df["label"].values)
+    class_weights = class_weights.to(CFG.device)
+    print(f"    Weights computed for {CFG.num_classes} classes")
+    print(f"    Min weight: {class_weights.min().item():.4f}")
+    print(f"    Max weight: {class_weights.max().item():.4f}")
 
     # =========================================================================
     # Step 2: Tokenizer & Datasets
     # =========================================================================
-    print("\n[4] Loading tokenizer ...")
+    print("\n[6] Loading tokenizer ...")
     tokenizer = AutoTokenizer.from_pretrained(CFG.backbone)
     print(f"    Tokenizer: {CFG.backbone}")
 
-    print("\n[5] Creating datasets ...")
+    print("\n[7] Creating datasets ...")
     train_dataset = ICD10Dataset(
         texts=train_df["Literal"].values,
         labels=train_df["label"].values,
@@ -549,7 +625,7 @@ def main():
     # =========================================================================
     # Step 3: Model
     # =========================================================================
-    print("\n[6] Building model ...")
+    print("\n[8] Building model ...")
     config = AutoConfig.from_pretrained(CFG.backbone)
     model = ICD10Classifier(config)
     model.to(CFG.device)
@@ -562,11 +638,12 @@ def main():
     # =========================================================================
     # Step 4: Optimizer, Scheduler, Loss
     # =========================================================================
-    print("\n[7] Setting up optimizer, scheduler, loss ...")
+    print("\n[9] Setting up optimizer, scheduler, loss ...")
 
-    # Single learning rate for all parameters (matching baseline)
+    # Filter out frozen parameters from optimizer
+    trainable_model_params = [p for p in model.parameters() if p.requires_grad]
     optimizer = torch.optim.AdamW(
-        model.parameters(),
+        trainable_model_params,
         lr=CFG.lr,
         weight_decay=CFG.weight_decay,
     )
@@ -581,15 +658,15 @@ def main():
         num_training_steps=total_steps,
     )
 
-    # Unweighted CrossEntropyLoss (matching baseline — no class weights, no label smoothing)
-    criterion = nn.CrossEntropyLoss()
+    # Weighted CrossEntropyLoss
+    criterion = nn.CrossEntropyLoss(weight=class_weights)
 
     # AMP scaler
     scaler = GradScaler(device="cuda") if CFG.use_amp else None
 
     print(f"    Optimizer: AdamW (LR={CFG.lr}, WD={CFG.weight_decay})")
     print(f"    Scheduler: Cosine with warmup ({warmup_steps} warmup / {total_steps} total steps)")
-    print(f"    Loss: CrossEntropyLoss (unweighted)")
+    print(f"    Loss: CrossEntropyLoss with balanced class weights")
 
     # =========================================================================
     # Step 5: Training Loop
@@ -605,7 +682,7 @@ def main():
         "val_macro_f1": [],
     }
 
-    best_acc = 0.0
+    best_f1 = 0.0
     patience_counter = 0
 
     for epoch in range(1, CFG.epochs + 1):
@@ -627,13 +704,13 @@ def main():
         history["val_accuracy"].append(val_acc)
         history["val_macro_f1"].append(val_f1)
 
-        # Early stopping on validation ACCURACY (aligned with leaderboard metric)
+        # Print epoch results
         improved = ""
-        if val_acc > best_acc:
-            best_acc = val_acc
+        if val_f1 > best_f1:
+            best_f1 = val_f1
             patience_counter = 0
             torch.save(model.state_dict(), CFG.model_save_path)
-            improved = " * BEST"
+            improved = " ★ BEST"
         else:
             patience_counter += 1
 
@@ -651,7 +728,7 @@ def main():
             print(f"\n  Early stopping at epoch {epoch} (patience={CFG.patience})")
             break
 
-    print(f"\n  Best Validation Accuracy: {best_acc:.4f}")
+    print(f"\n  Best Validation Macro-F1: {best_f1:.4f}")
 
     # =========================================================================
     # Step 6: Visualization
@@ -678,7 +755,7 @@ def main():
     print("PIPELINE COMPLETE")
     print("=" * 70)
     print(f"\n  Output files:")
-    print(f"    - best_model.pt")
+    print(f"    - best_model_optimized.pt")
     print(f"    - loss_evolution.png")
     print(f"    - performance_metrics.png")
     print(f"    - submission.csv ({len(submission)} rows)")
